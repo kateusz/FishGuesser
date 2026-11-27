@@ -36,6 +36,7 @@ export function AppShell({
   const [sound, setSound] = useState(true);
   const [reduceMotion, setReduceMotion] = useState(false);
   const [wide, setWide] = useState(false);
+  const [chromeReady, setChromeReady] = useState(false);
 
   useLayoutEffect(() => {
     document.documentElement.lang = locale;
@@ -49,6 +50,7 @@ export function AppShell({
     const apply = () => setWide(query.matches);
     apply();
     query.addEventListener("change", apply);
+    setChromeReady(true);
     return () => query.removeEventListener("change", apply);
   }, [locale]);
 
@@ -78,11 +80,13 @@ export function AppShell({
     },
   };
 
-  const className = ["app", night ? "night" : "", reduceMotion ? "reduce-motion" : "", wide ? "desktop-app" : ""].filter(Boolean).join(" ");
+  const className = chromeReady
+    ? ["app", night ? "night" : "", reduceMotion ? "reduce-motion" : "", wide ? "desktop-app" : ""].filter(Boolean).join(" ")
+    : "app";
 
   return (
     <ChromeContext.Provider value={chrome}>
-      <div className={className}>
+      <div className={className} suppressHydrationWarning>
         <header className="app-header">
           <Link className="wordmark" href={`/${locale}`}>
             <FishArt i={0} pose="wink" />
