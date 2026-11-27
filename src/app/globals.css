@@ -1,0 +1,20 @@
+@import "tailwindcss" source(none);
+@source "../app/**/*.{tsx,ts}";
+@source "../components/**/*.{tsx,ts}";
+@import "../styles/tokens.css";
+@import "../styles/comic.css";
+@import "../styles/product.css";
+
+@theme inline {
+  --color-fg-ink: var(--fg-ink);
+  --color-fg-navy: var(--fg-navy);
+  --color-fg-teal: var(--fg-teal);
+  --color-fg-coral: var(--fg-coral);
+  --color-fg-yellow: var(--fg-yellow);
+  --color-fg-paper: var(--fg-paper);
+  --color-fg-success: var(--fg-success);
+  --color-fg-error: var(--fg-error);
+  --font-display: var(--font-display);
+  --font-comic: var(--font-comic);
+  --font-body: var(--font-body);
+}

@@ -1,0 +1,175 @@
+{
+  "home": {
+    "tag": "POLISH AND EUROPEAN FISH · 2–12 PLAYERS",
+    "titleLine1": "HOOK THE FISH.",
+    "titleLine2": "HAUL THE POINTS!",
+    "slogan": "Guess the fish.\nBeat your friends.",
+    "create": "Create a room",
+    "join": "Join a room",
+    "solo": "Play solo",
+    "fine": "One photo. Everyone guesses. Who's first?",
+    "day": "Day",
+    "night": "Night",
+    "soundOn": "Sound: on",
+    "soundOff": "Sound: off",
+    "locale": "PL / EN",
+    "how": "How to play?",
+    "soon": "This screen is coming in a later stage.",
+    "previewTag": "A ROUND LOOKS LIKE THIS",
+    "previewQuestion": "WHAT FISH IS THIS?",
+    "previewCrew": "THE CREW",
+    "previewSample": "PREVIEW",
+    "previewYou": "You"
+  },
+  "header": {
+    "settings": "Open settings"
+  },
+  "howTo": {
+    "tag": "SHORT GUIDE",
+    "title": "HOW TO PLAY?",
+    "close": "Close the guide",
+    "next": "Next",
+    "start": "Let's fish",
+    "step": "Step",
+    "points": "+1,000 PTS!",
+    "modes": "SPECIES · KG · PLN",
+    "steps": [
+      "Everyone sees the same real photo of a fish. No private hints.",
+      "Guess the species, the weight, or the price. Three ways to land a catch.",
+      "The closer you are, and the faster you answer, the more points you score. Up to 1,000 a round.",
+      "After the last round, the highest score wins. The crown is waiting."
+    ]
+  },
+  "common": {
+    "start": "Start",
+    "next": "Next",
+    "retry": "Retry",
+    "back": "Back"
+  },
+  "game": {
+    "pools": {
+      "EU": "Europe",
+      "PL": "Poland",
+      "EU_MINUS_PL": "Europe without Poland"
+    },
+    "modes": {
+      "mix": "Mix",
+      "species": "Species",
+      "weight": "Weight",
+      "price": "Price"
+    },
+    "rounds": "{n} rounds",
+    "seconds": "{n} s"
+  },
+  "profile": {
+    "title": "WHAT SHOULD WE CALL YOU?",
+    "nick": "Nickname",
+    "nickLength": "Nickname must be 3 to 16 characters.",
+    "saveFailed": "Could not save your profile.",
+    "random": "Random",
+    "next": "Next"
+  },
+  "join": {
+    "tag": "BROUGHT TOGETHER BY FISH",
+    "title": "GOT A ROOM CODE?",
+    "hint": "Enter the five letters from a friend. Climb aboard!",
+    "code": "Room code",
+    "letter": "Room code letter {n}",
+    "submit": "Join"
+  },
+  "solo": {
+    "title": "PLAY SOLO",
+    "untimed": "No time limit",
+    "startFailed": "Could not start."
+  },
+  "lobby": {
+    "needPlayer": "Need a second player to start.",
+    "waiting": "Waiting for the host.",
+    "leave": "Leave room"
+  },
+  "room": {
+    "connecting": "Connecting…",
+    "offline": "No connection.",
+    "reconnecting": "Connection lost. Trying again…",
+    "back": "Back in the game",
+    "saveFailed": "Could not save.",
+    "wait": "One moment…"
+  },
+  "round": {
+    "label": "Round {current}/{total}",
+    "noLimit": "No limit",
+    "tick": "TICK-TOCK, {n} seconds left",
+    "left": "{n} seconds left",
+    "countdown": "Watch the photo",
+    "photoAlt": "Photograph of a fish to identify",
+    "weight": "Weight in kilograms",
+    "weightSlider": "Weight slider",
+    "weightRange": "Weight must be from 0.05 to 100 kg.",
+    "price": "Price per kilogram",
+    "answered": "Answered {done}/{total}",
+    "locked": "Answer saved",
+    "submit": "Confirm"
+  },
+  "results": {
+    "hostNext": "Host moves on"
+  },
+  "finished": {
+    "title": "THE END",
+    "numeric": "Numeric error: {value}",
+    "notApplicable": "Not applicable",
+    "top": "TOP 5",
+    "yourScore": "Your score",
+    "recordFailed": "The score was not saved on this device",
+    "againFailed": "Could not start again.",
+    "again": "Play again",
+    "share": "Share score",
+    "card": "Download card",
+    "scoreLine": "FishGuesser · {nick} · {score} pts · place {rank}",
+    "copied": "Score copied.",
+    "copyFailed": "Could not copy the score.",
+    "exit": "Exit"
+  },
+  "settings": {
+    "title": "SETTINGS",
+    "motionReduce": "Motion: reduced",
+    "motionFull": "Motion: full",
+    "credits": "Credits",
+    "privacy": "Privacy"
+  },
+  "privacy": {
+    "title": "PRIVACY",
+    "body": "The game stores a random id in an HttpOnly cookie and the nickname in the game database. There is no account."
+  },
+  "credits": {
+    "title": "CREDITS",
+    "fonts": "Fonts: Bangers, Comic Neue, Nunito. SIL OFL licenses.",
+    "approximate": "Weight is a typical adult, not the fish in the photo. Price is a reference, not a live price list."
+  },
+  "notFound": {
+    "tag": "404 · UNKNOWN WATERS",
+    "title": "CAUGHT IN THE NET",
+    "body": "This page does not exist.",
+    "home": "Back to the home page"
+  },
+  "errors": {
+    "GAME_NOT_FOUND": "That game does not exist.",
+    "ROOM_NOT_FOUND": "That room does not exist.",
+    "PLAYER_KICKED": "You were removed from this game.",
+    "NOT_A_MEMBER": "You are not in this game.",
+    "VALIDATION_ERROR": "Check the details and try again.",
+    "INTERNAL_ERROR": "Something went wrong.",
+    "GAME_ALREADY_STARTED": "The game has already started.",
+    "ROOM_FULL": "The room is full (12/12).",
+    "NICKNAME_TAKEN": "That nickname is taken.",
+    "NOT_HOST": "Only the host can do that.",
+    "INVALID_PHASE": "That is not allowed right now.",
+    "NOT_ENOUGH_PLAYERS": "At least 2 players are needed.",
+    "POOL_TOO_SMALL": "Not enough fish in this pool. Change the pool or the number of rounds.",
+    "INVALID_ANSWER": "That answer is out of range.",
+    "DEADLINE_PASSED": "Time is up.",
+    "ANSWER_ALREADY_SUBMITTED": "That answer is already saved.",
+    "RATE_LIMITED": "Too many attempts. Try again in a moment.",
+    "SERVICE_UNAVAILABLE": "The service is temporarily unavailable.",
+    "UNAUTHORIZED": "You do not have access."
+  }
+}

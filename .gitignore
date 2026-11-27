@@ -41,8 +41,17 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# local game database
+/data
+
+# python
+__pycache__/
+*.py[cod]
+
 # cache
 .cache
 .eslintcache
 .turbo
 .swc
+
+plan/

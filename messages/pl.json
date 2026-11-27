@@ -1,0 +1,175 @@
+{
+  "home": {
+    "tag": "POLSKIE I EUROPEJSKIE RYBY · 2–12 GRACZY",
+    "titleLine1": "ZŁAP RYBĘ.",
+    "titleLine2": "ZGARNIJ PUNKTY!",
+    "slogan": "Zgadnij rybę.\nPokonaj znajomych.",
+    "create": "Utwórz pokój",
+    "join": "Dołącz do pokoju",
+    "solo": "Graj solo",
+    "fine": "Jedno zdjęcie. Wszyscy zgadują. Kto będzie pierwszy?",
+    "day": "Dzień",
+    "night": "Noc",
+    "soundOn": "Dźwięk: wł.",
+    "soundOff": "Dźwięk: wył.",
+    "locale": "PL / EN",
+    "how": "Jak grać?",
+    "soon": "Ten ekran dochodzi w kolejnym etapie.",
+    "previewTag": "TAK WYGLĄDA RUNDA",
+    "previewQuestion": "CO TO ZA RYBA?",
+    "previewCrew": "RYBIA EKIPA",
+    "previewSample": "PODGLĄD",
+    "previewYou": "Ty"
+  },
+  "header": {
+    "settings": "Otwórz ustawienia"
+  },
+  "howTo": {
+    "tag": "KRÓTKA INSTRUKCJA",
+    "title": "JAK GRAĆ?",
+    "close": "Zamknij instrukcję",
+    "next": "Dalej",
+    "start": "Zaczynam",
+    "step": "Krok",
+    "points": "+1 000 PKT!",
+    "modes": "GATUNEK · KG · ZŁ",
+    "steps": [
+      "Wszyscy widzą to samo prawdziwe zdjęcie ryby. Żadnych podpowiedzi dla wybranych!",
+      "Zgadujesz gatunek, wagę albo cenę. Trzy sposoby na dobry połów.",
+      "Im bliżej prawdy i szybciej odpowiesz, tym więcej punktów. Maksymalnie 1 000 za rundę.",
+      "Po ostatniej rundzie wygrywa gracz z największą liczbą punktów. Korona czeka!"
+    ]
+  },
+  "common": {
+    "start": "Start",
+    "next": "Dalej",
+    "retry": "Ponów",
+    "back": "Wróć"
+  },
+  "game": {
+    "pools": {
+      "EU": "Europa",
+      "PL": "Polska",
+      "EU_MINUS_PL": "Europa bez Polski"
+    },
+    "modes": {
+      "mix": "Miks",
+      "species": "Gatunek",
+      "weight": "Waga",
+      "price": "Cena"
+    },
+    "rounds": "{n} rund",
+    "seconds": "{n} s"
+  },
+  "profile": {
+    "title": "JAK CIĘ WOŁAĆ?",
+    "nick": "Nick",
+    "nickLength": "Nick musi mieć od 3 do 16 znaków.",
+    "saveFailed": "Nie udało się zapisać profilu.",
+    "random": "Losuj",
+    "next": "Dalej"
+  },
+  "join": {
+    "tag": "ŁĄCZY NAS RYBA",
+    "title": "MASZ KOD POKOJU?",
+    "hint": "Wpisz pięć liter od znajomego. Wskakuj na pokład!",
+    "code": "Kod pokoju",
+    "letter": "Litera {n} kodu pokoju",
+    "submit": "Dołącz"
+  },
+  "solo": {
+    "title": "GRAJ SOLO",
+    "untimed": "Bez limitu czasu",
+    "startFailed": "Nie udało się zacząć."
+  },
+  "lobby": {
+    "needPlayer": "Potrzeba drugiego gracza, żeby zacząć.",
+    "waiting": "Czekasz na hosta.",
+    "leave": "Opuść pokój"
+  },
+  "room": {
+    "connecting": "Łączenie…",
+    "offline": "Brak połączenia.",
+    "reconnecting": "Utracono połączenie. Próba ponowienia…",
+    "back": "Wróciliśmy do gry",
+    "saveFailed": "Nie udało się zapisać.",
+    "wait": "Chwila…"
+  },
+  "round": {
+    "label": "Runda {current}/{total}",
+    "noLimit": "Bez limitu",
+    "tick": "TIK-TAK, zostało {n} sekund",
+    "left": "Pozostało {n} sekund",
+    "countdown": "Uwaga na zdjęcie",
+    "photoAlt": "Fotografia ryby do rozpoznania",
+    "weight": "Waga w kilogramach",
+    "weightSlider": "Suwak wagi",
+    "weightRange": "Waga musi być od 0,05 do 100 kg.",
+    "price": "Cena za kilogram",
+    "answered": "Odpowiedziało {done}/{total}",
+    "locked": "Odpowiedź zapisana",
+    "submit": "Zatwierdź"
+  },
+  "results": {
+    "hostNext": "Host przechodzi dalej"
+  },
+  "finished": {
+    "title": "KONIEC",
+    "numeric": "Błąd liczbowy: {value}",
+    "notApplicable": "Nie dotyczy",
+    "top": "TOP 5",
+    "yourScore": "Twój wynik",
+    "recordFailed": "Wynik nie został zapisany na tym urządzeniu",
+    "againFailed": "Nie udało się zacząć od nowa.",
+    "again": "Zagraj ponownie",
+    "share": "Udostępnij wynik",
+    "card": "Pobierz kartę",
+    "scoreLine": "FishGuesser · {nick} · {score} pkt · miejsce {rank}",
+    "copied": "Wynik skopiowany.",
+    "copyFailed": "Nie udało się skopiować wyniku.",
+    "exit": "Wyjdź"
+  },
+  "settings": {
+    "title": "USTAWIENIA",
+    "motionReduce": "Ruch: mniejszy",
+    "motionFull": "Ruch: pełny",
+    "credits": "Atrybucje",
+    "privacy": "Prywatność"
+  },
+  "privacy": {
+    "title": "PRYWATNOŚĆ",
+    "body": "Gra zapisuje losowy identyfikator w ciasteczku HttpOnly i nick w bazie gry. Nie ma konta."
+  },
+  "credits": {
+    "title": "ATRYBUCJE",
+    "fonts": "Fonty: Bangers, Comic Neue, Nunito. Licencje SIL OFL.",
+    "approximate": "Waga to typowy dorosły osobnik, nie sztuka ze zdjęcia. Cena jest referencją, nie aktualnym cennikiem."
+  },
+  "notFound": {
+    "tag": "404 · NIEZNANE WODY",
+    "title": "ZAPŁĄTAŁEŚ SIĘ W SIEĆ",
+    "body": "Tej strony nie ma. Kapitan zna drogę do domu.",
+    "home": "Wróć na stronę główną"
+  },
+  "errors": {
+    "GAME_NOT_FOUND": "Nie ma takiej gry.",
+    "ROOM_NOT_FOUND": "Nie ma takiego pokoju.",
+    "PLAYER_KICKED": "Wyrzucono cię z tej gry.",
+    "NOT_A_MEMBER": "Nie jesteś w tej grze.",
+    "VALIDATION_ERROR": "Sprawdź dane i spróbuj ponownie.",
+    "INTERNAL_ERROR": "Coś poszło nie tak.",
+    "GAME_ALREADY_STARTED": "Gra już trwa.",
+    "ROOM_FULL": "Pokój jest pełny (12/12).",
+    "NICKNAME_TAKEN": "Ten nick jest zajęty.",
+    "NOT_HOST": "Tylko host może to zrobić.",
+    "INVALID_PHASE": "Tego nie da się zrobić teraz.",
+    "NOT_ENOUGH_PLAYERS": "Potrzeba co najmniej 2 graczy.",
+    "POOL_TOO_SMALL": "Za mała pula ryb. Zmień pulę albo liczbę rund.",
+    "INVALID_ANSWER": "Ta odpowiedź jest poza zakresem.",
+    "DEADLINE_PASSED": "Czas minął.",
+    "ANSWER_ALREADY_SUBMITTED": "Odpowiedź jest już zapisana.",
+    "RATE_LIMITED": "Za dużo prób. Spróbuj za chwilę.",
+    "SERVICE_UNAVAILABLE": "Usługa jest chwilowo niedostępna.",
+    "UNAUTHORIZED": "Brak dostępu."
+  }
+}

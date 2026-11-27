@@ -1,0 +1,58 @@
+/* Product shell. The prototype artboard and studio chrome stay in FishGuesser.html. */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--paper);
+  background-image: radial-gradient(#1111110d 0.7px, transparent 0.7px);
+  background-size: 5px 5px;
+  color: var(--text);
+  font-family: var(--body);
+}
+
+.app {
+  min-height: 100vh;
+  height: auto;
+}
+
+html[data-theme="night"] {
+  --paper: var(--fg-night-bg);
+  --surface: var(--fg-night-surface);
+  --text: var(--fg-night-text);
+  --muted: var(--fg-night-muted);
+}
+
+html[data-theme="night"] body,
+html[data-theme="night"] .app {
+  background-image: radial-gradient(#ffffff12 0.8px, transparent 0.8px);
+}
+
+html[data-theme="night"] :focus-visible {
+  outline-color: var(--fg-night-focus);
+  box-shadow: 0 0 0 8px var(--fg-night-bg);
+}
+
+.app > .overlay {
+  position: fixed;
+  z-index: 40;
+}
+
+/* The list scrolls with the page; this copy stays on screen in a 12-player ranking. */
+.rank-sticky {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  padding: 10px 20px 12px;
+  background: var(--paper);
+}
+
+.has-rank-pin {
+  padding-bottom: 110px;
+}
+
+.app.desktop-app .rank-sticky {
+  padding-right: 60px;
+  padding-left: 60px;
+}

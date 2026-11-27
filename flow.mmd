@@ -1,0 +1,47 @@
+flowchart TD
+  H["Ekran główny"] -->|"Utwórz pokój"| PH["Profil hosta"]
+  H -->|"Dołącz /room/ABCDE"| C["Kod / Zaproszenie"]
+  C --> PG["Profil gracza"]
+  C --> E["Nie ma pokoju / Pełny / Gra trwa / Sieć"]
+  E -->|"Ponów lub wróć"| C
+  PH --> LH["Lobby hosta: konfiguracja"]
+  PG --> LG["Lobby gracza: tylko odczyt"]
+  PH --> N["Nick zajęty"]
+  PG --> N
+  N --> PG
+  LH --> V{"≥2 graczy i dość pytań?"}
+  V -->|Nie| LH
+  V -->|Tak| CT["3 → 2 → 1"]
+  LG -->|"Start hosta"| CT
+  CT --> R["Wspólna runda: gatunek / waga / cena / mapa"]
+  R --> A["Odpowiedź zapisana"]
+  R -->|"Deadline"| T["Brak odpowiedzi: 0 pkt"]
+  R --> DC["Utrata połączenia"]
+  DC -->|"Snapshot, deadline jeszcze trwa"| R
+  DC -->|"Deadline minął"| T
+  A --> W["Wyniki: prawda i odpowiedzi"]
+  T --> W
+  W -->|"Host: Dalej / gracz: 8 s"| RK["Ranking"]
+  RK --> END{"Ostatnia runda?"}
+  END -->|Nie| CT
+  END -->|Tak| P["Podium i statystyki"]
+  P --> RV["Przegląd + zapis do nauki"]
+  P --> SH["Okładka wyniku PNG"]
+  P -->|"Zagraj ponownie / zmień pulę"| LH
+  P -->|Wyjdź| H
+  H -->|Solo| PS["Profil → Konfiguracja solo"]
+  PS --> SR["Runda solo i postęp"]
+  SR --> SW["Wyniki rundy"]
+  SW -->|Kolejna| SR
+  SW -->|Ostatnia| SB["Rekord lokalny i Top 5"]
+  SB --> PS
+  SB --> H
+  LH -.-> HM["Host odchodzi → migracja + toast"]
+  LG -.-> HM
+  HM --> LH
+  classDef host fill:#14B8C4,stroke:#111,stroke-width:3px,color:#111;
+  classDef guest fill:#FFD23F,stroke:#111,stroke-width:3px,color:#111;
+  classDef shared fill:#FF6B5B,stroke:#111,stroke-width:3px,color:#111;
+  class PH,LH,V host;
+  class PG,LG,C guest;
+  class CT,R,A,W,RK,P shared;
