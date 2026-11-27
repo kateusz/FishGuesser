@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { SoloSetup } from "@/components/game/SoloSetup";
+import { poolCounts } from "@/server/fish";
 import { AppShell } from "@/components/layout/AppShell";
 import { getMessages, isLocale } from "@/lib/messages";
 
@@ -9,7 +10,7 @@ export default async function SoloPage({ params }: { params: Promise<{ locale: s
   const messages = getMessages(locale);
   return (
     <AppShell locale={locale} settingsLabel={messages.header.settings}>
-      <SoloSetup locale={locale} />
+      <SoloSetup locale={locale} poolCounts={poolCounts()} />
     </AppShell>
   );
 }

@@ -90,7 +90,12 @@
   },
   "solo": {
     "title": "GRAJ SOLO",
+    "tag": "TRENING CZY WIELKI POŁÓW?",
+    "heading": "TY, RYBY I REKORD",
+    "hint": "Ćwicz we własnym tempie albo ścigaj się z czasem.",
     "untimed": "Bez limitu czasu",
+    "catalogNote": "Pula zawiera dostępne gatunki z katalogu. Przy dłuższej grze gatunki mogą się powtarzać.",
+    "start": "Zaczynam solo",
     "startFailed": "Nie udało się zacząć."
   },
   "lobby": {
@@ -211,10 +216,20 @@
   },
   "settings": {
     "title": "USTAWIENIA",
-    "motionReduce": "Ruch: mniejszy",
-    "motionFull": "Ruch: pełny",
-    "credits": "Atrybucje",
-    "privacy": "Prywatność"
+    "theme": "Motyw",
+    "themeDay": "Dzień",
+    "themeNight": "Noc",
+    "themeAuto": "Automatyczny",
+    "sound": "Dźwięki",
+    "music": "Muzyka",
+    "vibrations": "Wibracje",
+    "language": "Język",
+    "languagePl": "Polski (PL)",
+    "languageEn": "English (EN)",
+    "reducedMotion": "Zmniejszone animacje",
+    "profile": "Zmień nick i awatar",
+    "note": "Suwaki zapisują preferencje. Ścieżki dźwiękowe i muzyczne nie są jeszcze dostępne.",
+    "done": "Gotowe"
   },
   "privacy": {
     "title": "PRYWATNOŚĆ",

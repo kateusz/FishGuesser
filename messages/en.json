@@ -90,7 +90,12 @@
   },
   "solo": {
     "title": "PLAY SOLO",
+    "tag": "PRACTICE OR A BIG CATCH?",
+    "heading": "YOU, FISH AND A RECORD",
+    "hint": "Practice at your own pace or race against the clock.",
     "untimed": "No time limit",
+    "catalogNote": "The pool contains available species from the catalog. Species can repeat in longer games.",
+    "start": "Start solo",
     "startFailed": "Could not start."
   },
   "lobby": {
@@ -211,10 +216,20 @@
   },
   "settings": {
     "title": "SETTINGS",
-    "motionReduce": "Motion: reduced",
-    "motionFull": "Motion: full",
-    "credits": "Credits",
-    "privacy": "Privacy"
+    "theme": "Theme",
+    "themeDay": "Day",
+    "themeNight": "Night",
+    "themeAuto": "Automatic",
+    "sound": "Sounds",
+    "music": "Music",
+    "vibrations": "Vibrations",
+    "language": "Language",
+    "languagePl": "Polski (PL)",
+    "languageEn": "English (EN)",
+    "reducedMotion": "Reduced motion",
+    "profile": "Change nickname and avatar",
+    "note": "Sliders save your preferences. Sound effects and music are not available yet.",
+    "done": "Done"
   },
   "privacy": {
     "title": "PRIVACY",

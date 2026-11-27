@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Captain, FishArt } from "@/components/mascot/Captain";
 import { api } from "@/lib/api";
 import { messagesFor } from "@/lib/messages";
@@ -18,6 +18,12 @@ export function ProfileScreen({ locale }: { locale: string }) {
   const [avatarId, setAvatarId] = useState("avatar-01");
   const [error, setError] = useState("");
 
+  useEffect(() => {
+    if (intent !== "edit") return;
+    setNickname(sessionStorage.getItem("fg-nick") ?? "");
+    setAvatarId(sessionStorage.getItem("fg-avatar") ?? "avatar-01");
+  }, [intent]);
+
   async function submit() {
     setError("");
     const trimmed = nickname.trim();
@@ -28,6 +34,10 @@ export function ProfileScreen({ locale }: { locale: string }) {
     sessionStorage.setItem("fg-nick", trimmed);
     sessionStorage.setItem("fg-avatar", avatarId);
     try {
+      if (intent === "edit") {
+        router.push(`/${locale}/settings`);
+        return;
+      }
       if (intent === "solo") {
         router.push(`/${locale}/solo`);
         return;

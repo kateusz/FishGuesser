@@ -411,4 +411,38 @@ html[data-theme="night"] :focus-visible {
     max-width: 760px;
     margin: 24px auto;
   }
+
+.settings-screen {
+  max-width: 540px;
+  margin: 8px auto;
+}
+
+.settings-screen .title {
+  margin-bottom: 20px;
+}
+
+.settings-screen .field-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+}
+
+.settings-screen output {
+  font: 400 18px var(--display);
+}
+
+.settings-screen input[type="range"] {
+  margin-top: -11px;
+}
+
+.settings-screen .check-row {
+  padding: 8px 0;
+  border-top: 2px solid #11111122;
+}
+
+.settings-screen .small {
+  margin: -2px 0 2px;
+}
 }
