@@ -1,97 +1,97 @@
-# FishGuesser — specyfikacja UI/UX v1.0
+# FishGuesser — UI/UX specification v1.0
 
-Data: 26 listopada 2026. Język produktu: polski. Grupa: 2–12 znajomych we wspólnym pokoju oraz gracz solo. Platforma: przeglądarka, mobile-first. Dokument uzupełnia klikalne mockupy w FishGuesser.html.
+Date: 26 November 2026. Product language: Polish. Audience: 2–12 friends in a shared room, plus a solo player. Platform: browser, mobile-first. This document complements the clickable mockups in `FishGuesser.html`.
 
-## 1. Kierunek wizualny
+## 1. Visual direction
 
-Komiksowe UI z prawdziwymi fotografiami ryb. Własna tożsamość FishGuesser: kremowy papier, turkus, koral i żółć; kontur #111111. Brak gradientów kolorystycznych i rozmytych cieni. Wzór punktowy w tle imituje papier i półtony. Prostokątne treści, delikatnie pochylone nagłówki i naklejki. Kontur 3 px, fotografie i modale 4 px. Cień 5 px w prawo i 5 px w dół. Promień 6–8 px. Teksty i kontury korzystają ze wspólnych tokenów.
+Comic UI with real fish photographs. FishGuesser identity: cream paper, teal, coral and yellow; outline `#111111`. No colour gradients and no blurry shadows. A dotted background imitates paper and halftone. Rectangular content, slightly tilted headings and stickers. Outline 3 px; photographs and modals 4 px. Shadow 5 px right and 5 px down. Radius 6–8 px. Text and outlines use shared tokens.
 
-Paleta: #0B1F3A, #14B8C4, #FF6B5B, #FFD23F, #FFF4DC, #111111, #2FBF71, #E5484D. Dodatkowo: panel dzienny #FFFAF0, panel nocny #163858, ciemny tekst wtórny #514B40 i jasny wtórny #D3DDDF. Tekst na nasyconych kolorach jest ciemny; komunikat błędu zawiera ikonę lub treść, nie tylko barwę.
+Palette: `#0B1F3A`, `#14B8C4`, `#FF6B5B`, `#FFD23F`, `#FFF4DC`, `#111111`, `#2FBF71`, `#E5484D`. Extra: day panel `#FFFAF0`, night panel `#163858`, dark secondary text `#514B40`, light secondary `#D3DDDF`. Text on saturated colours is dark. An error message includes an icon or copy, not colour alone.
 
-Fonty: Bangers do haseł, Comic Neue do przycisków i dymków, Nunito do dłuższej treści i liczb tabelarycznych. Skala mobilna 32–72 px w nagłówkach, 16–22 px przycisk/dymek, 14–16 px tekst. Podpis zdjęcia 10 px z możliwością otwarcia czytelnej pełnej atrybucji. Desktop: hero 99 px, wyniki do 105 px. Duży wynik i czas używają tabular-nums tam, gdzie pozwala na to font.
+Fonts: Bangers for slogans, Comic Neue for buttons and speech bubbles, Nunito for longer copy and tabular numbers. Mobile scale: headings 32–72 px, button/bubble 16–22 px, body 14–16 px. Photo credit 10 px, with a way to open a readable full attribution. Desktop: hero 99 px, results up to 105 px. Large scores and timers use `tabular-nums` where the font allows.
 
-Mobile: 390×844, margines 20 px, gutter 12 px, 4 kolumny. Desktop: 1440×900, margines 60 px, szerokość treści do 1200 px, 12 kolumn, gutter 24 px. Skala odstępów: 4, 8, 12, 16, 20, 24, 32, 48, 64 px. Długie formularze i wyniki przewijają się w pionie.
+Mobile: 390×844, margin 20 px, gutter 12 px, 4 columns. Desktop: 1440×900, margin 60 px, content width up to 1200 px, 12 columns, gutter 24 px. Spacing scale: 4, 8, 12, 16, 20, 24, 32, 48, 64 px. Long forms and results scroll vertically.
 
-## 2. Wejście
+## 2. Entry
 
-### Ekran główny
+### Home
 
-Komiksowy logotyp, maskotka Kapitan Szczupak, slogan w dymku. Główna akcja „Utwórz pokój”; dalej „Dołącz do pokoju” i „Graj solo”. Dzień i Noc dostępne jako osobne plansze oraz przełącznik. Preferencje dźwięku, języka i instrukcja pod akcjami. Desktop dodaje podgląd rundy z fotografią i małym rankingiem. Fotografia nie zawiera nałożonych napisów.
+Comic wordmark, mascot Captain Szczupak, slogan in a bubble. Primary action “Utwórz pokój”; then “Dołącz do pokoju” and “Graj solo”. Day and Night exist as separate screens and as a toggle. Sound, language and how-to sit under the actions. Desktop adds a round preview with a photograph and a small ranking. The photograph has no overlay text.
 
-### Instrukcja
+### How to play
 
-Modal czterech paneli: wspólne zdjęcie → cztery tryby → dokładność i czas → zwycięstwo po ostatniej rundzie. Przyciski Dalej/Zaczynam; kropki nawigują między krokami. Escape zamyka, focus wraca do przycisku otwierającego. Zamknięcie instrukcji nie rozpoczyna gry automatycznie.
+A four-panel modal: shared photo → four modes → accuracy and time → win after the last round. Buttons Dalej / Zaczynam; dots jump between steps. Escape closes; focus returns to the opener. Closing the how-to does not start a game.
 
-### Profil
+### Profile
 
-Nick: 3–16 znaków po usunięciu skrajnych spacji, licznik znaków, walidacja przed przejściem. Pusty lub zbyt krótki blokuje Dalej. Zajęty nick pokazuje komunikat przy polu i dymek. Siatka 12 awatarów, stan wybrany ze znacznikiem, akcja losowania. Nick jest kodowany przy wyświetlaniu; nie interpretować go jako HTML. W produkcji unikalność musi potwierdzić serwer danego pokoju.
+Nickname: 3–16 characters after trimming edges, character counter, validate before leaving. Empty or too short blocks Dalej. A taken nick shows a field message and a bubble. Grid of 12 avatars, selected state with a marker, randomise action. Display the nick encoded; never treat it as HTML. In production, uniqueness is confirmed by the server for that room.
 
-### Dołączanie
+### Join
 
-Pięć kafelków A–Z. Wklejenie uzupełnia cały kod. Backspace wraca do poprzedniego pustego pola. Dołącz aktywne dopiero przy pięciu literach. Link /room/ABCDE prowadzi do zaproszenia i profilu gracza. Cztery osobne błędy: nieistniejący pokój, pełny 12/12, gra w toku, brak połączenia. Każda plansza błędu ma jedną główną akcję. Ponowienie błędu połączenia w produkcji zachowuje kod i profil.
+Five tiles A–Z. Paste fills the whole code. Backspace returns to the previous empty field. Join is enabled only with five letters. Link `/room/ABCDE` goes to invite and player profile. Four distinct errors: room not found, full 12/12, game in progress, no connection. Each error screen has one primary action. Retrying a connection error in production keeps the code and profile.
 
 ## 3. Lobby
 
-Host widzi wielki kod pokoju, kopiowanie, link, listę graczy i ustawienia. Karta gracza: awatar, nick, korona hosta, status online. Menu gracza zawiera usunięcie z potwierdzeniem wskazującym nick. Licznik maksymalnie 12 graczy. Wejście gracza: jednorazowy „PLUSK!” i toast.
+The host sees a large room code, copy, link, player list and settings. Player card: avatar, nick, host crown, online status. The player menu includes kick with a confirmation that names the nick. Cap 12 players. On join: a one-shot “PLUSK!” and a toast.
 
-Pule: Polska, Europa, Europa bez Polski. W produkcji trzecia pula to różnica katalogów gatunków. Każda karta zawiera ikonę, opis i liczbę dostępnych ryb. W prototypie pokazano rzeczywisty rozmiar katalogu demo 4/5/1, zamiast wymyślonych liczb zasobów.
+Pools: Poland, Europe, Europe without Poland. In production the third pool is the difference of species catalogues. Each card has an icon, description and available-fish count. The prototype shows the real demo catalogue size 4/5/1, not invented stock numbers.
 
-Tryby: Gatunek, Waga, Cena, Występowanie, Miks. Miks rotuje pytania. W docelowej implementacji chipy mogą wybierać zestaw trybów; prototyp wybiera jeden lub Miks. Rundy 5/10/15, czas 15/30/45/60 s, trudność łatwa/średnia/trudna/miks. Start nieaktywny przy mniej niż dwóch graczach. Plansza za małej puli blokuje Start i wyjaśnia, co zmienić.
+Modes: Species, Weight, Price, Occurrence, Mix. Mix rotates questions. In the target product, chips may pick a set of modes; the prototype picks one or Mix. Rounds 5/10/15, time 15/30/45/60 s, difficulty easy/medium/hard/mix. Start is disabled with fewer than two players. A too-small-pool screen blocks Start and explains what to change.
 
-Gracz widzi tylko podsumowanie ustawień, listę i czekanie na hosta; może opuścić pokój. Dodatkowy przycisk „Symuluj start przez hosta” służy przeglądaniu prototypu i nie należy do produktu. Host odchodzi: najstarsza aktywna sesja dostaje rolę, pozostali otrzymują aktualny snapshot i toast.
+A player sees only a settings summary, the list and waiting for the host; they may leave. An extra “Simulate host start” control is for browsing the prototype and is not in the product. If the host leaves: the oldest active session becomes host; others get a current snapshot and a toast.
 
-## 4. Runda
+## 4. Round
 
-Wspólne: numer rundy, czas, miejsce gracza (w solo postęp), duża fotografia w panelu 4:3, podpis autor/licencja i obszar odpowiedzi. W produkcji roundId, assetId, pytanie, zestaw odpowiedzi i deadline są identyczne dla całego pokoju. Prawda jest ujawniana dopiero po zamknięciu rundy.
+Shared: round number, timer, player place (solo: progress), large photograph in a 4:3 panel, author/licence credit and the answer area. In production `roundId`, `assetId`, question, option set and deadline are identical for the whole room. Truth is revealed only after the round closes.
 
-Odliczanie ma trzy osobne plansze 3/2/1 i przechodzi automatycznie w ścieżce gry. Przegląd katalogu pozwala zatrzymać się na każdej klatce. Krótki ruch panelu do 300 ms. Tryb zmniejszonych animacji usuwa transformacje i pulsowanie.
+Countdown has three separate screens 3/2/1 and advances automatically on the play path. Catalogue review can pause on each frame. Short panel motion up to 300 ms. Reduced-motion mode removes transforms and pulsing.
 
-### Gatunek
+### Species
 
-Cztery odpowiedzi: nazwa polska, mniejsza łacińska kursywą. Wybór jedynie zaznacza; Zatwierdź zapisuje i blokuje edycję. Później dymek „Odpowiedź zapisana…” i awatary odpowiadających. W implementacji serwer nie wysyła treści cudzych odpowiedzi przed końcem rundy.
+Four answers: Polish name, smaller Latin in italics. Choosing only highlights; Zatwierdź commits and locks editing. Then a bubble “Odpowiedź zapisana…” and avatars of who answered. In implementation the server does not send other players’ answer content before the round ends.
 
-### Waga
+### Weight
 
-Pytanie dotyczy masy referencyjnej typowego dorosłego osobnika, nie rzeczywistej masy fotografowanego obiektu. Zakres przykładowy 0,001–100 kg. Pozycja suwaka p: w=0,001×100000^p, p∈[0,1]. Pole ręczne przyjmuje przecinek lub kropkę. Przełącznik g/kg konwertuje wartość. Wartości poza zakresem blokują zatwierdzenie. Na łatwym poziomie wskazówka w dymku.
+The question is the reference mass of a typical adult specimen, not the photographed fish. Example range 0.001–100 kg. Slider position `p`: `w = 0.001 × 100000^p`, `p ∈ [0, 1]`. The manual field accepts comma or dot. A g/kg switch converts the value. Out-of-range values block submit. Easy difficulty shows a hint in a bubble.
 
-### Cena
+### Price
 
-Cena za 1 kg w PLN, zakres 5–200 zł. Pole z klawiaturą dziesiętną, przyciski +5/+10/+50 z ograniczeniem do 200, suwak liniowy. W docelowej grze pytanie musi podać postać produktu, np. tusza świeża / filet, datę i rynek. Referencja może być przedziałem. Nie mieszać cen fileta z ceną całej ryby. Aktualny prototyp używa wyłącznie oznaczonych wartości przykładowych.
+Price per 1 kg in PLN, range 5–200 zł. Decimal keypad field, +5/+10/+50 buttons capped at 200, linear slider. In the target game the question must state product form (e.g. fresh carcass / fillet), date and market. The reference may be a range. Do not mix fillet prices with whole-fish prices. The current prototype uses labelled sample values only.
 
-### Występowanie
+### Occurrence
 
-Polska i Bałtyk dla puli Polska; Europa dla pozostałych. Prawdziwa geometria z Natural Earth, styl płaskiego komiksu. Zdjęcie zwijane do miniatury; desktop zdjęcie po lewej, mapa po prawej. Klik/dotyk stawia pinezkę, przeciąganie przesuwa. Enter stawia, strzałki zmieniają lokalizację; +/− zmieniają zoom. Zatwierdź aktywne dopiero z pinezką. Punktowanie w produkcji mierzy odległość do najbliższego punktu zasięgu, nie arbitralnej stolicy. Prototyp używa pojedynczego punktu demo i oznaczonego ilustracyjnego zasięgu.
+Poland and the Baltic for the Poland pool; Europe otherwise. Real Natural Earth geometry, flat comic styling. Photo collapses to a thumbnail; desktop: photo left, map right. Click/touch places a pin; drag moves it. Enter places, arrows move, +/− zoom. Zatwierdź is enabled only with a pin. Production scoring measures distance to the nearest range point, not an arbitrary capital. The prototype uses a single demo point and a labelled illustrative range.
 
-### Stany specjalne
+### Special states
 
-Ostatnie pięć sekund: koralowy licznik, czerwony pasek, etykieta TIK-TAK, krótka wibracja, jeśli wspiera ją urządzenie i gracz zezwolił. Czas minął: 0 pkt i jasny komunikat. Utrata połączenia: baner z licznikiem, blokada zatwierdzenia. Powrót: toast i odtworzenie bieżącego stanu. Serwer nie przyjmuje odpowiedzi po deadline; powtórzony request ma być idempotentny.
+Last five seconds: coral timer, red bar, TIK-TAK label, short vibration if the device supports it and the player allowed it. Time up: 0 points and a clear message. Lost connection: banner with a counter, submit locked. Return: toast and restore of current state. The server rejects answers after the deadline; a repeated request must be idempotent.
 
-## 5. Wyniki i ranking
+## 5. Results and ranking
 
-Fotografia, nazwy polska/łacińska, pula, ciekawostka, liczba punktów i bonus czasu. Gatunek: poprawny kafelek oraz wybory graczy. Waga/cena: oś referencji i odpowiedzi, błąd procentowy. Mapa: zasięg, punkty i linie do najbliższej granicy zasięgu, odległość w km. W prototypie grafika mapy jest oznaczona jako przykład i nie stanowi atlasu.
+Photograph, Polish/Latin names, pool, trivia, points and time bonus. Species: correct tile and player picks. Weight/price: reference axis and answers, percent error. Map: range, points and lines to the nearest range edge, distance in km. In the prototype the map graphic is labelled as an example and is not an atlas.
 
-Tabela zawiera wszystkich graczy, odpowiedzi, ikony i punkty. Host ma Dalej. Gracz widzi osiem sekund i pasek automatycznego przejścia. Ranking: pozycja, awatar, nick, suma, zmiana pozycji, wyraźny wiersz Ty. Wariant 4 i 12 graczy. Przy 12 własny wiersz przyklejony do dołu. Jednorazowe „ZOOM!” opisuje zmianę kolejności; bez animacji w trybie ograniczonego ruchu.
+The table lists every player, answers, icons and points. Host has Dalej. A player sees eight seconds and an auto-advance bar. Ranking: place, avatar, nick, total, place change, a clear You row. Variants for 4 and 12 players. At 12, the own row is pinned to the bottom. One-shot “ZOOM!” describes a place change; no animation in reduced motion.
 
-Proponowana punktacja: trafność gatunku 1 lub 0; waga/cena max(0,1−|ln(odpowiedź/referencja)|/ln4); mapa exp(−d/500). Baza 800×trafność, bonus 200×trafność×pozostałyCzas/limit. Maksimum 1000, brak odpowiedzi 0. W grze bez limitu bonus 0; osobna tabela rekordów. Remis: suma dokładności, następnie suma czasów, a przy pełnej równości wspólne miejsce. Ostateczna reguła wymaga decyzji właściciela produktu.
+Proposed scoring: species accuracy 1 or 0; weight/price `max(0, 1 − |ln(answer/reference)| / ln 4)`; map `exp(−d / 500)`. Base `800 × accuracy`, bonus `200 × accuracy × remainingTime / limit`. Cap 1000, no answer 0. Untimed games: bonus 0; a separate records table. Ties: sum of accuracy, then sum of times, then a shared place if still equal. The final rule needs a product-owner decision.
 
-## 6. Koniec gry
+## 6. End of game
 
-Podium 1–2–3 z koroną, komiksowymi gwiazdami i maskotką. Wariant zwycięzcy i niższego miejsca. Pełny ranking rozwijany. Statystyki: najlepsza runda, średni błąd liczbowy, seria gatunków, najszybsza odpowiedź, najtrudniejsza ryba. Niedostępne statystyki w produkcji mają „Nie dotyczy”, np. brak pytań o wagę w danej grze.
+Podium 1–2–3 with a crown, comic stars and the mascot. Winner variant and lower-place variant. Full ranking is expandable. Stats: best round, mean numeric error, species streak, fastest answer, hardest fish. Unavailable stats in production show “Nie dotyczy”, e.g. no weight questions in that game.
 
-Podgląd okładki wyniku i eksport PNG 1080×1080. Zagraj ponownie zachowuje pulę; zmiana puli wraca do lobby. Wyjście wraca na początek. Przegląd gry: fotografie, nazwy, odpowiedź vs prawda, wynik i ciekawostka, filtry Wszystkie/Trafione/Pudła oraz zapis do nauki. Obecne końcowe rankingi, statystyki i lista pięciu rund to jawnie oznaczone kompozycje demonstracyjne.
+Result-card preview and PNG export 1080×1080. Play again keeps the pool; changing pool returns to the lobby. Exit returns to the start. Game review: photos, names, answer vs truth, score and trivia, filters All / Hits / Misses, and save-for-study. Current end rankings, stats and the five-round list are explicitly labelled demo compositions.
 
-## 7. Solo i ustawienia
+## 7. Solo and settings
 
-Solo: konfiguracja jak lobby plus opcja bez limitu. Brak miejsca w rankingu multiplayer, widoczny postęp rund. Wynik zapisuje się lokalnie, Top 5 według puli; w implementacji rozdzielić tryb czasowy/bez limitu i liczbę rund. Brak dostępu do pamięci nie blokuje gry, lecz powinien pokazać informację o niezapisaniu.
+Solo: same setup as the lobby plus an untimed option. No multiplayer rank, round progress is visible. Score is stored locally, Top 5 per pool; in implementation split timed/untimed and round count. Missing storage must not block play, but should tell the player the score was not saved.
 
-Ustawienia: Dzień/Noc/auto, głośność efektów, muzyka, wibracje, PL/EN, zmniejszone animacje, edycja nicku i awatara. W prototypie polski jest kompletnym językiem, EN i audio są oznaczonymi miejscami do wdrożenia. Odrębne plansze 404 i pełnych atrybucji. Stopka wyjaśnia przybliżony charakter wagi i ceny.
+Settings: Day/Night/auto, SFX volume, music, vibration, PL/EN, reduced motion, nick and avatar edit. In the prototype Polish is complete; EN and audio are labelled placeholders. Separate 404 and full-credits screens. Footer explains that weight and price are approximate.
 
-## 8. Dostępność i zachowanie
+## 8. Accessibility and behaviour
 
-Przycisk główny ≥52 px; akcja dotykowa ≥44 px. Focus 4 px, odstęp 4 px; nocny focus w żółci z granatowym separującym pierścieniem. Dialog utrzymuje focus i obsługuje Escape, po zamknięciu przywraca focus. Form controls mają etykiety. Wybory mają aria-pressed; aktywny krok instrukcji ma aria-current. Informacje o wyborze, wyniku i statusie zawierają tekst/ikony. Toasty mają role=status. Timer nie ogłasza każdej sekundy czytnikowi.
+Primary button ≥52 px; touch target ≥44 px. Focus 4 px, offset 4 px; night focus is yellow with a navy separating ring. Dialogs trap focus and handle Escape, then restore focus. Form controls have labels. Choices use `aria-pressed`; the active how-to step uses `aria-current`. Choice, result and status information include text/icons. Toasts use `role=status`. The timer does not announce every second to a screen reader.
 
-Ruch: maksymalnie jedno wsunięcie panelu na przejście, bez migotania. Systemowe prefers-reduced-motion i przełącznik produktu wyłączają efekty. Fotografii nie wolno filtrować, przyciemniać nocą, kadrować tak, by ukryć cechy rozpoznawcze, ani zasłaniać maskotką, napisem, znacznikiem czy dymkiem. Panel zachowuje 4:3; obraz wewnątrz contain.
+Motion: at most one panel slide per transition, no flicker. System `prefers-reduced-motion` and the in-app switch turn effects off. Photographs must not be filtered, dimmed at night, cropped so that ID features disappear, or covered by the mascot, a caption, a marker or a bubble. The panel stays 4:3; the image inside uses `contain`.
 
-## 9. Granica projektu i backendu
+## 9. Product vs backend boundary
 
-Do implementacji produkcyjnej: pokoje i sesje, autoryzacja hosta, limit 12, broadcast pytań/deadline, serwerowe punktowanie, reconnect, heartbeat, migracja hosta, katalog pytań z redakcją referencji, licencje zasobów, limity prób kodów i moderacja nicków. Nie ufaj roli hosta ani punktom z klienta. Nie publikuj prawdy przed końcem rundy. Dane logowane bez tokenów zaproszeń i identyfikatorów prywatnych. Prototyp nie otwiera połączeń sieciowych i nie implementuje tych usług.
+For production: rooms and sessions, host authorisation, cap 12, broadcast of questions/deadline, server-side scoring, reconnect, heartbeat, host migration, question catalogue with edited references, asset licences, join-code rate limits and nick moderation. Do not trust host role or points from the client. Do not publish truth before the round ends. Logged data must omit invite tokens and private identifiers. The prototype opens no network connections and does not implement these services.

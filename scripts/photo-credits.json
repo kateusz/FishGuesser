@@ -658,5 +658,25 @@
   "atlantic-wolffish": {
     "author": "nieznany autor",
     "license": "domena publiczna"
+  },
+  "atlantic-catfish": {
+    "author": "Samuel F. Hildebrand",
+    "license": "domena publiczna"
+  },
+  "european-anchovy": {
+    "author": "Roger469",
+    "license": "CC BY-SA 3.0"
+  },
+  "european-pilchard": {
+    "author": "Friedrich Haag",
+    "license": "CC BY-SA 4.0"
+  },
+  "allis-shad": {
+    "author": "Maria Candamil\n\nTranslations by Theklan",
+    "license": "CC BY-SA 4.0"
+  },
+  "blonde-ray": {
+    "author": "Николай Максимович",
+    "license": "CC BY 3.0"
   }
 }
