@@ -10,7 +10,7 @@ export function roundPoints(accuracy: number, responseMs: number, limitMs: numbe
   return Math.min(1000, Math.max(0, Math.round(800 * accuracy + bonus)));
 }
 
-export const WEIGHT_KG_MIN = 0.001;
+export const WEIGHT_KG_MIN = 0.05;
 export const WEIGHT_KG_MAX = 100;
 
 export function weightKgFromSlider(value: number, min = WEIGHT_KG_MIN, max = WEIGHT_KG_MAX): number {

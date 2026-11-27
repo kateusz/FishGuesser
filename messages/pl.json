@@ -104,7 +104,7 @@
     "photoAlt": "Fotografia ryby do rozpoznania",
     "weight": "Waga w kilogramach",
     "weightSlider": "Suwak wagi",
-    "weightRange": "Waga musi być od 0,001 do 100 kg.",
+    "weightRange": "Waga musi być od 0,05 do 100 kg.",
     "price": "Cena za kilogram",
     "answered": "Odpowiedziało {done}/{total}",
     "locked": "Odpowiedź zapisana",

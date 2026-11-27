@@ -24,9 +24,9 @@ const REQUIRED: (keyof Fish)[] = [
 ];
 
 describe("katalog ryb", () => {
-  test("ma 200 gatunków z kompletem pól", () => {
-    expect(catalog.length).toBe(200);
-    expect(FISH.length).toBe(200);
+  test("ma 205 gatunków z kompletem pól", () => {
+    expect(catalog.length).toBe(205);
+    expect(FISH.length).toBe(205);
     const ids = new Set<string>();
     const latin = new Set<string>();
     for (const fish of FISH) {
@@ -47,7 +47,7 @@ describe("katalog ryb", () => {
   });
 
   test("pule PL/EU są spójne", () => {
-    expect(fishInPool("EU").length).toBe(200);
+    expect(fishInPool("EU").length).toBe(205);
     expect(fishInPool("PL").length).toBeGreaterThanOrEqual(50);
     expect(fishInPool("EU_MINUS_PL").length).toBeGreaterThanOrEqual(20);
     const bream = FISH.find((fish) => fish.id === "bream");

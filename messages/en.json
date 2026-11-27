@@ -104,7 +104,7 @@
     "photoAlt": "Photograph of a fish to identify",
     "weight": "Weight in kilograms",
     "weightSlider": "Weight slider",
-    "weightRange": "Weight must be from 0.001 to 100 kg.",
+    "weightRange": "Weight must be from 0.05 to 100 kg.",
     "price": "Price per kilogram",
     "answered": "Answered {done}/{total}",
     "locked": "Answer saved",
