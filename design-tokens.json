@@ -1,0 +1,20 @@
+{
+  "$description": "FishGuesser UI/UX v1.0 — wartości w pikselach, kolory sRGB",
+  "color": {
+    "ink": "#111111", "navy": "#0B1F3A", "teal": "#14B8C4", "coral": "#FF6B5B", "yellow": "#FFD23F", "paper": "#FFF4DC", "success": "#2FBF71", "error": "#E5484D", "errorText": "#A10D1E",
+    "day": {"background": "#FFF4DC", "surface": "#FFFAF0", "text": "#111111", "muted": "#514B40", "focus": "#075D91"},
+    "night": {"background": "#0B1F3A", "surface": "#163858", "text": "#FFF4DC", "muted": "#D3DDDF", "focus": "#FFD23F"},
+    "onAccent": "#111111"
+  },
+  "font": {"display": "Bangers", "comic": "Comic Neue", "body": "Nunito", "fallback": "Arial, sans-serif", "bodySize": [14,16], "comicSize": [16,18,20,22], "displaySize": [32,40,48,60,72,99,105], "attributionSize": 10, "numericVariant": "tabular-nums"},
+  "spacing": [4,8,12,16,20,24,32,48,64],
+  "border": {"default": 3, "photo": 4, "modal": 4, "chip": 2, "color": "#111111"},
+  "radius": {"button": 6, "card": 7, "photo": 6, "modal": 8, "bubble": 14, "avatar": "50%"},
+  "shadow": {"default": {"x": 5, "y": 5, "blur": 0, "spread": 0, "color": "#111111"}, "small": {"x": 3, "y": 3, "blur": 0, "spread": 0, "color": "#111111"}, "pressed": {"x": 0, "y": 0, "blur": 0, "color": "#111111"}},
+  "grid": {"mobile": {"width":390,"height":844,"columns":4,"margin":20,"gutter":12},"desktop":{"width":1440,"height":900,"columns":12,"margin":60,"gutter":24,"maxContentWidth":1200}},
+  "interaction": {"buttonMinHeight":52,"touchTargetMin":44,"focusWidth":4,"focusOffset":4,"pressTranslate":{"x":5,"y":5},"motionDurationMs":250,"maxMotionDurationMs":300,"reducedMotion":"disable panel movement, pulse, confetti and vibration"},
+  "photo": {"panelAspectRatio":"4:3","fit":"contain","filter":"none","opacity":1,"overlay":false,"attributionRequired":true},
+  "input": {"nicknameMin":3,"nicknameMax":16,"roomCodeLength":5,"roomCodePattern":"^[A-Z]{5}$","weightKgMin":0.001,"weightKgMax":100,"weightScale":"logarithmic","pricePLNMin":5,"pricePLNMax":200},
+  "game": {"playersMin":2,"playersMax":12,"rounds":[5,10,15],"seconds":[15,30,45,60],"timerWarningAtSeconds":5,"pointsMax":1000,"nextRoundCountdownSeconds":8},
+  "variants": {"button":["default","hover","pressed","disabled","loading"],"answer":["default","selected","correct","wrong","locked"],"bubble":["speech","thought","shout"],"mascot":["welcome","think","surprised","celebrate","sad","wink"]}
+}

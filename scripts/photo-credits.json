@@ -1,0 +1,662 @@
+{
+  "zander": {
+    "author": "Goode, G. Brown",
+    "license": "domena publiczna"
+  },
+  "roach": {
+    "author": "Veen, Rochus van (1630/50-1693)",
+    "license": "CC BY 4.0"
+  },
+  "tench": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "gibel-carp": {
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0"
+  },
+  "european-eel": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "ide": {
+    "author": "nieznany autor",
+    "license": "OGL 3"
+  },
+  "dace": {
+    "author": "Couch, Jonathan; Lydon, A. F.",
+    "license": "domena publiczna"
+  },
+  "vimba": {
+    "author": "nieznany autor",
+    "license": "OGL 3"
+  },
+  "rudd": {
+    "author": "Gldnjsyektlhliekr",
+    "license": "CC0"
+  },
+  "white-bream": {
+    "author": "Couch, Jonathan; Lydon, A. F.",
+    "license": "domena publiczna"
+  },
+  "grayling": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "whitefish": {
+    "author": "V-7",
+    "license": "CC BY-SA 4.0"
+  },
+  "vendace": {
+    "author": "Apple2000",
+    "license": "CC BY 3.0"
+  },
+  "rainbow-trout": {
+    "author": "Meine Mutter (Erlaubnis liegt vor)",
+    "license": "CC BY-SA 4.0"
+  },
+  "huchen": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "sturgeon-russian": {
+    "author": "Vasyliuk Oleksij",
+    "license": "CC BY 4.0"
+  },
+  "starlet": {
+    "author": "United States Fish Commission",
+    "license": "domena publiczna"
+  },
+  "wels-head": {
+    "author": "BishopNana",
+    "license": "CC BY 4.0"
+  },
+  "pumpkinseed": {
+    "author": "U.S. Fish and Wildlife Service",
+    "license": "domena publiczna"
+  },
+  "ruffe": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "pope": {
+    "author": "nieznany autor",
+    "license": "OGL 3"
+  },
+  "stickleback": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "ninespine": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "weatherfish": {
+    "author": "Jacob van Maerlant",
+    "license": "domena publiczna"
+  },
+  "spined-loach": {
+    "author": "Julien Renoult",
+    "license": "CC BY 4.0"
+  },
+  "wels": {
+    "author": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0"
+  },
+  "crucian": {
+    "author": "User:Viridiflavus",
+    "license": "CC BY-SA 3.0"
+  },
+  "burbot": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "sterlet": {
+    "author": "Heppe, Johann Christoph.",
+    "license": "domena publiczna"
+  },
+  "nase": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "vimba-bream": {
+    "author": "nieznany autor",
+    "license": "Attribution"
+  },
+  "zope": {
+    "author": "Pallas",
+    "license": "domena publiczna"
+  },
+  "silver-carp": {
+    "author": "nieznany autor",
+    "license": "CC BY-SA 3.0"
+  },
+  "sunbleak": {
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0"
+  },
+  "sichel": {
+    "author": "-serwacy01-",
+    "license": "CC BY-SA 4.0"
+  },
+  "zander-volga": {
+    "author": "Администрация Волгоградской области",
+    "license": "CC BY-SA 3.0"
+  },
+  "whitefin": {
+    "author": "Viridiflavus",
+    "license": "CC BY-SA 3.0"
+  },
+  "sprat": {
+    "author": "DealMuseum",
+    "license": "CC BY 4.0"
+  },
+  "cod-baltic": {
+    "author": "Patrick Gijsbers",
+    "license": "CC BY-SA 4.0"
+  },
+  "flounder": {
+    "author": "Peter van der Sluijs",
+    "license": "CC BY-SA 4.0"
+  },
+  "plaice": {
+    "author": "Olivier Dugornay (IFREMER, Pôle Images, Centre Bretagne - ZI de la Pointe du Diable - CS 10070 - 29280 Plouzané, France)",
+    "license": "CC BY 4.0"
+  },
+  "turbot": {
+    "author": "Bloch, Marcus Elieser",
+    "license": "domena publiczna"
+  },
+  "sole": {
+    "author": "Luisa Metral (IFREMER, Laboratoire Halieutique Mediterranee, Station de Sète, 34203 Sète Cedex, France)",
+    "license": "CC BY 4.0"
+  },
+  "whiting": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "pollock": {
+    "author": "Pacopac",
+    "license": "CC BY-SA 4.0"
+  },
+  "saithe": {
+    "author": "Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Darchow, C.; Gursch, C. F.; Krüger; Schmidt, A. F.; Schmidt, F. G.; ",
+    "license": "domena publiczna"
+  },
+  "tusk": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "ling": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "rockling": {
+    "author": "Jonathan Couch",
+    "license": "domena publiczna"
+  },
+  "sand-goby": {
+    "author": "Pedroso S, Barber I, Svensson O, Fonseca P, Amorim M",
+    "license": "CC BY 2.0"
+  },
+  "smelt": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "seabass": {
+    "author": "Lamiot",
+    "license": "CC BY-SA 4.0"
+  },
+  "white-seabream": {
+    "author": "Júlio Reis",
+    "license": "CC BY 2.0"
+  },
+  "two-banded-bream": {
+    "author": "Anders Finn Jørgensen from Copenhagen, Denmark",
+    "license": "CC BY-SA 2.0"
+  },
+  "red-porgy": {
+    "author": "Xemenendura",
+    "license": "CC BY-SA 4.0"
+  },
+  "salema": {
+    "author": "Holger Krisp",
+    "license": "CC BY 3.0"
+  },
+  "white-seabream-oblada": {
+    "author": "Alberto Romeoalbertoromeo@neomedia.ithttp://www.romeofotosub.it",
+    "license": "CC BY 3.0"
+  },
+  "striped-bream": {
+    "author": "Juliyocrooz",
+    "license": "CC BY-SA 4.0"
+  },
+  "red-mullet": {
+    "author": "Buffon, Georges Louis Leclerc; Cuvier, Georges; Valenciennes",
+    "license": "domena publiczna"
+  },
+  "striped-red-mullet": {
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0"
+  },
+  "thicklip-grey": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "med-horse-mack": {
+    "author": "Lidonchik",
+    "license": "CC BY 4.0"
+  },
+  "little-tunny": {
+    "author": "Internet Archive Book Images",
+    "license": "No restrictions"
+  },
+  "swordfish": {
+    "author": "Abraham Ortelius",
+    "license": "domena publiczna"
+  },
+  "pouting": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "norway-pout-esmark": {
+    "author": "nieznany autor",
+    "license": "OGL 3"
+  },
+  "silver-pout": {
+    "author": "Società italiana di scienze naturali",
+    "license": "domena publiczna"
+  },
+  "megrina": {
+    "author": "Thomas Pennant",
+    "license": "domena publiczna"
+  },
+  "megrim": {
+    "author": "Isabelle Cheret",
+    "license": "CC BY 4.0"
+  },
+  "variegated-sol": {
+    "author": "Societtaliana di scienze naturali",
+    "license": "domena publiczna"
+  },
+  "scaldfish": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "topknot": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "monkfish": {
+    "author": "Museu Nacional (Brazil)",
+    "license": "domena publiczna"
+  },
+  "twaite-shad": {
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0"
+  },
+  "thornback-ray": {
+    "author": "Vertebrate Zoology Curator",
+    "license": "CC0"
+  },
+  "spotted-ray": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "nursehound": {
+    "author": "Jürgen Pollerspöck",
+    "license": "CC BY-SA 4.0"
+  },
+  "smooth-hound": {
+    "author": "Nilfanion",
+    "license": "CC BY-SA 4.0"
+  },
+  "spiny-dogfish": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "shorthorn-sculpin": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "long-spined-bull": {
+    "author": "Couch, Jonathan; Lydon, A. F.",
+    "license": "domena publiczna"
+  },
+  "viviparous-eelpout": {
+    "author": "Yuriy Kvach",
+    "license": "CC BY-SA 3.0"
+  },
+  "lesser-sandeel": {
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0"
+  },
+  "red-scorpionfish": {
+    "author": "Friedrich Haag",
+    "license": "CC BY-SA 4.0"
+  },
+  "pearly-razorfish": {
+    "author": "Hectonichus",
+    "license": "CC BY-SA 3.0"
+  },
+  "peacock-wrasse": {
+    "author": "Berger, Daniel; Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Bodenehr, George; Buchhandlung der Realschule; Darch",
+    "license": "domena publiczna"
+  },
+  "rainbow-wrasse": {
+    "author": "Jérémie Pierron",
+    "license": "CC BY 2.0"
+  },
+  "ornate-wrasse": {
+    "author": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under the licenses stated below. You are free ",
+    "license": "CC BY-SA 3.0"
+  },
+  "picarel": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "blotched-picarel": {
+    "author": "riblje-oko.hr",
+    "license": "CC BY-SA 3.0"
+  },
+  "tacksan": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "spottail-seabream": {
+    "author": "Isabelle Cheret",
+    "license": "CC BY 4.0"
+  },
+  "meagre": {
+    "author": "w:User:Attilios",
+    "license": "domena publiczna"
+  },
+  "pilot-fish": {
+    "author": "No machine-readable author provided. Peterkoelbl assumed (based on copyright claims).",
+    "license": "CC BY-SA 2.0"
+  },
+  "pompano": {
+    "author": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "license": "domena publiczna"
+  },
+  "sand-steamer": {
+    "author": "Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Darchow, C.; Gursch, C. F.; Krüger; Schmidt, A. F.; Schmidt, F. G.; ",
+    "license": "domena publiczna"
+  },
+  "lesser-weever": {
+    "author": "Andrey Butko",
+    "license": "CC BY-SA 4.0"
+  },
+  "tadpole-cod": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "norway-capelan": {
+    "author": "Isabelle Cheret",
+    "license": "CC BY 4.0"
+  },
+  "polar-cod": {
+    "author": "Daniel M. Cohen, Tadashi lnada, Tomio lwamoto, Nadia Scialabba",
+    "license": "CC0"
+  },
+  "navaga": {
+    "author": "nieznany autor",
+    "license": "OGL 3"
+  },
+  "sand-smelt": {
+    "author": "Yuriy Kvach",
+    "license": "CC BY-SA 3.0"
+  },
+  "sand-smelt-baltic": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "seahorse-long": {
+    "author": "Fernando Losada Rodríguez",
+    "license": "CC BY-SA 4.0"
+  },
+  "seahorse-short": {
+    "author": "Vassil",
+    "license": "CC0"
+  },
+  "snake-pipefish": {
+    "author": "Bj.schoenmakers",
+    "license": "CC BY 4.0"
+  },
+  "shanny": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "redmouth-goby": {
+    "author": "Olivier Dugornay (Ifremer)",
+    "license": "CC BY 4.0"
+  },
+  "tompot-blenny": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "peacock-blenny": {
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+  },
+  "orange-roughy": {
+    "author": "DTIS NIWA/ Seamount voyage.",
+    "license": "CC BY 4.0"
+  },
+  "pike": {
+    "author": "0x010C",
+    "license": "CC BY-SA 3.0"
+  },
+  "perch": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "cod": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "bream": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "salmon": {
+    "author": "DataBase Center for Life Science (DBCLS)",
+    "license": "CC BY 4.0"
+  },
+  "abramis-brama": {
+    "author": "Piet Spaans",
+    "license": "CC BY 2.0"
+  },
+  "common-carp": {
+    "author": "Bernard Spragg. NZ",
+    "license": "CC0"
+  },
+  "chub": {
+    "author": "Jonathan Jaillet",
+    "license": "CC BY-SA 3.0"
+  },
+  "bleak": {
+    "author": "Peter van der Sluijs",
+    "license": "CC BY-SA 3.0"
+  },
+  "asp": {
+    "author": "Jenny Glans",
+    "license": "CC BY-SA 3.0"
+  },
+  "bullhead": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "brown-trout": {
+    "author": "Fotograf: Christian Maier/saibling",
+    "license": "domena publiczna"
+  },
+  "brook-trout": {
+    "author": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "license": "domena publiczna"
+  },
+  "arctic-char": {
+    "author": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "license": "domena publiczna"
+  },
+  "bluegill": {
+    "author": "Dugmore, A. Radclyffe; Evermann, Barton Warren; Jordan, David Starr",
+    "license": "domena publiczna"
+  },
+  "bitterling": {
+    "author": "Piet Spaans",
+    "license": "domena publiczna"
+  },
+  "barbel": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "grass-carp": {
+    "author": "Sunuwargr",
+    "license": "CC BY-SA 4.0"
+  },
+  "bighead-carp": {
+    "author": "Judgefloro",
+    "license": "domena publiczna"
+  },
+  "european-minnow": {
+    "author": "Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Darchow, C.; Gursch, C. F.; Krüger; Schmidt, A. F.; Schmidt, F. G.; ",
+    "license": "domena publiczna"
+  },
+  "sneep": {
+    "author": "own work",
+    "license": "domena publiczna"
+  },
+  "herring": {
+    "author": "Gervais et Boulart, 1877",
+    "license": "domena publiczna"
+  },
+  "dab": {
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0"
+  },
+  "brill": {
+    "author": "Gd vibes",
+    "license": "CC BY-SA 4.0"
+  },
+  "angler": {
+    "author": "Randel Kreitsberg",
+    "license": "CC BY 4.0"
+  },
+  "hake": {
+    "author": "Bloch, Marcus Elieser",
+    "license": "domena publiczna"
+  },
+  "haddock": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "blue-whiting": {
+    "author": "Mikko Heino",
+    "license": "CC BY-SA 3.0"
+  },
+  "round-goby": {
+    "author": "Peter van der Sluijs",
+    "license": "CC BY-SA 3.0"
+  },
+  "common-pandora": {
+    "author": "Berger, Daniel; Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Bodenehr, George; Buchhandlung der Realschule; Darch",
+    "license": "domena publiczna"
+  },
+  "black-spot-bream": {
+    "author": "Isabelle Cheret, Luisa Metral, null",
+    "license": "CC BY 4.0"
+  },
+  "annular-bream": {
+    "author": "Nachosan",
+    "license": "CC BY-SA 3.0"
+  },
+  "common-dentex": {
+    "author": "Vincent van Zeijst",
+    "license": "CC BY-SA 3.0"
+  },
+  "bogue": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "flathead-grey": {
+    "author": "Garrett Ziegler",
+    "license": "CC BY-SA 4.0"
+  },
+  "golden-grey": {
+    "author": "Tylwyth Eldar",
+    "license": "CC BY-SA 4.0"
+  },
+  "leaping-grey": {
+    "author": "Hellenicmemes24",
+    "license": "CC BY 4.0"
+  },
+  "atlantic-mackerel": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "chub-mackerel": {
+    "author": "Edgar Ravenswood Waite",
+    "license": "domena publiczna"
+  },
+  "atlantic-chub": {
+    "author": "Kare Kare",
+    "license": "CC BY-SA 3.0"
+  },
+  "atlantic-bonito": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "bluefin-tuna": {
+    "author": "Rafa Gallut",
+    "license": "CC BY-SA 3.0"
+  },
+  "albacore": {
+    "author": "Mr. Cormish",
+    "license": "CC BY 2.0"
+  },
+  "european-barracuda": {
+    "author": "Derek Keats from Johannesburg, South Africa",
+    "license": "CC BY 2.0"
+  },
+  "garfish": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  },
+  "john-dory": {
+    "author": "Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Darchow, C.; Gursch, C. F.; Krüger; Schmidt, A. F.; Schmidt, F. G.; ",
+    "license": "domena publiczna"
+  },
+  "capelin": {
+    "author": "Ryan Hodnett",
+    "license": "CC BY-SA 4.0"
+  },
+  "forkbeard": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "greater-forkbeard": {
+    "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
+    "license": "domena publiczna"
+  },
+  "european-conger": {
+    "author": "vtzanatos",
+    "license": "CC BY-SA 4.0"
+  },
+  "redfish": {
+    "author": "Robert Hamilton",
+    "license": "domena publiczna"
+  },
+  "deepwater-redfish": {
+    "author": "Deutsche Bundespost scanned by McZack",
+    "license": "domena publiczna"
+  },
+  "blackbelly-rosefish": {
+    "author": "NOAA Photo Library",
+    "license": "domena publiczna"
+  },
+  "atlantic-wolffish": {
+    "author": "nieznany autor",
+    "license": "domena publiczna"
+  }
+}

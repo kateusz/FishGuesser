@@ -1,0 +1,29 @@
+{
+  "name": "fishguesser",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "catalog:seeds": "python scripts/generate-fish-seeds.py",
+    "catalog:photos": "python scripts/finish-photos.py",
+    "catalog:build": "python scripts/finish-photos.py && python scripts/materialize-catalog.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "next": "16.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.11",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}

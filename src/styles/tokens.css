@@ -1,0 +1,25 @@
+:root {
+  --fg-ink: #111111;
+  --fg-navy: #0b1f3a;
+  --fg-teal: #14b8c4;
+  --fg-coral: #ff6b5b;
+  --fg-yellow: #ffd23f;
+  --fg-paper: #fff4dc;
+  --fg-success: #2fbf71;
+  --fg-error: #e5484d;
+  --fg-error-text: #a10d1e;
+  --fg-on-accent: #111111;
+  --fg-day-bg: #fff4dc;
+  --fg-day-surface: #fffaf0;
+  --fg-day-muted: #514b40;
+  --fg-day-focus: #075d91;
+  --fg-night-bg: #0b1f3a;
+  --fg-night-surface: #163858;
+  --fg-night-text: #fff4dc;
+  --fg-night-muted: #d3dddf;
+  --fg-night-focus: #ffd23f;
+  --fg-border: 3px;
+  --fg-shadow: 5px 5px 0 0 var(--fg-ink);
+  --fg-radius-button: 6px;
+  --fg-btn-min-height: 52px;
+}
