@@ -62,11 +62,13 @@
     "seconds": "{n} s"
   },
   "profile": {
+    "tag": "NAJPIERW POZNAJMY KAPITANA",
     "title": "JAK CIĘ WOŁAĆ?",
     "nick": "Nick",
     "nickLength": "Nick musi mieć od 3 do 16 znaków.",
     "saveFailed": "Nie udało się zapisać profilu.",
-    "random": "Losuj",
+    "avatarTitle": "WYBIERZ SWOJĄ RYBKĘ",
+    "captainMessage": "Dobra ksywka, dobra rybka. Możemy ruszać!",
     "next": "Dalej"
   },
   "join": {
@@ -77,6 +79,15 @@
     "letter": "Litera {n} kodu pokoju",
     "submit": "Dołącz"
   },
+  "invite": {
+    "tag": "ZAPROSZENIE DO GRY",
+    "title": "EKIPA JUŻ CZEKA!",
+    "message": "{nick} zaprasza Cię do wspólnego łowienia punktów!",
+    "room": "POKÓJ",
+    "details": "{players}/{max} graczy · {pool} · {mode}",
+    "link": "Zaproszenie:",
+    "submit": "Dołącz do pokoju"
+  },
   "solo": {
     "title": "GRAJ SOLO",
     "untimed": "Bez limitu czasu",
@@ -84,8 +95,37 @@
   },
   "lobby": {
     "needPlayer": "Potrzeba drugiego gracza, żeby zacząć.",
+    "ready": "Wszyscy na pokładzie? Zaczynamy łowić punkty!",
     "waiting": "Czekasz na hosta.",
-    "leave": "Opuść pokój"
+    "leave": "Opuść pokój",
+    "roomCode": "KOD TWOJEGO POKOJU",
+    "copyCode": "Kopiuj kod",
+    "link": "Link",
+    "codeCopied": "Kod pokoju skopiowany.",
+    "linkCopied": "Link do pokoju skopiowany.",
+    "copyFailed": "Nie udało się skopiować.",
+    "crew": "EKIPA NA POKŁADZIE",
+    "you": "Ty",
+    "online": "Online",
+    "hostTag": "TY JESTEŚ HOSTEM",
+    "guestTag": "TY JESTEŚ GOŚCIEM",
+    "title": "USTAWMY ROZGRYWKĘ",
+    "fishPool": "PULA RYB",
+    "poolPoland": "Rzeki, jeziora i Bałtyk",
+    "poolEurope": "Od Bałtyku po Morze Śródziemne",
+    "poolEuropeWithoutPoland": "Gatunki spoza polskich wód",
+    "fishCount": "{n} ryb demo",
+    "questionModes": "TRYBY PYTAŃ",
+    "roundCount": "LICZBA RUND",
+    "roundTime": "CZAS RUNDY",
+    "difficulty": "TRUDNOŚĆ",
+    "difficulties": {
+      "easy": "Łatwy",
+      "medium": "Średni",
+      "hard": "Trudny",
+      "mix": "Miks"
+    },
+    "startGame": "Start gry"
   },
   "room": {
     "connecting": "Łączenie…",
@@ -101,6 +141,13 @@
     "tick": "TIK-TAK, zostało {n} sekund",
     "left": "Pozostało {n} sekund",
     "countdown": "Uwaga na zdjęcie",
+    "countdownMessage": "Oczy szeroko otwarte, płetwy na przyciski!",
+    "countdownModes": {
+      "species": "ZGADNIJ GATUNEK",
+      "weight": "ZGADNIJ WAGĘ",
+      "price": "ZGADNIJ CENĘ",
+      "mix": "ZGADNIJ RYBĘ"
+    },
     "photoAlt": "Fotografia ryby do rozpoznania",
     "weight": "Waga w kilogramach",
     "weightSlider": "Suwak wagi",
@@ -108,13 +155,46 @@
     "price": "Cena za kilogram",
     "answered": "Odpowiedziało {done}/{total}",
     "locked": "Odpowiedź zapisana",
+    "waiting": "Odpowiedź zapisana! Czekam na pozostałych ({done}/{total}).",
+    "yourAnswer": "Twoja odpowiedź:",
     "submit": "Zatwierdź"
   },
   "results": {
+    "hostNext": "Host przechodzi dalej",
+    "roundLabel": "Wynik rundy {current}/{total}",
+    "hit": "TRAFIONY!",
+    "miss": "PUDŁO!",
+    "result": "WYNIK",
+    "close": "BLISKO!",
+    "points": "PKT",
+    "correctAnswer": "POPRAWNA ODPOWIEDŹ",
+    "weightReference": "MASA REFERENCYJNA",
+    "weightComparison": "Porównanie Twojej odpowiedzi z masą referencyjną",
+    "yourWeight": "Twoja odpowiedź",
+    "priceReference": "CENA REFERENCYJNA",
+    "priceComparison": "Porównanie Twojej odpowiedzi z ceną referencyjną",
+    "yourPrice": "Twoja odpowiedź",
+    "difference": "Różnica",
+    "player": "Gracz",
+    "answer": "Odpowiedź",
+    "noAnswer": "Brak odpowiedzi",
+    "answered": "Odpowiedź zapisana",
+    "next": "Dalej · zobacz ranking"
+  },
+  "ranking": {
+    "roundLabel": "Po rundzie {current}/{total}",
+    "title": "KTO TU JEST GRUBĄ RYBĄ?",
+    "you": "Ty",
+    "points": "pkt",
+    "next": "Następna runda",
+    "finish": "Zobacz wyniki końcowe",
     "hostNext": "Host przechodzi dalej"
   },
   "finished": {
     "title": "KONIEC",
+    "podium": "Podium zwycięzców",
+    "ranking": "Końcowy ranking",
+    "playerScore": "{score} pkt",
     "numeric": "Błąd liczbowy: {value}",
     "notApplicable": "Nie dotyczy",
     "top": "TOP 5",

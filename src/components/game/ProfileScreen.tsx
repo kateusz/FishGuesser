@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
-import { FishArt } from "@/components/mascot/Captain";
+import { Captain, FishArt } from "@/components/mascot/Captain";
 import { api } from "@/lib/api";
 import { messagesFor } from "@/lib/messages";
 
@@ -51,7 +51,8 @@ export function ProfileScreen({ locale }: { locale: string }) {
   }
 
   return (
-    <div className="narrow-content stack">
+    <div className="narrow-content stack profile-screen">
+      <span className="tag profile-tag">{copy.tag}</span>
       <h1 className="display title">{copy.title}</h1>
       <label className="field-label" htmlFor="nick">
         {copy.nick}
@@ -72,6 +73,7 @@ export function ProfileScreen({ locale }: { locale: string }) {
           {error}
         </p>
       ) : null}
+      <h2 className="display profile-avatar-title">{copy.avatarTitle}</h2>
       <div className="avatar-grid">
         {AVATARS.map((id, index) => (
           <button
@@ -87,13 +89,10 @@ export function ProfileScreen({ locale }: { locale: string }) {
           </button>
         ))}
       </div>
-      <button
-        type="button"
-        className="btn"
-        onClick={() => setAvatarId(AVATARS[Math.floor(Math.random() * AVATARS.length)] ?? "avatar-01")}
-      >
-        {copy.random}
-      </button>
+      <div className="mascot-line profile-captain">
+        <Captain />
+        <p className="bubble">{copy.captainMessage}</p>
+      </div>
       <button type="button" className="btn primary block" onClick={() => void submit()}>
         {copy.next}
       </button>

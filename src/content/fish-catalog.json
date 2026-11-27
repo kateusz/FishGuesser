@@ -2,7 +2,6 @@
   {
     "id": "pike",
     "namePl": "Szczupak pospolity",
-    "nameLatin": "Esox lucius",
     "pools": [
       "PL",
       "EU"
@@ -15,7 +14,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płetwa grzbietowa szczupaka leży blisko ogona.",
+    "funFact": "Szczupak pospolity — płetwa grzbietowa szczupaka leży blisko ogona, przy czym duża ryba drapieżna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "pike.jpg"
@@ -23,7 +22,6 @@
   {
     "id": "perch",
     "namePl": "Okoń europejski",
-    "nameLatin": "Perca fluviatilis",
     "pools": [
       "PL",
       "EU"
@@ -44,7 +42,6 @@
   {
     "id": "cod",
     "namePl": "Dorsz atlantycki",
-    "nameLatin": "Gadus morhua",
     "pools": [
       "PL",
       "EU"
@@ -65,7 +62,6 @@
   {
     "id": "bream",
     "namePl": "Dorada",
-    "nameLatin": "Sparus aurata",
     "pools": [
       "EU"
     ],
@@ -77,7 +73,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Złoty pas między oczami jest cechą dorady.",
+    "funFact": "Dorada — złoty pas między oczami jest cechą dorady, przy czym ryba około kilograma.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bream.jpg"
@@ -85,7 +81,6 @@
   {
     "id": "salmon",
     "namePl": "Łosoś atlantycki",
-    "nameLatin": "Salmo salar",
     "pools": [
       "PL",
       "EU"
@@ -98,7 +93,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Łosoś atlantycki wędruje między rzeką a morzem.",
+    "funFact": "Łosoś atlantycki — łosoś atlantycki wędruje między rzeką a morzem, przy czym duża ryba wędrowna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "salmon.jpg"
@@ -106,7 +101,6 @@
   {
     "id": "zander",
     "namePl": "Sandacz",
-    "nameLatin": "Sander lucioperca",
     "pools": [
       "PL",
       "EU"
@@ -119,7 +113,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ma szczękę pełną ostrych zębów.",
+    "funFact": "Sandacz — ma szczękę pełną ostrych zębów, przy czym drapieżnik o wydłużonym kształcie.",
     "author": "Goode, G. Brown",
     "license": "domena publiczna",
     "photoFile": "zander.jpg"
@@ -127,7 +121,6 @@
   {
     "id": "wels",
     "namePl": "Sum europejski",
-    "nameLatin": "Silurus glanis",
     "pools": [
       "PL",
       "EU"
@@ -140,7 +133,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Sum może dorastać do ponad 2 m.",
+    "funFact": "Sum europejski — sum może dorastać do ponad 2 m, przy czym bardzo duża ryba drapieżna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "wels.jpg"
@@ -148,7 +141,6 @@
   {
     "id": "abramis-brama",
     "namePl": "Leszcz",
-    "nameLatin": "Abramis brama",
     "pools": [
       "PL",
       "EU"
@@ -161,7 +153,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Leszcz ma wysoki profil i ciemny grzbiet.",
+    "funFact": "Leszcz — leszcz ma wysoki profil i ciemny grzbiet, przy czym karłowaty kształt i wysokie ciało.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "abramis-brama.jpg"
@@ -169,7 +161,6 @@
   {
     "id": "roach",
     "namePl": "Płoć",
-    "nameLatin": "Rutilus rutilus",
     "pools": [
       "PL",
       "EU"
@@ -182,7 +173,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płetwa ogonowa ma czerwonawy brzeg.",
+    "funFact": "Płoć — płetwa ogonowa ma czerwonawy brzeg, przy czym niewielka ryba stadna.",
     "author": "Veen, Rochus van (1630/50-1693)",
     "license": "CC BY 4.0",
     "photoFile": "roach.jpg"
@@ -190,7 +181,6 @@
   {
     "id": "tench",
     "namePl": "Lin",
-    "nameLatin": "Tinca tinca",
     "pools": [
       "PL",
       "EU"
@@ -203,7 +193,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Lin ma drobne łuski w tłustej skórze.",
+    "funFact": "Lin — lin ma drobne łuski w tłustej skórze, przy czym okrągłe, śluziste ciało.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "tench.jpg"
@@ -211,7 +201,6 @@
   {
     "id": "crucian",
     "namePl": "Karaś pospolity",
-    "nameLatin": "Carassius carassius",
     "pools": [
       "PL",
       "EU"
@@ -224,7 +213,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Karaś dobrze znosi gorą i słabą tlenowość.",
+    "funFact": "Karaś pospolity — karaś dobrze znosi gorą i słabą tlenowość, przy czym masywne, wysokie ciało.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "crucian.jpg"
@@ -232,7 +221,6 @@
   {
     "id": "gibel-carp",
     "namePl": "Karaś srebrzysty",
-    "nameLatin": "Carassius gibelio",
     "pools": [
       "PL",
       "EU"
@@ -245,7 +233,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Forma aseksualna bywa dominująca w populacji.",
+    "funFact": "Karaś srebrzysty — forma aseksualna bywa dominująca w populacji, przy czym srebrzyste boki.",
     "author": "H. Zell",
     "license": "CC BY-SA 3.0",
     "photoFile": "gibel-carp.jpg"
@@ -253,7 +241,6 @@
   {
     "id": "common-carp",
     "namePl": "Karp zwykły",
-    "nameLatin": "Cyprinus carpio",
     "pools": [
       "PL",
       "EU"
@@ -266,7 +253,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Karp domowy pochodzi z formy dzikiej.",
+    "funFact": "Karp zwykły — karp domowy pochodzi z formy dzikiej, przy czym duża ryba karpiowata.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-carp.jpg"
@@ -274,7 +261,6 @@
   {
     "id": "european-eel",
     "namePl": "Węgorz europejski",
-    "nameLatin": "Anguilla anguilla",
     "pools": [
       "PL",
       "EU"
@@ -287,7 +273,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wędruje do Morza Sargassowego na tarło.",
+    "funFact": "Węgorz europejski — wędruje do Morza Sargassowego na tarło, przy czym wydłużone, wężowate ciało.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "european-eel.jpg"
@@ -295,7 +281,6 @@
   {
     "id": "chub",
     "namePl": "Jaź",
-    "nameLatin": "Squalius cephalus",
     "pools": [
       "PL",
       "EU"
@@ -308,7 +293,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jaź poluje także na powierzchni.",
+    "funFact": "Jaź — jaź poluje także na powierzchni, przy czym smukłe, srebrzyste ciało.",
     "author": "zastępcze zdjęcie (abramis-brama)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "chub.jpg"
@@ -316,7 +301,6 @@
   {
     "id": "ide",
     "namePl": "Jaź garbaty",
-    "nameLatin": "Leuciscus idus",
     "pools": [
       "PL",
       "EU"
@@ -329,15 +313,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Potrafi skubać liście przy brzegu.",
+    "funFact": "Jaź garbaty — potrafi skubać liście przy brzegu, przy czym smukła ryba rzeczna.",
     "author": "nieznany autor",
     "license": "OGL 3",
     "photoFile": "ide.jpg"
   },
   {
     "id": "dace",
-    "namePl": "Kiełb",
-    "nameLatin": "Leuciscus leuciscus",
+    "namePl": "Jelec europejski",
     "pools": [
       "PL",
       "EU"
@@ -350,7 +333,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kiełb ma srebrne boki i żółtawą płetwę.",
+    "funFact": "Jelec lubi wartki nurt i czystą wodę w rzekach.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "dace.jpg"
@@ -358,7 +341,6 @@
   {
     "id": "bleak",
     "namePl": "Ukleja",
-    "nameLatin": "Alburnus alburnus",
     "pools": [
       "PL",
       "EU"
@@ -371,7 +353,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ukleja żyje blisko powierzchni.",
+    "funFact": "Ukleja — ukleja żyje blisko powierzchni, przy czym bardzo mała, stadna ryba.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bleak.jpg"
@@ -379,7 +361,6 @@
   {
     "id": "vimba",
     "namePl": "Vimba",
-    "nameLatin": "Vimba vimba",
     "pools": [
       "PL",
       "EU"
@@ -392,7 +373,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W sezonie tarła ma żółte płetwy.",
+    "funFact": "Vimba — w sezonie tarła ma żółte płetwy, przy czym smukła ryba o srebrzystych bokach.",
     "author": "nieznany autor",
     "license": "OGL 3",
     "photoFile": "vimba.jpg"
@@ -400,7 +381,6 @@
   {
     "id": "asp",
     "namePl": "Boleń",
-    "nameLatin": "Aspius aspius",
     "pools": [
       "PL",
       "EU"
@@ -413,7 +393,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poluje na stadach drobnych ryb.",
+    "funFact": "Boleń — poluje na stadach drobnych ryb, przy czym smukły drapieżny karpiowaty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "asp.jpg"
@@ -421,7 +401,6 @@
   {
     "id": "rudd",
     "namePl": "Wzdręga",
-    "nameLatin": "Scardinius erythrophthalmus",
     "pools": [
       "PL",
       "EU"
@@ -434,7 +413,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Czerwone oko jest charakterystyczne.",
+    "funFact": "Wzdręga — czerwone oko jest charakterystyczne, przy czym płetwy mają czerwonawy odcień.",
     "author": "Gldnjsyektlhliekr",
     "license": "CC0",
     "photoFile": "rudd.jpg"
@@ -442,7 +421,6 @@
   {
     "id": "white-bream",
     "namePl": "Karaś bystry",
-    "nameLatin": "Blicca bjoerkna",
     "pools": [
       "PL",
       "EU"
@@ -455,7 +433,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ma wyraźną czarną plamę u podstawy płetwy.",
+    "funFact": "Karaś bystry — ma wyraźną czarną plamę u podstawy płetwy, przy czym mniejszy od leszcza.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "white-bream.jpg"
@@ -463,7 +441,6 @@
   {
     "id": "burbot",
     "namePl": "Miętus",
-    "nameLatin": "Lota lota",
     "pools": [
       "PL",
       "EU"
@@ -476,15 +453,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jedyny przedstawiciel dorszowatych w PL.",
+    "funFact": "Miętus — jedyny przedstawiciel dorszowatych w PL, przy czym ryba drapieżna o jednej wąsce.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "burbot.jpg"
   },
   {
     "id": "bullhead",
-    "namePl": "Głowacica",
-    "nameLatin": "Cottus gobio",
+    "namePl": "Głowacz białopłetwy",
     "pools": [
       "PL",
       "EU"
@@ -497,7 +473,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ma szeroką głowę i płetwy piersiowe.",
+    "funFact": "Głowacz białopłetwy — ma szeroką głowę i płetwy piersiowe, przy czym bardzo mała ryba przy dnie.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bullhead.jpg"
@@ -505,7 +481,6 @@
   {
     "id": "brown-trout",
     "namePl": "Pstrąg potokowy",
-    "nameLatin": "Salmo trutta fario",
     "pools": [
       "PL",
       "EU"
@@ -518,7 +493,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Forma potokowa bywa barwniejsza.",
+    "funFact": "Pstrąg potokowy — forma potokowa bywa barwniejsza, przy czym smukły łosośowiec z plamkami.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "brown-trout.jpg"
@@ -526,7 +501,6 @@
   {
     "id": "grayling",
     "namePl": "Lipień",
-    "nameLatin": "Thymallus thymallus",
     "pools": [
       "PL",
       "EU"
@@ -539,7 +513,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Lipień lubi czystą, chłodną wodę.",
+    "funFact": "Lipień — lipień lubi czystą, chłodną wodę, przy czym wysoka płetwa grzbietowa.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "grayling.jpg"
@@ -547,7 +521,6 @@
   {
     "id": "whitefish",
     "namePl": "Sielawa",
-    "nameLatin": "Coregonus albula",
     "pools": [
       "PL",
       "EU"
@@ -560,7 +533,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ma małą głowę i srebrzyste ciało.",
+    "funFact": "Sielawa — ma małą głowę i srebrzyste ciało, przy czym ryba pelagiczna jezior.",
     "author": "V-7",
     "license": "CC BY-SA 4.0",
     "photoFile": "whitefish.jpg"
@@ -568,7 +541,6 @@
   {
     "id": "vendace",
     "namePl": "Sielawa bałtycka",
-    "nameLatin": "Coregonus maraena",
     "pools": [
       "PL",
       "EU"
@@ -581,7 +553,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poławiana w delcie Wisły.",
+    "funFact": "Sielawa bałtycka — poławiana w delcie Wisły, przy czym drobna ryba morska.",
     "author": "Apple2000",
     "license": "CC BY 3.0",
     "photoFile": "vendace.jpg"
@@ -589,7 +561,6 @@
   {
     "id": "rainbow-trout",
     "namePl": "Pstrąg tęczowy",
-    "nameLatin": "Oncorhynchus mykiss",
     "pools": [
       "PL",
       "EU"
@@ -602,7 +573,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Hodowlany, szeroko zarybieniowy.",
+    "funFact": "Pstrąg tęczowy — hodowlany, szeroko zarybieniowy, przy czym ozdobna różowa smuga boku.",
     "author": "Meine Mutter (Erlaubnis liegt vor)",
     "license": "CC BY-SA 4.0",
     "photoFile": "rainbow-trout.jpg"
@@ -610,7 +581,6 @@
   {
     "id": "brook-trout",
     "namePl": "Pstrąg źródlany",
-    "nameLatin": "Salvelinus fontinalis",
     "pools": [
       "PL",
       "EU"
@@ -623,7 +593,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Białe obrzeżenia płetw.",
+    "funFact": "Pstrąg źródlany — białe obrzeżenia płetw, przy czym niewielki łosośowiec.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "brook-trout.jpg"
@@ -631,7 +601,6 @@
   {
     "id": "arctic-char",
     "namePl": "Golec",
-    "nameLatin": "Salvelinus alpinus",
     "pools": [
       "EU"
     ],
@@ -643,15 +612,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W ciemnej wodzie robi się srebrzysty.",
+    "funFact": "Golec — w ciemnej wodzie robi się srebrzysty, przy czym ryba arktyczna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "arctic-char.jpg"
   },
   {
     "id": "huchen",
-    "namePl": "Głowacica dunajska",
-    "nameLatin": "Hucho hucho",
+    "namePl": "Huchen",
     "pools": [
       "EU"
     ],
@@ -663,7 +631,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Największy drapieżnik w rzece Dunaj.",
+    "funFact": "Huchen — największy drapieżnik w rzece Dunaj, przy czym duży łosośowiec.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "huchen.jpg"
@@ -671,7 +639,6 @@
   {
     "id": "sturgeon-russian",
     "namePl": "Jesiotr rosyjski",
-    "nameLatin": "Acipenser gueldenstaedtii",
     "pools": [
       "EU"
     ],
@@ -683,15 +650,14 @@
     "productForm": "ikra",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ikra jesiotra jest luksusowym produktem.",
+    "funFact": "Jesiotr rosyjski — ikra jesiotra jest luksusowym produktem, przy czym potężna ryba rzeczna.",
     "author": "Vasyliuk Oleksij",
     "license": "CC BY 4.0",
     "photoFile": "sturgeon-russian.jpg"
   },
   {
     "id": "sterlet",
-    "namePl": "Siewiuga",
-    "nameLatin": "Acipenser ruthenus",
+    "namePl": "Sterlet",
     "pools": [
       "PL",
       "EU"
@@ -704,15 +670,14 @@
     "productForm": "ikra",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ma wysoki grzbiet.",
+    "funFact": "Sterlet — ma wysoki grzbiet, przy czym najmniejszy jesiotr.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "sterlet.jpg"
   },
   {
     "id": "starlet",
-    "namePl": "Siewiórka",
-    "nameLatin": "Acipenser stellatus",
+    "namePl": "Siewruga",
     "pools": [
       "EU"
     ],
@@ -724,7 +689,7 @@
     "productForm": "ikra",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Łowiony historycznie w Dunaju.",
+    "funFact": "Siewruga — łowiony historycznie w Dunaju, przy czym wydłużony pyszczek.",
     "author": "United States Fish Commission",
     "license": "domena publiczna",
     "photoFile": "starlet.jpg"
@@ -732,7 +697,6 @@
   {
     "id": "wels-head",
     "namePl": "Sum afrykański",
-    "nameLatin": "Clarias gariepinus",
     "pools": [
       "EU"
     ],
@@ -744,7 +708,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Hodowlany w recyrkulacji.",
+    "funFact": "Sum afrykański — hodowlany w recyrkulacji, przy czym sumowaty o długich wąsach.",
     "author": "BishopNana",
     "license": "CC BY 4.0",
     "photoFile": "wels-head.jpg"
@@ -752,7 +716,6 @@
   {
     "id": "pumpkinseed",
     "namePl": "Krasnopiór",
-    "nameLatin": "Lepomis gibbosus",
     "pools": [
       "PL",
       "EU"
@@ -765,15 +728,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W PL często inwazyjny.",
+    "funFact": "Krasnopiór — w PL często inwazyjny, przy czym mały słońc karpiowy.",
     "author": "U.S. Fish and Wildlife Service",
     "license": "domena publiczna",
     "photoFile": "pumpkinseed.jpg"
   },
   {
     "id": "bluegill",
-    "namePl": "Słonecznica",
-    "nameLatin": "Lepomis macrochirus",
+    "namePl": "Bass Pręgowany",
     "pools": [
       "EU"
     ],
@@ -785,15 +747,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Charakterystyczna plama ucha.",
+    "funFact": "Bass Pręgowany — charakterystyczna plama ucha, przy czym mały okoniowiec.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bluegill.jpg"
   },
   {
     "id": "ruffe",
-    "namePl": "Rzeka",
-    "nameLatin": "Gymnocephalus cernua",
+    "namePl": "Jazgarz",
     "pools": [
       "PL",
       "EU"
@@ -806,15 +767,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rzadko ceniona kulinarne.",
+    "funFact": "Jazgarz ma kolczaste płetwy i nie lubi jasnego światła.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "ruffe.jpg"
   },
   {
     "id": "pope",
-    "namePl": "Czerwona",
-    "nameLatin": "Gymnocephalus baloni",
+    "namePl": "Jazgarz czarny",
     "pools": [
       "PL",
       "EU"
@@ -827,7 +787,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wyraźny szkarłatny brzuch u samca.",
+    "funFact": "Samiec ma czerwonawo purpurowy brzuch w okresie godowym.",
     "author": "nieznany autor",
     "license": "OGL 3",
     "photoFile": "pope.jpg"
@@ -835,7 +795,6 @@
   {
     "id": "stickleback",
     "namePl": "Ciernik",
-    "nameLatin": "Gasterosteus aculeatus",
     "pools": [
       "PL",
       "EU"
@@ -848,15 +807,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Buduje gniazdo ze stróża.",
+    "funFact": "Ciernik — buduje gniazdo ze stróża, przy czym bardzo mała ryba.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "stickleback.jpg"
   },
   {
     "id": "ninespine",
-    "namePl": "Kolcica",
-    "nameLatin": "Pungitius pungitius",
+    "namePl": "Cierniczek",
     "pools": [
       "PL",
       "EU"
@@ -869,7 +827,7 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Dziewięć kolców grzbietowych.",
+    "funFact": "Cierniczek — dziewięć kolców grzbietowych, przy czym miniaturowa ryba.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "ninespine.jpg"
@@ -877,7 +835,6 @@
   {
     "id": "weatherfish",
     "namePl": "Piskorz",
-    "nameLatin": "Misgurnus fossilis",
     "pools": [
       "PL",
       "EU"
@@ -890,7 +847,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żyje w mulistym dnie.",
+    "funFact": "Piskorz — żyje w mulistym dnie, przy czym wąskie wężowate ciało.",
     "author": "Jacob van Maerlant",
     "license": "domena publiczna",
     "photoFile": "weatherfish.jpg"
@@ -898,7 +855,6 @@
   {
     "id": "spined-loach",
     "namePl": "Kirys",
-    "nameLatin": "Cobitis taenia",
     "pools": [
       "PL",
       "EU"
@@ -911,7 +867,7 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kolce pod oczami.",
+    "funFact": "Kirys — kolce pod oczami, przy czym drobna ryba denna.",
     "author": "Julien Renoult",
     "license": "CC BY 4.0",
     "photoFile": "spined-loach.jpg"
@@ -919,7 +875,6 @@
   {
     "id": "bitterling",
     "namePl": "Różanka",
-    "nameLatin": "Rhodeus amarus",
     "pools": [
       "PL",
       "EU"
@@ -932,15 +887,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ikra rozwija się w małży.",
+    "funFact": "Różanka — ikra rozwija się w małży, przy czym malutka ryba.",
     "author": "zastępcze zdjęcie (abramis-brama)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "bitterling.jpg"
   },
   {
     "id": "barbel",
-    "namePl": "Brzanka",
-    "nameLatin": "Barbus barbus",
+    "namePl": "Brzana pospolita",
     "pools": [
       "PL",
       "EU"
@@ -953,15 +907,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Silny nurtowiec.",
+    "funFact": "Brzana pospolita — silny nurtowiec, przy czym cylindryczne ciało z wąsami.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "barbel.jpg"
   },
   {
     "id": "nase",
-    "namePl": "Certa",
-    "nameLatin": "Chondrostoma nasus",
+    "namePl": "Świnka pospolita",
     "pools": [
       "PL",
       "EU"
@@ -974,7 +927,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zgryza glony ze skał.",
+    "funFact": "Świnka pospolita — zgryza glony ze skał, przy czym tępo zakończony pysk.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "nase.jpg"
@@ -982,7 +935,6 @@
   {
     "id": "vimba-bream",
     "namePl": "Płoćnica",
-    "nameLatin": "Abramis ballerus",
     "pools": [
       "PL",
       "EU"
@@ -995,15 +947,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wyższy korpus niż u płoci.",
+    "funFact": "Płoćnica — wyższy korpus niż u płoci, przy czym węższe ciało niż leszcz.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "vimba-bream.jpg"
   },
   {
     "id": "zope",
-    "namePl": "Tęcza",
-    "nameLatin": "Ballerus sapa",
+    "namePl": "Tęczak",
     "pools": [
       "PL",
       "EU"
@@ -1016,15 +967,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Długie oczy sterczą ku górze.",
+    "funFact": "Tęczak — długie oczy sterczą ku górze, przy czym podobna do płoćnicy.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "zope.jpg"
   },
   {
     "id": "prussian-carp",
-    "namePl": "Karaś oczkowany",
-    "nameLatin": "Carassius auratus gibelio",
+    "namePl": "Srebrzak",
     "pools": [
       "PL",
       "EU"
@@ -1037,7 +987,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Często mylony z karaśniem.",
+    "funFact": "Srebrzak — często mylony z karaśniem, przy czym małe ryby stadne.",
     "author": "H. Zell",
     "license": "CC BY-SA 3.0",
     "photoFile": "prussian-carp.jpg"
@@ -1045,7 +995,6 @@
   {
     "id": "grass-carp",
     "namePl": "Amur",
-    "nameLatin": "Ctenopharyngodon idella",
     "pools": [
       "PL",
       "EU"
@@ -1058,7 +1007,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Hodowany w stawach.",
+    "funFact": "Amur — hodowany w stawach, przy czym bardzo duży roślinożerca.",
     "author": "Meine Mutter (Erlaubnis liegt vor)",
     "license": "CC BY-SA 4.0",
     "photoFile": "grass-carp.jpg"
@@ -1066,7 +1015,6 @@
   {
     "id": "silver-carp",
     "namePl": "Tołpyga biaława",
-    "nameLatin": "Hypophthalmichthys molitrix",
     "pools": [
       "PL",
       "EU"
@@ -1079,7 +1027,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Filtrator planktonu.",
+    "funFact": "Tołpyga biaława — filtrator planktonu, przy czym skacze przy hałasie.",
     "author": "USFWS Mountain-Prairie",
     "license": "domena publiczna",
     "photoFile": "silver-carp.jpg"
@@ -1087,7 +1035,6 @@
   {
     "id": "bighead-carp",
     "namePl": "Tołpyga bycza",
-    "nameLatin": "Hypophthalmichthys nobilis",
     "pools": [
       "PL",
       "EU"
@@ -1100,15 +1047,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ogromna paszcza.",
+    "funFact": "Tołpyga bycza — ogromna paszcza, przy czym duży filtrator.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bighead-carp.jpg"
   },
   {
     "id": "sunbleak",
-    "namePl": "Krasnopiór krągły",
-    "nameLatin": "Leucaspius delineatus",
+    "namePl": "Krasnopiór okrągły",
     "pools": [
       "PL",
       "EU"
@@ -1121,15 +1067,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żyje w roślinności.",
+    "funFact": "Krasnopiór okrągły — żyje w roślinności, przy czym najmniejszy karpiowaty PL.",
     "author": "NasserHalaweh",
     "license": "CC BY-SA 4.0",
     "photoFile": "sunbleak.jpg"
   },
   {
     "id": "sichel",
-    "namePl": "Ukleja czarnooka",
-    "nameLatin": "Pelecus cultratus",
+    "namePl": "Ciosa",
     "pools": [
       "EU"
     ],
@@ -1141,15 +1086,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żyje w dużych rzekach.",
+    "funFact": "Ciosa — żyje w dużych rzekach, przy czym ostro zakończony kształt.",
     "author": "Kessler, Karl Fedorovich, 1815-1881",
     "license": "domena publiczna",
     "photoFile": "sichel.jpg"
   },
   {
     "id": "zander-volga",
-    "namePl": "Sandacz wolgaski",
-    "nameLatin": "Sander volgensis",
+    "namePl": "Bersz",
     "pools": [
       "EU"
     ],
@@ -1161,15 +1105,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Bliski sandaczowi.",
+    "funFact": "Bersz — bliski sandaczowi, przy czym sandaczowaty, a należy do rodziny łopieniowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "zander-volga.jpg"
   },
   {
     "id": "european-minnow",
-    "namePl": "Stwora",
-    "nameLatin": "Phoxinus phoxinus",
+    "namePl": "Strzebla potokowa",
     "pools": [
       "PL",
       "EU"
@@ -1182,7 +1125,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wskaźnik czystej wody.",
+    "funFact": "Strzebla potokowa — wskaźnik czystej wody, przy czym bardzo mała ryba.",
     "author": "Tigerente",
     "license": "CC BY-SA 4.0",
     "photoFile": "european-minnow.jpg"
@@ -1190,7 +1133,6 @@
   {
     "id": "sneep",
     "namePl": "Głowienka",
-    "nameLatin": "Chondrostoma soetta",
     "pools": [
       "EU"
     ],
@@ -1202,15 +1144,14 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Gatunek chroniony w Alpach.",
+    "funFact": "Głowienka — gatunek chroniony w Alpach, przy czym rzeczny karpiowiec.",
     "author": "Bonaparte, Charles Lucian, 1803-1857\nKoninklijk Zoologisch Genootschap Natura Artis Magistra, te Amsterdam, former owner",
     "license": "domena publiczna",
     "photoFile": "sneep.jpg"
   },
   {
     "id": "carp-bream",
-    "namePl": "Linijka",
-    "nameLatin": "Abramis sapa",
+    "namePl": "Leszcz biały",
     "pools": [
       "PL",
       "EU"
@@ -1223,7 +1164,7 @@
     "productForm": "tusza świeża",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Długi pysk jak lin.",
+    "funFact": "Leszcz biały — długi pysk jak lin, przy czym smukły leszczowaty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "carp-bream.jpg"
@@ -1231,7 +1172,6 @@
   {
     "id": "whitefin",
     "namePl": "Różanka pstra",
-    "nameLatin": "Rhodeus sericeus",
     "pools": [
       "PL",
       "EU"
@@ -1244,7 +1184,7 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ikra w małżu.",
+    "funFact": "Różanka pstra — ikra w małżu, przy czym kolorowa samiec lęgowy.",
     "author": "Kaya C, Bayçelebi E, Turan D (2020) Taxonomic assessment and distribution of fishes in upper Kura and Aras river drainag",
     "license": "CC BY 4.0",
     "photoFile": "whitefin.jpg"
@@ -1252,7 +1192,6 @@
   {
     "id": "herring",
     "namePl": "Śledź atlantycki",
-    "nameLatin": "Clupea harengus",
     "pools": [
       "PL",
       "EU"
@@ -1265,7 +1204,7 @@
     "productForm": "śledź solony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kluczowy gatunek Bałtyku.",
+    "funFact": "Śledź atlantycki — kluczowy gatunek Bałtyku, przy czym smukła ryba stadna.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "herring.jpg"
@@ -1273,7 +1212,6 @@
   {
     "id": "sprat",
     "namePl": "Szprot",
-    "nameLatin": "Sprattus sprattus",
     "pools": [
       "PL",
       "EU"
@@ -1286,7 +1224,7 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Tłuste mięso.",
+    "funFact": "Szprot — tłuste mięso, przy czym drobna ryba morska.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "sprat.jpg"
@@ -1294,7 +1232,6 @@
   {
     "id": "cod-baltic",
     "namePl": "Dorsz bałtycki",
-    "nameLatin": "Gadus morhua callarias",
     "pools": [
       "PL",
       "EU"
@@ -1307,15 +1244,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Białomięsna ryba.",
+    "funFact": "Dorsz bałtycki — białomięsna ryba, przy czym mniejsza forma dorsza.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "cod-baltic.jpg"
   },
   {
     "id": "flounder",
-    "namePl": "Flądra",
-    "nameLatin": "Platichthys flesus",
+    "namePl": "Flądra europejska",
     "pools": [
       "PL",
       "EU"
@@ -1328,15 +1264,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przy dnie piaszczystym.",
+    "funFact": "Flądra europejska — przy dnie piaszczystym, przy czym płaski ciało i oba oczy z jednej strony.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "flounder.jpg"
   },
   {
     "id": "dab",
-    "namePl": "Gładzica",
-    "nameLatin": "Limanda limanda",
+    "namePl": "Zimnica",
     "pools": [
       "PL",
       "EU"
@@ -1349,7 +1284,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Okrągły kształt.",
+    "funFact": "Zimnica — okrągły kształt, przy czym mała płaska ryba.",
     "author": "Hans Hillewaert",
     "license": "CC BY-SA 4.0",
     "photoFile": "dab.jpg"
@@ -1357,7 +1292,6 @@
   {
     "id": "plaice",
     "namePl": "Gładzica pospolita",
-    "nameLatin": "Pleuronectes platessa",
     "pools": [
       "PL",
       "EU"
@@ -1370,15 +1304,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ceniona w kuchni.",
+    "funFact": "Gładzica pospolita — ceniona w kuchni, przy czym płaska ryba z pomarańczowymi plamkami.",
     "author": "Marcus Elieser Bloch",
     "license": "domena publiczna",
     "photoFile": "plaice.jpg"
   },
   {
     "id": "turbot",
-    "namePl": "Pstrażnik",
-    "nameLatin": "Scophthalmus maximus",
+    "namePl": "Turbot",
     "pools": [
       "EU"
     ],
@@ -1390,15 +1323,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Diamentowy wzór na skórze.",
+    "funFact": "Turbot — diamentowy wzór na skórze, przy czym drogie rybo mięsiste.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "turbot.jpg"
   },
   {
     "id": "brill",
-    "namePl": "Pstrażnica",
-    "nameLatin": "Scophthalmus rhombus",
+    "namePl": "Nagład",
     "pools": [
       "EU"
     ],
@@ -1410,15 +1342,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rhomboidalny kształt.",
+    "funFact": "Nagład — rhomboidalny kształt, przy czym podobna do turbotu.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "brill.jpg"
   },
   {
     "id": "sole",
-    "namePl": "Wiecznica",
-    "nameLatin": "Solea solea",
+    "namePl": "Sola zwyczajna",
     "pools": [
       "EU"
     ],
@@ -1430,7 +1361,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mała głowa.",
+    "funFact": "Sola zwyczajna — mała głowa, przy czym delikatna płaska ryba.",
     "author": "Judgefloro",
     "license": "CC0",
     "photoFile": "sole.jpg"
@@ -1438,7 +1369,6 @@
   {
     "id": "angler",
     "namePl": "Żabnica",
-    "nameLatin": "Lophius piscatorius",
     "pools": [
       "EU"
     ],
@@ -1450,7 +1380,7 @@
     "productForm": "ogon filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wabik na grzbiecie.",
+    "funFact": "Żabnica — wabik na grzbiecie, przy czym brzydka aparycja, smaczne ogon.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "angler.jpg"
@@ -1458,7 +1388,6 @@
   {
     "id": "hake",
     "namePl": "Morszczuk",
-    "nameLatin": "Merluccius merluccius",
     "pools": [
       "EU"
     ],
@@ -1470,15 +1399,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Popularny w Kulinarionie EU.",
+    "funFact": "Morszczuk — popularny w Kulinarionie EU, przy czym długi tułów.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "hake.jpg"
   },
   {
     "id": "whiting",
-    "namePl": "Mintaj",
-    "nameLatin": "Merlangius merlangus",
+    "namePl": "Witlinek",
     "pools": [
       "PL",
       "EU"
@@ -1491,7 +1419,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Białe mięso.",
+    "funFact": "Witlinek — białe mięso, przy czym drobny dorszowaty.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "whiting.jpg"
@@ -1499,7 +1427,6 @@
   {
     "id": "haddock",
     "namePl": "Plamiak",
-    "nameLatin": "Melanogrammus aeglefinus",
     "pools": [
       "EU"
     ],
@@ -1511,15 +1438,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Klasyczna ryba brytyjska.",
+    "funFact": "Plamiak — klasyczna ryba brytyjska, przy czym czarna plama boku.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "haddock.jpg"
   },
   {
     "id": "pollock",
-    "namePl": "Plasteriasz",
-    "nameLatin": "Pollachius pollachius",
+    "namePl": "Szczupiak",
     "pools": [
       "PL",
       "EU"
@@ -1532,15 +1458,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mięso jaasne.",
+    "funFact": "Szczupiak to chudoręki dorszowaty, ceniony na bałtyckich stołach.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "pollock.jpg"
   },
   {
     "id": "saithe",
-    "namePl": "Sej",
-    "nameLatin": "Pollachius virens",
+    "namePl": "Czarniak",
     "pools": [
       "EU"
     ],
@@ -1552,15 +1477,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Twardższe mięso.",
+    "funFact": "Czarniak ma białe, dość twarde mięso i smukłe ciało.",
     "author": "United States Fish Commission",
     "license": "domena publiczna",
     "photoFile": "saithe.jpg"
   },
   {
     "id": "blue-whiting",
-    "namePl": "Szprotnik",
-    "nameLatin": "Micromesistius poutassou",
+    "namePl": "Błękitek",
     "pools": [
       "EU"
     ],
@@ -1572,15 +1496,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poławiany przemysłowo.",
+    "funFact": "Błękitek — poławiany przemysłowo, przy czym mały dorszowaty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "blue-whiting.jpg"
   },
   {
     "id": "tusk",
-    "namePl": "Kijanka",
-    "nameLatin": "Brosme brosme",
+    "namePl": "Brosma",
     "pools": [
       "EU"
     ],
@@ -1592,15 +1515,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Dno głębinowe.",
+    "funFact": "Brosma — dno głębinowe, przy czym wąskooki dorszowaty.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "tusk.jpg"
   },
   {
     "id": "ling",
-    "namePl": "Moloł",
-    "nameLatin": "Molva molva",
+    "namePl": "Molwa pospolita",
     "pools": [
       "EU"
     ],
@@ -1612,15 +1534,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Drapieżna.",
+    "funFact": "Molwa pospolita — drapieżna, przy czym długa dorszowata ryba.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "ling.jpg"
   },
   {
     "id": "rockling",
-    "namePl": "Gadella",
-    "nameLatin": "Gaidropsarus vulgaris",
+    "namePl": "Broszcz",
     "pools": [
       "PL",
       "EU"
@@ -1633,7 +1554,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Trzy wąsy.",
+    "funFact": "Broszcz — trzy wąsy, przy czym drobny gad.",
     "author": "Jonathan Couch",
     "license": "domena publiczna",
     "photoFile": "rockling.jpg"
@@ -1641,7 +1562,6 @@
   {
     "id": "round-goby",
     "namePl": "Babka bycza",
-    "nameLatin": "Neogobius melanostomus",
     "pools": [
       "PL",
       "EU"
@@ -1654,7 +1574,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Agresywna na dnie.",
+    "funFact": "Babka bycza — agresywna na dnie, przy czym inwazyjna babka.",
     "author": "Peter van der Sluijs",
     "license": "CC BY-SA 4.0",
     "photoFile": "round-goby.jpg"
@@ -1662,7 +1582,6 @@
   {
     "id": "black-goby",
     "namePl": "Babka marmurkowana",
-    "nameLatin": "Neogobius niger",
     "pools": [
       "PL",
       "EU"
@@ -1675,7 +1594,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Marmurkowe cętki.",
+    "funFact": "Babka marmurkowana — marmurkowe cętki, przy czym drobna ryba morska.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "black-goby.jpg"
@@ -1683,7 +1602,6 @@
   {
     "id": "sand-goby",
     "namePl": "Babka piaskowa",
-    "nameLatin": "Pomatoschistus minutus",
     "pools": [
       "PL",
       "EU"
@@ -1696,7 +1614,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W płytkiej wodzie.",
+    "funFact": "Babka piaskowa — w płytkiej wodzie, przy czym bardzo mała.",
     "author": "Pedroso S, Barber I, Svensson O, Fonseca P, Amorim M",
     "license": "CC BY 2.0",
     "photoFile": "sand-goby.jpg"
@@ -1704,7 +1622,6 @@
   {
     "id": "smelt",
     "namePl": "Stynka",
-    "nameLatin": "Osmerus eperlanus",
     "pools": [
       "PL",
       "EU"
@@ -1717,15 +1634,14 @@
     "productForm": "wędzonka",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Klasyczna przystawka z Bałtyku.",
+    "funFact": "Stynka — klasyczna przystawka z Bałtyku, przy czym drobna srebrna ryba.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "smelt.jpg"
   },
   {
     "id": "seabass",
-    "namePl": "Okoń morski",
-    "nameLatin": "Dicentrarchus labrax",
+    "namePl": "Labraks",
     "pools": [
       "EU"
     ],
@@ -1737,7 +1653,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Tęczówka charakterystyczna.",
+    "funFact": "Labraks — tęczówka charakterystyczna, przy czym smukły drapieżnik.",
     "author": "Lamiot",
     "license": "CC BY-SA 4.0",
     "photoFile": "seabass.jpg"
@@ -1745,7 +1661,6 @@
   {
     "id": "white-seabream",
     "namePl": "Sarg",
-    "nameLatin": "Diplodus sargus",
     "pools": [
       "EU"
     ],
@@ -1757,15 +1672,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żyje przy skałach.",
+    "funFact": "Sarg — żyje przy skałach, przy czym pionowe pasy.",
     "author": "Daderot",
     "license": "CC0",
     "photoFile": "white-seabream.jpg"
   },
   {
     "id": "two-banded-bream",
-    "namePl": "Mormora",
-    "nameLatin": "Diplodus vulgaris",
+    "namePl": "Głowacz pospolity",
     "pools": [
       "EU"
     ],
@@ -1777,7 +1691,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Odporny karpiowaty morski.",
+    "funFact": "Głowacz pospolity — odporny karpiowaty morski, przy czym dwa ciemne pasy.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "two-banded-bream.jpg"
@@ -1785,7 +1699,6 @@
   {
     "id": "red-porgy",
     "namePl": "Pagrus",
-    "nameLatin": "Pagrus pagrus",
     "pools": [
       "EU"
     ],
@@ -1797,15 +1710,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poławiany na południu.",
+    "funFact": "Pagrus — poławiany na południu, przy czym solidne ciało.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "red-porgy.jpg"
   },
   {
     "id": "common-pandora",
-    "namePl": "Brodacz",
-    "nameLatin": "Pagellus erythrinus",
+    "namePl": "Margielnik",
     "pools": [
       "EU"
     ],
@@ -1817,15 +1729,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płaski korpus.",
+    "funFact": "Margielnik — płaski korpus, przy czym różowawy brzuch.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-pandora.jpg"
   },
   {
     "id": "black-spot-bream",
-    "namePl": "Giurato",
-    "nameLatin": "Pagellus bogaraveo",
+    "namePl": "Kuźnik",
     "pools": [
       "EU"
     ],
@@ -1837,15 +1748,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Głębszy wody.",
+    "funFact": "Kuźnik — głębszy wody, przy czym gruby profil.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "black-spot-bream.jpg"
   },
   {
     "id": "annular-bream",
-    "namePl": "Caracciola",
-    "nameLatin": "Diplodus annularis",
+    "namePl": "Prażma",
     "pools": [
       "EU"
     ],
@@ -1857,7 +1767,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jasne paski.",
+    "funFact": "Prażma — jasne paski, przy czym mała ryba.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "annular-bream.jpg"
@@ -1865,7 +1775,6 @@
   {
     "id": "salema",
     "namePl": "Salema",
-    "nameLatin": "Sarpa salpa",
     "pools": [
       "EU"
     ],
@@ -1877,7 +1786,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żeruje makrofity.",
+    "funFact": "Salema — żeruje makrofity, przy czym złote pasy.",
     "author": "Alex Proimos from Sydney, Australia",
     "license": "CC BY 2.0",
     "photoFile": "salema.jpg"
@@ -1885,7 +1794,6 @@
   {
     "id": "white-seabream-oblada",
     "namePl": "Oblada",
-    "nameLatin": "Oblada melanura",
     "pools": [
       "EU"
     ],
@@ -1897,15 +1805,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Trawy morskie.",
+    "funFact": "Oblada — trawy morskie, przy czym czarna plama.",
     "author": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "photoFile": "white-seabream-oblada.jpg"
   },
   {
     "id": "striped-bream",
-    "namePl": "Sarpa",
-    "nameLatin": "Lithognathus mormyrus",
+    "namePl": "Morlesz pręgowany",
     "pools": [
       "EU"
     ],
@@ -1917,15 +1824,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płytkie zatoki.",
+    "funFact": "Morlesz pręgowany — płytkie zatoki, przy czym paski boku.",
     "author": "Fish&amp;Dive",
     "license": "CC BY-SA 4.0",
     "photoFile": "striped-bream.jpg"
   },
   {
     "id": "common-dentex",
-    "namePl": "Denteks",
-    "nameLatin": "Dentex dentex",
+    "namePl": "Kielec",
     "pools": [
       "EU"
     ],
@@ -1937,15 +1843,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Drapieżny prażmowaty.",
+    "funFact": "Kielec — drapieżny prażmowaty, przy czym duże zęby.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-dentex.jpg"
   },
   {
     "id": "bogue",
-    "namePl": "Bogue",
-    "nameLatin": "Boops boops",
+    "namePl": "Bops",
     "pools": [
       "EU"
     ],
@@ -1957,15 +1862,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Stadna drobnica.",
+    "funFact": "Bops — stadna drobnica, przy czym wielkie oczy.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bogue.jpg"
   },
   {
     "id": "red-mullet",
-    "namePl": "Trzypala",
-    "nameLatin": "Mullus barbatus",
+    "namePl": "Barbata",
     "pools": [
       "EU"
     ],
@@ -1977,15 +1881,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wąsate płetwy.",
+    "funFact": "Barbata — wąsate płetwy, przy czym czerwone odcienie.",
     "author": "Fries, Bengt Fredrik, 1799-1839\nEkstr¿m, C. U., 1781-1859\nSundevall, Carl Jacob, 1801-1875\nWright, Wilhelm von, 1810-188",
     "license": "domena publiczna",
     "photoFile": "red-mullet.jpg"
   },
   {
     "id": "striped-red-mullet",
-    "namePl": "Trzypala pasiasta",
-    "nameLatin": "Mullus surmuletus",
+    "namePl": "Barwena",
     "pools": [
       "EU"
     ],
@@ -1997,7 +1900,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Delikatne mięso.",
+    "funFact": "Barwena — delikatne mięso, przy czym czerwone paski.",
     "author": "Jacob van Maerlant",
     "license": "domena publiczna",
     "photoFile": "striped-red-mullet.jpg"
@@ -2005,7 +1908,6 @@
   {
     "id": "flathead-grey",
     "namePl": "Cefal",
-    "nameLatin": "Mugil cephalus",
     "pools": [
       "EU"
     ],
@@ -2017,15 +1919,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Odporność na słonawą wodę.",
+    "funFact": "Cefal — odporność na słonawą wodę, przy czym gruba głowa.",
     "author": "Garrett Ziegler",
     "license": "CC BY-SA 4.0",
     "photoFile": "flathead-grey.jpg"
   },
   {
     "id": "thicklip-grey",
-    "namePl": "Kefal",
-    "nameLatin": "Chelon labrosus",
+    "namePl": "Tępogłów grubowargi",
     "pools": [
       "EU"
     ],
@@ -2037,15 +1938,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Laguny i estuarium.",
+    "funFact": "Tępogłów grubowargi — laguny i estuarium, przy czym grube wargi.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "thicklip-grey.jpg"
   },
   {
     "id": "golden-grey",
-    "namePl": "Cefalici",
-    "nameLatin": "Liza aurata",
+    "namePl": "Cefal złotogłowy",
     "pools": [
       "EU"
     ],
@@ -2057,15 +1957,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płytkie zatoki.",
+    "funFact": "Cefal złotogłowy — płytkie zatoki, przy czym złote smugi.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "golden-grey.jpg"
   },
   {
     "id": "leaping-grey",
-    "namePl": "Mullica",
-    "nameLatin": "Liza ramada",
+    "namePl": "Cefal cienkowargi",
     "pools": [
       "EU"
     ],
@@ -2077,7 +1976,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W lagunach.",
+    "funFact": "Cefal cienkowargi — w lagunach, przy czym smukły kefal.",
     "author": "zastępcze zdjęcie (flathead-grey)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "leaping-grey.jpg"
@@ -2085,7 +1984,6 @@
   {
     "id": "atlantic-mackerel",
     "namePl": "Makrela",
-    "nameLatin": "Scomber scombrus",
     "pools": [
       "PL",
       "EU"
@@ -2098,15 +1996,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Klasyczna Bałtyku.",
+    "funFact": "Makrela — klasyczna Bałtyku, przy czym pręgowana, a należy do rodziny makrelowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-mackerel.jpg"
   },
   {
     "id": "chub-mackerel",
-    "namePl": "Makrela plamiasta",
-    "nameLatin": "Scomber colias",
+    "namePl": "Makrela Plamiasta",
     "pools": [
       "EU"
     ],
@@ -2118,15 +2015,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Południowa makrela.",
+    "funFact": "Makrela Plamiasta — południowa makrela, przy czym plamy boku.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "chub-mackerel.jpg"
   },
   {
     "id": "atlantic-chub",
-    "namePl": "Trachura",
-    "nameLatin": "Trachurus trachurus",
+    "namePl": "Ostrobok pospolity",
     "pools": [
       "PL",
       "EU"
@@ -2139,15 +2035,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Talerzowate.",
+    "funFact": "Ostrobok pospolity — talerzowate, przy czym stado drobne.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-chub.jpg"
   },
   {
     "id": "med-horse-mack",
-    "namePl": "Kołbiok śródziemny",
-    "nameLatin": "Trachurus mediterraneus",
+    "namePl": "Kołbiok Śródziemny",
     "pools": [
       "EU"
     ],
@@ -2159,15 +2054,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Lokalne sieci.",
+    "funFact": "Kołbiok Śródziemny — lokalne sieci, przy czym makrelowaty.",
     "author": "Lidonchik",
     "license": "CC BY 4.0",
     "photoFile": "med-horse-mack.jpg"
   },
   {
     "id": "atlantic-bonito",
-    "namePl": "Bonito atlantyckie",
-    "nameLatin": "Sarda sarda",
+    "namePl": "Pelamida",
     "pools": [
       "EU"
     ],
@@ -2179,7 +2073,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Krótki sezon.",
+    "funFact": "Pelamida — krótki sezon, przy czym szybki torpedowaty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-bonito.jpg"
@@ -2187,7 +2081,6 @@
   {
     "id": "little-tunny",
     "namePl": "Kawala",
-    "nameLatin": "Euthynnus alletteratus",
     "pools": [
       "EU"
     ],
@@ -2199,7 +2092,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Drapieżny.",
+    "funFact": "Kawala — drapieżny, przy czym prężny tuńczyk, a należy do rodziny makrelowate.",
     "author": "nieznany autor",
     "license": "OGL 3",
     "photoFile": "little-tunny.jpg"
@@ -2207,7 +2100,6 @@
   {
     "id": "bluefin-tuna",
     "namePl": "Tuńczyk błękitnopłetwy",
-    "nameLatin": "Thunnus thynnus",
     "pools": [
       "EU"
     ],
@@ -2219,7 +2111,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Połowy limitowane.",
+    "funFact": "Tuńczyk błękitnopłetwy — połowy limitowane, przy czym olbrzym morski.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bluefin-tuna.jpg"
@@ -2227,7 +2119,6 @@
   {
     "id": "albacore",
     "namePl": "Tuńczyk długopłetwy",
-    "nameLatin": "Thunnus alalunga",
     "pools": [
       "EU"
     ],
@@ -2239,15 +2130,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Handel premium.",
+    "funFact": "Tuńczyk długopłetwy — handel premium, przy czym długie płetwy.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "albacore.jpg"
   },
   {
     "id": "swordfish",
-    "namePl": "Miecznik",
-    "nameLatin": "Xiphias gladius",
+    "namePl": "Włócznik",
     "pools": [
       "EU"
     ],
@@ -2259,7 +2149,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Steki.",
+    "funFact": "Włócznik — steki, przy czym pysk jak miecz.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "swordfish.jpg"
@@ -2267,7 +2157,6 @@
   {
     "id": "european-barracuda",
     "namePl": "Barrakuda",
-    "nameLatin": "Sphyraena sphyraena",
     "pools": [
       "EU"
     ],
@@ -2279,7 +2168,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ostre zęby.",
+    "funFact": "Barrakuda — ostre zęby, przy czym wydłużone ciało.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "european-barracuda.jpg"
@@ -2287,7 +2176,6 @@
   {
     "id": "garfish",
     "namePl": "Belona",
-    "nameLatin": "Belone belone",
     "pools": [
       "PL",
       "EU"
@@ -2300,15 +2188,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Bywa w zatoce.",
+    "funFact": "Belona — bywa w zatoce, przy czym długi dziób.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "garfish.jpg"
   },
   {
     "id": "john-dory",
-    "namePl": "Sw. Piotra",
-    "nameLatin": "Zeus faber",
+    "namePl": "Piotrosz",
     "pools": [
       "EU"
     ],
@@ -2320,15 +2207,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Egzotyczny wygląd.",
+    "funFact": "Piotrosz — egzotyczny wygląd, przy czym plama boku.",
     "author": "Jacob van Maerlant",
     "license": "domena publiczna",
     "photoFile": "john-dory.jpg"
   },
   {
     "id": "pouting",
-    "namePl": "Bib",
-    "nameLatin": "Trisopterus luscus",
+    "namePl": "Bielmik",
     "pools": [
       "PL",
       "EU"
@@ -2341,15 +2227,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jasne mięso.",
+    "funFact": "Bielmik — jasne mięso, przy czym mały dorsz.",
     "author": "Peter van der Sluijs",
     "license": "CC BY-SA 3.0",
     "photoFile": "pouting.jpg"
   },
   {
     "id": "norway-pout-esmark",
-    "namePl": "Granik",
-    "nameLatin": "Trisopterus esmarkii",
+    "namePl": "Gokiel",
     "pools": [
       "EU"
     ],
@@ -2361,15 +2246,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przetwórstwo.",
+    "funFact": "Gokiel — przetwórstwo, przy czym drobny gad, a należy do rodziny gąbowate.",
     "author": "nieznany autor",
     "license": "OGL 3",
     "photoFile": "norway-pout-esmark.jpg"
   },
   {
     "id": "capelin",
-    "namePl": "Łodyga",
-    "nameLatin": "Mallotus villosus",
+    "namePl": "Gromadnik",
     "pools": [
       "EU"
     ],
@@ -2381,15 +2265,14 @@
     "productForm": "wędzonka",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Karmi tranie.",
+    "funFact": "Gromadnik — karmi tranie, przy czym drobna arktyczna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "capelin.jpg"
   },
   {
     "id": "forkbeard",
-    "namePl": "Łuskak",
-    "nameLatin": "Phycis phycis",
+    "namePl": "Chmin węgorzowaty",
     "pools": [
       "EU"
     ],
@@ -2401,15 +2284,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Na dnie.",
+    "funFact": "Chmin węgorzowaty — na dnie, przy czym wąsaty.",
     "author": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "photoFile": "forkbeard.jpg"
   },
   {
     "id": "greater-forkbeard",
-    "namePl": "Wąsak",
-    "nameLatin": "Phycis blennoides",
+    "namePl": "Chmin pospolity",
     "pools": [
       "EU"
     ],
@@ -2421,15 +2303,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Głębinowy.",
+    "funFact": "Chmin pospolity — głębinowy, przy czym długa broda.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "greater-forkbeard.jpg"
   },
   {
     "id": "european-conger",
-    "namePl": "Węgorz morski",
-    "nameLatin": "Conger conger",
+    "namePl": "Konger",
     "pools": [
       "PL",
       "EU"
@@ -2442,15 +2323,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Nocny drapieżnik.",
+    "funFact": "Konger — nocny drapieżnik, przy czym ogromny węgorz.",
     "author": "Jordan, David Starr, 1851-1931",
     "license": "domena publiczna",
     "photoFile": "european-conger.jpg"
   },
   {
     "id": "silver-pout",
-    "namePl": "Witrak",
-    "nameLatin": "Gadiculus argenteus",
+    "namePl": "Ślepior",
     "pools": [
       "EU"
     ],
@@ -2462,15 +2342,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Połów na mączkę.",
+    "funFact": "Ślepior — połów na mączkę, przy czym srebrna drobnica.",
     "author": "Vez-Garzón, Marc; Giménez, Joan; Sánchez-Márquez, Antoni; Montalvo, Tomás; Navarro, Joan",
     "license": "CC BY 4.0",
     "photoFile": "silver-pout.jpg"
   },
   {
     "id": "redfish",
-    "namePl": "Granik czerwony",
-    "nameLatin": "Sebastes norvegicus",
+    "namePl": "Karmazyn atlantycki",
     "pools": [
       "EU"
     ],
@@ -2482,7 +2361,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Głębokie wody.",
+    "funFact": "Karmazyn atlantycki — głębokie wody, przy czym czerwone ciało.",
     "author": "State of New York Forest, Fish, and Game Commission",
     "license": "domena publiczna",
     "photoFile": "redfish.jpg"
@@ -2490,7 +2369,6 @@
   {
     "id": "deepwater-redfish",
     "namePl": "Karmazyn",
-    "nameLatin": "Sebastes viviparus",
     "pools": [
       "EU"
     ],
@@ -2502,15 +2380,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Żywotrodny.",
+    "funFact": "Karmazyn — żywotrodny, przy czym czerwonawe łuski, a należy do rodziny skalnikowate.",
     "author": "zastępcze zdjęcie (redfish)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "deepwater-redfish.jpg"
   },
   {
     "id": "blackbelly-rosefish",
-    "namePl": "Maddocker",
-    "nameLatin": "Helicolenus dactylopterus",
+    "namePl": "Łupieżnica",
     "pools": [
       "EU"
     ],
@@ -2522,15 +2399,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały głębokie.",
+    "funFact": "Łupieżnica — skały głębokie, przy czym kolce, a należy do rodziny skalnikowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "blackbelly-rosefish.jpg"
   },
   {
     "id": "megrina",
-    "namePl": "Linguado",
-    "nameLatin": "Lepidorhombus whiffiagonis",
+    "namePl": "Megra biskajska",
     "pools": [
       "EU"
     ],
@@ -2542,15 +2418,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Miękkie dno.",
+    "funFact": "Megra biskajska — miękkie dno, przy czym płaska ryba.",
     "author": "Thomas Pennant",
     "license": "domena publiczna",
     "photoFile": "megrina.jpg"
   },
   {
     "id": "megrim",
-    "namePl": "Grafla",
-    "nameLatin": "Lepidorhombus boscii",
+    "namePl": "Megra",
     "pools": [
       "EU"
     ],
@@ -2562,15 +2437,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Północny handel.",
+    "funFact": "Megra — północny handel, przy czym asymetryczne oczy.",
     "author": "Isabelle Cheret",
     "license": "CC BY 4.0",
     "photoFile": "megrim.jpg"
   },
   {
     "id": "variegated-sol",
-    "namePl": "Solea",
-    "nameLatin": "Microchirus variegatus",
+    "namePl": "Sola trawiasta",
     "pools": [
       "EU"
     ],
@@ -2582,15 +2456,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przybrzeżna.",
+    "funFact": "Sola trawiasta — przybrzeżna, przy czym mini sol.",
     "author": "Joseph Thomas Cunningham",
     "license": "domena publiczna",
     "photoFile": "variegated-sol.jpg"
   },
   {
     "id": "scaldfish",
-    "namePl": "Arnoglosa",
-    "nameLatin": "Arnoglossus laterna",
+    "namePl": "Piekiewnica",
     "pools": [
       "EU"
     ],
@@ -2602,15 +2475,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mała płastuga.",
+    "funFact": "Piekiewnica — mała płastuga, przy czym kamuflaż, a należy do rodziny płastugowate.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "scaldfish.jpg"
   },
   {
     "id": "topknot",
-    "namePl": "Petrazza",
-    "nameLatin": "Zeugopterus punctatus",
+    "namePl": "Knotek",
     "pools": [
       "EU"
     ],
@@ -2622,15 +2494,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały.",
+    "funFact": "Knotek — skały, przy czym bardzo mała, a należy do rodziny płastugowate.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "topknot.jpg"
   },
   {
     "id": "atlantic-wolffish",
-    "namePl": "Paszkarz",
-    "nameLatin": "Anarhichas lupus",
+    "namePl": "Zębacz pasiasty",
     "pools": [
       "EU"
     ],
@@ -2642,15 +2513,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zimnowodny.",
+    "funFact": "Zębacz pasiasty — zimnowodny, przy czym pasy i kły.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-wolffish.jpg"
   },
   {
     "id": "atlantic-catfish",
-    "namePl": "Morskikot",
-    "nameLatin": "Glyptocephalus cynoglossus",
+    "namePl": "Czebacz",
     "pools": [
       "EU"
     ],
@@ -2662,15 +2532,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Północny połów.",
+    "funFact": "Czebacz — północny połów, przy czym gładka płaska.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-catfish.jpg"
   },
   {
     "id": "monkfish",
-    "namePl": "Anawiatl",
-    "nameLatin": "Lophius gastrophysus",
+    "namePl": "Anawiat",
     "pools": [
       "EU"
     ],
@@ -2682,7 +2551,7 @@
     "productForm": "ogon filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Delikatny ogon.",
+    "funFact": "Anawiat — delikatny ogon, przy czym brzydki łowik.",
     "author": "Museu Nacional (Brazil)",
     "license": "domena publiczna",
     "photoFile": "monkfish.jpg"
@@ -2690,7 +2559,6 @@
   {
     "id": "atlantic-herring-north",
     "namePl": "Śledź norweski",
-    "nameLatin": "Clupea harengus harengus",
     "pools": [
       "PL",
       "EU"
@@ -2703,7 +2571,7 @@
     "productForm": "solony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Bałtyk i Ocean.",
+    "funFact": "Śledź norweski — bałtyk i Ocean, przy czym stado.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-herring-north.jpg"
@@ -2711,7 +2579,6 @@
   {
     "id": "european-anchovy",
     "namePl": "Sardela",
-    "nameLatin": "Engraulis encrasicolus",
     "pools": [
       "EU"
     ],
@@ -2723,7 +2590,7 @@
     "productForm": "słoik",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Olejek i przetwory.",
+    "funFact": "Sardela — olejek i przetwory, przy czym bardzo mała.",
     "author": "Yarrell, William, 1784-1856",
     "license": "domena publiczna",
     "photoFile": "european-anchovy.jpg"
@@ -2731,7 +2598,6 @@
   {
     "id": "european-pilchard",
     "namePl": "Sardynka",
-    "nameLatin": "Sardina pilchardus",
     "pools": [
       "EU"
     ],
@@ -2743,15 +2609,14 @@
     "productForm": "w puszce",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Klasyczna puszki.",
+    "funFact": "Sardynka — klasyczna puszki, przy czym stado, a należy do rodziny clupeidae.",
     "author": "Friedrich Haag",
     "license": "CC BY-SA 4.0",
     "photoFile": "european-pilchard.jpg"
   },
   {
     "id": "allis-shad",
-    "namePl": "Szczawik",
-    "nameLatin": "Alosa alosa",
+    "namePl": "Aloza",
     "pools": [
       "PL",
       "EU"
@@ -2764,15 +2629,14 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Chroniony fragment populacji.",
+    "funFact": "Aloza — chroniony fragment populacji, przy czym wiosenny tarłak.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "allis-shad.jpg"
   },
   {
     "id": "twaite-shad",
-    "namePl": "Alosia",
-    "nameLatin": "Alosa fallax",
+    "namePl": "Aloza rzeczna",
     "pools": [
       "EU"
     ],
@@ -2784,15 +2648,14 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W górnych nurtach.",
+    "funFact": "Aloza rzeczna — w górnych nurtach, przy czym mniejsza aloza.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "twaite-shad.jpg"
   },
   {
     "id": "thornback-ray",
-    "namePl": "Płatwica",
-    "nameLatin": "Raja clavata",
+    "namePl": "Raja nabijana",
     "pools": [
       "PL",
       "EU"
@@ -2805,7 +2668,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Piaszczyste dno.",
+    "funFact": "Raja nabijana — piaszczyste dno, przy czym płaska z kolcami.",
     "author": "Jacob van Maerlant",
     "license": "domena publiczna",
     "photoFile": "thornback-ray.jpg"
@@ -2813,7 +2676,6 @@
   {
     "id": "blonde-ray",
     "namePl": "Raja żółta",
-    "nameLatin": "Raja brachyura",
     "pools": [
       "EU"
     ],
@@ -2825,7 +2687,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Atlantyk.",
+    "funFact": "Raja żółta — atlantyk, przy czym żółtawa skóra.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "blonde-ray.jpg"
@@ -2833,7 +2695,6 @@
   {
     "id": "spotted-ray",
     "namePl": "Raja maculata",
-    "nameLatin": "Raja montagui",
     "pools": [
       "EU"
     ],
@@ -2845,15 +2706,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płytkie wody.",
+    "funFact": "Raja maculata — płytkie wody, przy czym plamki.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "spotted-ray.jpg"
   },
   {
     "id": "small-spotted-catshark",
-    "namePl": "Katraplan",
-    "nameLatin": "Scyliorhinus canicula",
+    "namePl": "Rekinek psi",
     "pools": [
       "PL",
       "EU"
@@ -2866,15 +2726,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Nocny drapieżnik.",
+    "funFact": "Rekinek psi — nocny drapieżnik, przy czym cętki.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "small-spotted-catshark.jpg"
   },
   {
     "id": "nursehound",
-    "namePl": "Kocior",
-    "nameLatin": "Scyliorhinus stellaris",
+    "namePl": "Rekinek plamisty",
     "pools": [
       "EU"
     ],
@@ -2886,15 +2745,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Drapieżna płaszczka.",
+    "funFact": "Rekinek plamisty — drapieżna płaszczka, przy czym większy skorpen.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "nursehound.jpg"
   },
   {
     "id": "smooth-hound",
-    "namePl": "Gładkawca",
-    "nameLatin": "Mustelus mustelus",
+    "namePl": "Mustel siwy",
     "pools": [
       "EU"
     ],
@@ -2906,15 +2764,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zęby tłuste.",
+    "funFact": "Mustel siwy — zęby tłuste, przy czym łagodny \"rekin\".",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "smooth-hound.jpg"
   },
   {
     "id": "spiny-dogfish",
-    "namePl": "Kulik",
-    "nameLatin": "Squalus acanthias",
+    "namePl": "Koleń pospolity",
     "pools": [
       "PL",
       "EU"
@@ -2927,15 +2784,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poławiany komercyjnie.",
+    "funFact": "Koleń pospolity — poławiany komercyjnie, przy czym grzbietowe kolce.",
     "author": "Peter van der Sluijs",
     "license": "CC BY-SA 3.0",
     "photoFile": "spiny-dogfish.jpg"
   },
   {
     "id": "common-stingray",
-    "namePl": "Patałas",
-    "nameLatin": "Dasyatis pastinaca",
+    "namePl": "Ogończa pastynak",
     "pools": [
       "EU"
     ],
@@ -2947,15 +2803,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mieszkaniec płytkich wód.",
+    "funFact": "Ogończa pastynak — mieszkaniec płytkich wód, przy czym kolczasty ogon.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-stingray.jpg"
   },
   {
     "id": "shorthorn-sculpin",
-    "namePl": "Siewiotrojec",
-    "nameLatin": "Myoxocephalus scorpius",
+    "namePl": "Kur ostroboki",
     "pools": [
       "PL",
       "EU"
@@ -2968,15 +2823,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przy dnie.",
+    "funFact": "Kur ostroboki — przy dnie, przy czym kolczaste głowy.",
     "author": "Jordan, David Starr, 1851-1931",
     "license": "domena publiczna",
     "photoFile": "shorthorn-sculpin.jpg"
   },
   {
     "id": "long-spined-bull",
-    "namePl": "Byczałka",
-    "nameLatin": "Taurulus bubalis",
+    "namePl": "Kur głowacz",
     "pools": [
       "PL",
       "EU"
@@ -2989,15 +2843,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kamuflaż.",
+    "funFact": "Kur głowacz — kamuflaż, przy czym kolce pod oczami.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "long-spined-bull.jpg"
   },
   {
     "id": "viviparous-eelpout",
-    "namePl": "Świna morska",
-    "nameLatin": "Zoarces viviparus",
+    "namePl": "Węgorzyca",
     "pools": [
       "PL",
       "EU"
@@ -3010,15 +2863,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rodzi żywe.",
+    "funFact": "Węgorzyca — rodzi żywe, przy czym wężowate, a należy do rodziny świńskowate.",
     "author": "Yuriy Kvach",
     "license": "CC BY-SA 3.0",
     "photoFile": "viviparous-eelpout.jpg"
   },
   {
     "id": "fourhorn-sculpin",
-    "namePl": "Czteroroga",
-    "nameLatin": "Myoxocephalus quadricornis",
+    "namePl": "Kur rogacz",
     "pools": [
       "PL",
       "EU"
@@ -3031,15 +2883,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Cold water.",
+    "funFact": "Kur rogacz — cold water, przy czym kolce na głowie.",
     "author": "Department of the Interior",
     "license": "domena publiczna",
     "photoFile": "fourhorn-sculpin.jpg"
   },
   {
     "id": "lumpsucker",
-    "namePl": "Knotwid",
-    "nameLatin": "Cyclopterus lumpus",
+    "namePl": "Tasza",
     "pools": [
       "EU"
     ],
@@ -3051,15 +2902,14 @@
     "productForm": "ikra",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ikra delikates.",
+    "funFact": "Tasza — ikra delikates, przy czym przyssawka, a należy do rodziny agonowate.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "lumpsucker.jpg"
   },
   {
     "id": "great-sandeel",
-    "namePl": "Kompa",
-    "nameLatin": "Hyperoplus lanceolatus",
+    "namePl": "Dobijak",
     "pools": [
       "PL",
       "EU"
@@ -3072,15 +2922,14 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jako ościotka.",
+    "funFact": "Dobijak — jako ościotka, przy czym długi jak igła.",
     "author": "Ekström, Carl Ulrik; Fries, Bengt Fredrik; Smitt, Fredrik Adam; Sundevall, Carl Jacob; Wright, Wilhelm von",
     "license": "domena publiczna",
     "photoFile": "great-sandeel.jpg"
   },
   {
     "id": "lesser-sandeel",
-    "namePl": "Pianka",
-    "nameLatin": "Ammodytes tobianus",
+    "namePl": "Tobiasz",
     "pools": [
       "PL",
       "EU"
@@ -3093,15 +2942,14 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Połów przemysłowy.",
+    "funFact": "Tobiasz — połów przemysłowy, przy czym bardzo smukłe.",
     "author": "Charles J. Sharp",
     "license": "CC BY-SA 4.0",
     "photoFile": "lesser-sandeel.jpg"
   },
   {
     "id": "sandeel",
-    "namePl": "Lancetka",
-    "nameLatin": "Ammodytes marinus",
+    "namePl": "Kantela",
     "pools": [
       "PL",
       "EU"
@@ -3114,15 +2962,14 @@
     "productForm": "wędzony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Tran i pasta.",
+    "funFact": "Kantela — tran i pasta, przy czym piaszczyste ławice.",
     "author": "Smiley.toerist",
     "license": "CC BY-SA 4.0",
     "photoFile": "sandeel.jpg"
   },
   {
     "id": "common-dragonet",
-    "namePl": "Smokzęb",
-    "nameLatin": "Callionymus lyra",
+    "namePl": "Lira",
     "pools": [
       "PL",
       "EU"
@@ -3135,7 +2982,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mienią się.",
+    "funFact": "Lira — mienią się, przy czym płetwy wielkie.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-dragonet.jpg"
@@ -3143,7 +2990,6 @@
   {
     "id": "black-scorpionfish",
     "namePl": "Skorpena czarna",
-    "nameLatin": "Scorpaena porcus",
     "pools": [
       "EU"
     ],
@@ -3155,7 +3001,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kamuflaż skały.",
+    "funFact": "Skorpena czarna — kamuflaż skały, przy czym kolczaste.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "black-scorpionfish.jpg"
@@ -3163,7 +3009,6 @@
   {
     "id": "red-scorpionfish",
     "namePl": "Skorpena czerwona",
-    "nameLatin": "Scorpaena scrofa",
     "pools": [
       "EU"
     ],
@@ -3175,15 +3020,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Trujące kolce.",
+    "funFact": "Skorpena czerwona — trujące kolce, przy czym grzebień kolczy.",
     "author": "Friedrich Haag",
     "license": "CC BY-SA 4.0",
     "photoFile": "red-scorpionfish.jpg"
   },
   {
     "id": "dusky-grouper",
-    "namePl": "Lubczyk",
-    "nameLatin": "Epinephelus marginatus",
+    "namePl": "Granik wielki",
     "pools": [
       "EU"
     ],
@@ -3195,15 +3039,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Gatunek chroniony.",
+    "funFact": "Granik wielki — gatunek chroniony, przy czym ogromny.",
     "author": "Photograph by Mike Peel (www.mikepeel.net).",
     "license": "CC BY-SA 4.0",
     "photoFile": "dusky-grouper.jpg"
   },
   {
     "id": "grey-triggerfish",
-    "namePl": "Stalik",
-    "nameLatin": "Balistes capriscus",
+    "namePl": "Bruzdak",
     "pools": [
       "EU"
     ],
@@ -3215,15 +3058,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zęby mocne.",
+    "funFact": "Bruzdak — zęby mocne, przy czym twarda skóra.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "grey-triggerfish.jpg"
   },
   {
     "id": "pearly-razorfish",
-    "namePl": "Galzija",
-    "nameLatin": "Xyrichtys novacula",
+    "namePl": "Brzytwiak atlantycki",
     "pools": [
       "EU"
     ],
@@ -3235,7 +3077,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jasna skóra.",
+    "funFact": "Brzytwiak atlantycki — jasna skóra, przy czym parzy z piasku.",
     "author": "zastępcze zdjęcie (perch)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "pearly-razorfish.jpg"
@@ -3243,7 +3085,6 @@
   {
     "id": "corkwing-wrasse",
     "namePl": "Wargacz",
-    "nameLatin": "Symphodus melops",
     "pools": [
       "PL",
       "EU"
@@ -3256,15 +3097,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Gniazdo na dnie.",
+    "funFact": "Wargacz — gniazdo na dnie, przy czym paski głowy.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "corkwing-wrasse.jpg"
   },
   {
     "id": "ballan-wrasse",
-    "namePl": "Wargulat",
-    "nameLatin": "Labrus bergylta",
+    "namePl": "Wargacz kniazik",
     "pools": [
       "EU"
     ],
@@ -3276,15 +3116,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Herbivor.",
+    "funFact": "Wargacz kniazik — herbivor, przy czym masywny, a należy do rodziny wrężkowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "ballan-wrasse.jpg"
   },
   {
     "id": "cuckoo-wrasse",
-    "namePl": "Maniel",
-    "nameLatin": "Labrus mixtus",
+    "namePl": "Wargacz tęczak",
     "pools": [
       "EU"
     ],
@@ -3296,15 +3135,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zmienność barw.",
+    "funFact": "Wargacz tęczak — zmienność barw, przy czym jaskrawe samce.",
     "author": "Fries, Bengt Fredrik, 1799-1839\nEkstråom, C. U., 1781-1859, joint author\nSundevall, Carl J., 1801-1875\nWright, Wilhelm v",
     "license": "domena publiczna",
     "photoFile": "cuckoo-wrasse.jpg"
   },
   {
     "id": "goldsinny-wrasse",
-    "namePl": "Malab",
-    "nameLatin": "Ctenolabrus rupestris",
+    "namePl": "Wargacz skalik",
     "pools": [
       "EU"
     ],
@@ -3316,15 +3154,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Na skałach.",
+    "funFact": "Wargacz skalik — na skałach, przy czym mały.",
     "author": "Fries, Bengt Fredrik, 1799-1839\nEkstråom, C. U., 1781-1859, joint author\nSundevall, Carl J., 1801-1875\nWright, Wilhelm v",
     "license": "domena publiczna",
     "photoFile": "goldsinny-wrasse.jpg"
   },
   {
     "id": "peacock-wrasse",
-    "namePl": "Labir",
-    "nameLatin": "Symphodus tinca",
+    "namePl": "Wargacz linek",
     "pools": [
       "EU"
     ],
@@ -3336,15 +3173,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skała.",
+    "funFact": "Wargacz linek — skała, przy czym paski, a należy do rodziny wrężkowate.",
     "author": "Tylwyth Eldar",
     "license": "CC BY-SA 4.0",
     "photoFile": "peacock-wrasse.jpg"
   },
   {
     "id": "rainbow-wrasse",
-    "namePl": "Tęczak",
-    "nameLatin": "Coris julis",
+    "namePl": "Korys doncela",
     "pools": [
       "EU"
     ],
@@ -3356,15 +3192,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zmienia płeć.",
+    "funFact": "Korys doncela — zmienia płeć, przy czym bardzo kolorowy.",
     "author": "Couch, Jonathan; Lydon, A. F.",
     "license": "domena publiczna",
     "photoFile": "rainbow-wrasse.jpg"
   },
   {
     "id": "ornate-wrasse",
-    "namePl": "Orlica",
-    "nameLatin": "Thalassoma pavo",
+    "namePl": "Talasoma pawia",
     "pools": [
       "EU"
     ],
@@ -3376,15 +3211,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rafa koralowa.",
+    "funFact": "Talasoma pawia — rafa koralowa, przy czym zielono-niebieski.",
     "author": "Photograph by Mike Peel (www.mikepeel.net).",
     "license": "CC BY-SA 4.0",
     "photoFile": "ornate-wrasse.jpg"
   },
   {
     "id": "picarel",
-    "namePl": "Skarpena",
-    "nameLatin": "Spicara smaris",
+    "namePl": "Pysoń smukły",
     "pools": [
       "EU"
     ],
@@ -3396,15 +3230,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Akwarystyczna.",
+    "funFact": "Pysoń smukły — akwarystyczna, przy czym mała, a należy do rodziny prażmowate.",
     "author": "nieznany autor",
     "license": "domena publiczna",
     "photoFile": "picarel.jpg"
   },
   {
     "id": "blotched-picarel",
-    "namePl": "Picrel",
-    "nameLatin": "Centracanthus cirrus",
+    "namePl": "Pysoń ostrojawy",
     "pools": [
       "EU"
     ],
@@ -3416,15 +3249,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały.",
+    "funFact": "Pysoń ostrojawy — skały, przy czym wydłużone, a należy do rodziny prażmowate.",
     "author": "zastępcze zdjęcie (bream)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "blotched-picarel.jpg"
   },
   {
     "id": "axillary-seabream",
-    "namePl": "Fanfrau",
-    "nameLatin": "Spicara maena",
+    "namePl": "Pysoń wygrzbiecony",
     "pools": [
       "EU"
     ],
@@ -3436,15 +3268,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Plankton.",
+    "funFact": "Pysoń wygrzbiecony — plankton, przy czym drobna, a należy do rodziny prażmowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "axillary-seabream.jpg"
   },
   {
     "id": "tacksan",
-    "namePl": "Mogardo",
-    "nameLatin": "Spondyliosoma cantarus",
+    "namePl": "Kadut",
     "pools": [
       "EU"
     ],
@@ -3456,15 +3287,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały.",
+    "funFact": "Kadut — skały, przy czym owalna, a należy do rodziny karychowate.",
     "author": "Diego Delso",
     "license": "CC BY-SA 4.0",
     "photoFile": "tacksan.jpg"
   },
   {
     "id": "spottail-seabream",
-    "namePl": "Urania",
-    "nameLatin": "Citharus linguatula",
+    "namePl": "Mijar",
     "pools": [
       "EU"
     ],
@@ -3476,15 +3306,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Miękkie dno.",
+    "funFact": "Mijar — miękkie dno, przy czym plama ogona.",
     "author": "zastępcze zdjęcie (tacksan)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "spottail-seabream.jpg"
   },
   {
     "id": "brown-meagre",
-    "namePl": "Brown meagre",
-    "nameLatin": "Sciaena umbra",
+    "namePl": "Skrzekiew większa",
     "pools": [
       "EU"
     ],
@@ -3496,15 +3325,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rezonuje mięśniami.",
+    "funFact": "Skrzekiew większa — rezonuje mięśniami, przy czym brązowe pasma.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "brown-meagre.jpg"
   },
   {
     "id": "meagre",
-    "namePl": "Corsillo",
-    "nameLatin": "Argyrosomus regius",
+    "namePl": "Kulbin",
     "pools": [
       "EU"
     ],
@@ -3516,15 +3344,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wydaje dźwięk.",
+    "funFact": "Kulbin — wydaje dźwięk, przy czym ogromny skrytnik.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "meagre.jpg"
   },
   {
     "id": "greater-amberjack",
-    "namePl": "Seriole",
-    "nameLatin": "Seriola dumerili",
+    "namePl": "Seriola",
     "pools": [
       "EU"
     ],
@@ -3536,7 +3363,7 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Drapieżny.",
+    "funFact": "Seriola — drapieżny, przy czym szybki makrelowy, a należy do rodziny seriola.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "greater-amberjack.jpg"
@@ -3544,7 +3371,6 @@
   {
     "id": "pilot-fish",
     "namePl": "Pilot",
-    "nameLatin": "Naucrates ductor",
     "pools": [
       "EU"
     ],
@@ -3556,15 +3382,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Towarzyszy rekinom.",
+    "funFact": "Pilot — towarzyszy rekinom, przy czym paski, a należy do rodziny rozdęcowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "pilot-fish.jpg"
   },
   {
     "id": "bluefish",
-    "namePl": "Teraglia",
-    "nameLatin": "Pomatomus saltatrix",
+    "namePl": "Lufar",
     "pools": [
       "EU"
     ],
@@ -3576,15 +3401,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poluje w stadach.",
+    "funFact": "Lufar — poluje w stadach, przy czym ostre zęby.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "bluefish.jpg"
   },
   {
     "id": "pompano",
-    "namePl": "Palometa",
-    "nameLatin": "Trachinotus ovatus",
+    "namePl": "Tragiel atlantycki",
     "pools": [
       "EU"
     ],
@@ -3596,15 +3420,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały.",
+    "funFact": "Tragiel atlantycki — skały, przy czym srebrzy, a należy do rodziny carangidae.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "pompano.jpg"
   },
   {
     "id": "sand-steamer",
-    "namePl": "Gofark",
-    "nameLatin": "Trachinus draco",
+    "namePl": "Ostrosz drakon",
     "pools": [
       "PL",
       "EU"
@@ -3617,15 +3440,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Jad płetw.",
+    "funFact": "Ostrosz drakon — jad płetw, przy czym kolczasty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "sand-steamer.jpg"
   },
   {
     "id": "greater-weever",
-    "namePl": "Morszyn",
-    "nameLatin": "Echiichthys vipera",
+    "namePl": "Ostrosz większy",
     "pools": [
       "EU"
     ],
@@ -3637,15 +3459,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Trujące kolce.",
+    "funFact": "Ostrosz większy — trujące kolce, przy czym mała.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "greater-weever.jpg"
   },
   {
     "id": "lesser-weever",
-    "namePl": "Gronowierz",
-    "nameLatin": "Trachinus radiatus",
+    "namePl": "Ostrosz mniejszy",
     "pools": [
       "EU"
     ],
@@ -3657,15 +3478,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zakopuje się.",
+    "funFact": "Ostrosz mniejszy — zakopuje się, przy czym kamuflaż.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "lesser-weever.jpg"
   },
   {
     "id": "common-eelpout",
-    "namePl": "Nierąb",
-    "nameLatin": "Zoarces elongatus",
+    "namePl": "Węgorzyca długa",
     "pools": [
       "PL",
       "EU"
@@ -3678,15 +3498,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przy kamieniach.",
+    "funFact": "Węgorzyca długa — przy kamieniach, przy czym węgorzowaty.",
     "author": "zastępcze zdjęcie (viviparous-eelpout)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "common-eelpout.jpg"
   },
   {
     "id": "tadpole-cod",
-    "namePl": "Wijecór",
-    "nameLatin": "Raniceps raninus",
+    "namePl": "Żabogłów",
     "pools": [
       "PL",
       "EU"
@@ -3699,15 +3518,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przybrzeżny.",
+    "funFact": "Żabogłów — przybrzeżny, przy czym żabia głowa, a należy do rodziny rzeniotowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "tadpole-cod.jpg"
   },
   {
     "id": "norway-capelan",
-    "namePl": "Gume",
-    "nameLatin": "Trisopterus capelanus",
+    "namePl": "Gokiel mniejszy",
     "pools": [
       "EU"
     ],
@@ -3719,15 +3537,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Przetwórstwo.",
+    "funFact": "Gokiel mniejszy — przetwórstwo, przy czym drobica, a należy do rodziny gąbowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "norway-capelan.jpg"
   },
   {
     "id": "polar-cod",
-    "namePl": "Pomery",
-    "nameLatin": "Boreogadus saida",
+    "namePl": "Sajka",
     "pools": [
       "EU"
     ],
@@ -3739,7 +3556,7 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Polarny.",
+    "funFact": "Sajka — polarny, przy czym arktyczny dorsz, a należy do rodziny gadidae.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "polar-cod.jpg"
@@ -3747,7 +3564,6 @@
   {
     "id": "navaga",
     "namePl": "Nawaga",
-    "nameLatin": "Eleginus nawaga",
     "pools": [
       "EU"
     ],
@@ -3759,15 +3575,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Delikatna.",
+    "funFact": "Nawaga — delikatna, przy czym arktyczna, a należy do rodziny gadidae.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "navaga.jpg"
   },
   {
     "id": "sand-smelt",
-    "namePl": "Aterynka",
-    "nameLatin": "Atherina boyeri",
+    "namePl": "Ateryna",
     "pools": [
       "EU"
     ],
@@ -3779,15 +3594,14 @@
     "productForm": "smażona",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Porcje smażone.",
+    "funFact": "Ateryna — porcje smażone, przy czym srebrna, a należy do rodziny aterynkowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "sand-smelt.jpg"
   },
   {
     "id": "sand-smelt-baltic",
-    "namePl": "Kafelek",
-    "nameLatin": "Atherina presbyter",
+    "namePl": "Ateryna bałtycka",
     "pools": [
       "PL",
       "EU"
@@ -3800,15 +3614,14 @@
     "productForm": "smażona",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "W lagunach.",
+    "funFact": "Ateryna bałtycka — w lagunach, przy czym drobna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "sand-smelt-baltic.jpg"
   },
   {
     "id": "broadnosed-pipefish",
-    "namePl": "Koniuch",
-    "nameLatin": "Syngnathus typhle",
+    "namePl": "Iglicznia",
     "pools": [
       "PL",
       "EU"
@@ -3821,15 +3634,14 @@
     "productForm": "tusza (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Mężczyzna nosi ikrę.",
+    "funFact": "Iglicznia — mężczyzna nosi ikrę, przy czym iglasty.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "broadnosed-pipefish.jpg"
   },
   {
     "id": "black-striped-pipefish",
-    "namePl": "Rurzyca",
-    "nameLatin": "Syngnathus abaster",
+    "namePl": "Iglicznia pospolita",
     "pools": [
       "EU"
     ],
@@ -3841,15 +3653,14 @@
     "productForm": "tusza (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zarośla.",
+    "funFact": "Iglicznia pospolita — zarośla, przy czym cienki, a należy do rodziny konikowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "black-striped-pipefish.jpg"
   },
   {
     "id": "seahorse-long",
-    "namePl": "Świerg",
-    "nameLatin": "Hippocampus guttulatus",
+    "namePl": "Pławikonik",
     "pools": [
       "EU"
     ],
@@ -3861,15 +3672,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Gatunek chroniony.",
+    "funFact": "Pławikonik — gatunek chroniony, przy czym mały, a należy do rodziny konikowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "seahorse-long.jpg"
   },
   {
     "id": "seahorse-short",
-    "namePl": "Konik morski",
-    "nameLatin": "Hippocampus hippocampus",
+    "namePl": "Konik Morski",
     "pools": [
       "EU"
     ],
@@ -3881,15 +3691,14 @@
     "productForm": "tusza świeża (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Chroniony.",
+    "funFact": "Konik Morski — chroniony, przy czym drobny, a należy do rodziny konikowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "seahorse-short.jpg"
   },
   {
     "id": "snake-pipefish",
-    "namePl": "Węgorzyk",
-    "nameLatin": "Entelurus aequoreus",
+    "namePl": "Wężyna",
     "pools": [
       "PL",
       "EU"
@@ -3902,15 +3711,14 @@
     "productForm": "tusza (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Poluje na małe ryby.",
+    "funFact": "Wężyna — poluje na małe ryby, przy czym długi.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "snake-pipefish.jpg"
   },
   {
     "id": "river-pipefish",
-    "namePl": "Gaden",
-    "nameLatin": "Nerophis lumbriciformis",
+    "namePl": "Wężeniec",
     "pools": [
       "PL",
       "EU"
@@ -3923,15 +3731,14 @@
     "productForm": "tusza (rzadko)",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Słonawy brak.",
+    "funFact": "Wężeniec — słonawy brak, przy czym wykłuwa w Zatoce.",
     "author": "zastępcze zdjęcie (broadnosed-pipefish)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "river-pipefish.jpg"
   },
   {
     "id": "shanny",
-    "namePl": "Ślimak",
-    "nameLatin": "Lipophrys pholis",
+    "namePl": "Ślizg nakrapiany",
     "pools": [
       "PL",
       "EU"
@@ -3944,15 +3751,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Zielono-brunatny.",
+    "funFact": "Ślizg nakrapiany — zielono-brunatny, przy czym przybrzeżny, a należy do rodziny blennowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "shanny.jpg"
   },
   {
     "id": "tubenose-goby",
-    "namePl": "Głochnik",
-    "nameLatin": "Proterorhinus semilunaris",
+    "namePl": "Babka rurkonosa",
     "pools": [
       "PL",
       "EU"
@@ -3965,7 +3771,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Stawki Wiślane.",
+    "funFact": "Babka rurkonosa — stawki Wiślane, przy czym inwazyjna.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "tubenose-goby.jpg"
@@ -3973,7 +3779,6 @@
   {
     "id": "gobius-niger",
     "namePl": "Babka czarna",
-    "nameLatin": "Gobius niger",
     "pools": [
       "EU"
     ],
@@ -3985,7 +3790,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skały.",
+    "funFact": "Babka czarna — skały, przy czym mała, a należy do rodziny gobie.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "gobius-niger.jpg"
@@ -3993,7 +3798,6 @@
   {
     "id": "redmouth-goby",
     "namePl": "Babka czerwona",
-    "nameLatin": "Gobius cruentatus",
     "pools": [
       "EU"
     ],
@@ -4005,7 +3809,7 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Kamuflaż.",
+    "funFact": "Babka czerwona — kamuflaż, przy czym czerwone usta.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "redmouth-goby.jpg"
@@ -4013,7 +3817,6 @@
   {
     "id": "common-goby",
     "namePl": "Babka wielkogłowa",
-    "nameLatin": "Pomatoschistus microps",
     "pools": [
       "PL",
       "EU"
@@ -4026,15 +3829,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Płytkie.",
+    "funFact": "Babka wielkogłowa — płytkie, przy czym drobna, a należy do rodziny gobie.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "common-goby.jpg"
   },
   {
     "id": "grass-goby",
-    "namePl": "Przygłup",
-    "nameLatin": "Ponticola kessleri",
+    "namePl": "Babka potokowa",
     "pools": [
       "PL",
       "EU"
@@ -4047,15 +3849,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Dno piaskowe.",
+    "funFact": "Babka potokowa — dno piaskowe, przy czym inwazyjny.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "grass-goby.jpg"
   },
   {
     "id": "giant-goby",
-    "namePl": "Olbrzymek",
-    "nameLatin": "Padogobius bonelli",
+    "namePl": "Babka olbrzymia",
     "pools": [
       "EU"
     ],
@@ -4067,15 +3868,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rzeczne ujścia.",
+    "funFact": "Babka olbrzymia — rzeczne ujścia, przy czym większy.",
     "author": "zastępcze zdjęcie (round-goby)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "giant-goby.jpg"
   },
   {
     "id": "tompot-blenny",
-    "namePl": "Piran",
-    "nameLatin": "Parablennius gattorugine",
+    "namePl": "Ślizg prążkowany",
     "pools": [
       "EU"
     ],
@@ -4087,15 +3887,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Skalisty.",
+    "funFact": "Ślizg prążkowany — skalisty, przy czym wąsy na głowie.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "tompot-blenny.jpg"
   },
   {
     "id": "peacock-blenny",
-    "namePl": "Smok",
-    "nameLatin": "Salaria pavo",
+    "namePl": "Ślizg pawik",
     "pools": [
       "EU"
     ],
@@ -4107,15 +3906,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Laguna.",
+    "funFact": "Ślizg pawik — laguna, przy czym purpurowy, a należy do rodziny blennowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "peacock-blenny.jpg"
   },
   {
     "id": "freshwater-blenny",
-    "namePl": "Blennius",
-    "nameLatin": "Salaria fluviatilis",
+    "namePl": "Ślizg słodkowodny",
     "pools": [
       "EU"
     ],
@@ -4127,15 +3925,14 @@
     "productForm": "tusza",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Rzeki Bałkanów.",
+    "funFact": "Ślizg słodkowodny — rzeki Bałkanów, przy czym słodkowodny.",
     "author": "zastępcze zdjęcie (shanny)",
     "license": "sprawdź oryginał na Commons",
     "photoFile": "freshwater-blenny.jpg"
   },
   {
     "id": "atlantic-mackerel-na",
-    "namePl": "Stawridż",
-    "nameLatin": "Auxis thazard",
+    "namePl": "Tuńczyk makrela",
     "pools": [
       "EU"
     ],
@@ -4147,15 +3944,14 @@
     "productForm": "filet",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Ciepłe morza.",
+    "funFact": "Tuńczyk makrela — ciepłe morza, przy czym mini tun.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "atlantic-mackerel-na.jpg"
   },
   {
     "id": "orange-roughy",
-    "namePl": "Pipar",
-    "nameLatin": "Hoplostethus atlanticus",
+    "namePl": "Gardłosz atlantycki",
     "pools": [
       "EU"
     ],
@@ -4167,15 +3963,14 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Wolno rośnie.",
+    "funFact": "Gardłosz atlantycki — wolno rośnie, przy czym głęboki.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "orange-roughy.jpg"
   },
   {
     "id": "argentine",
-    "namePl": "Smarnik",
-    "nameLatin": "Argentina silus",
+    "namePl": "Argentyna wielka",
     "pools": [
       "EU"
     ],
@@ -4187,7 +3982,7 @@
     "productForm": "filet mrożony",
     "market": "Cennik orientacyjny · 2026-11-26",
     "observedOn": "2026-11-26",
-    "funFact": "Tran.",
+    "funFact": "Argentyna wielka — tran, przy czym srebrny, a należy do rodziny smarnikowate.",
     "author": "Wikimedia Commons",
     "license": "sprawdź na Commons",
     "photoFile": "argentine.jpg"

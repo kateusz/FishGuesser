@@ -22,7 +22,6 @@ def seed_to_fish(seed: dict, author: str, license_: str) -> dict:
     return {
         "id": seed["id"],
         "namePl": seed["namePl"],
-        "nameLatin": seed["nameLatin"],
         "pools": seed["pools"],
         "family": seed["family"],
         "weightKg": seed["weightKg"],

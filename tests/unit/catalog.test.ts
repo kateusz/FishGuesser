@@ -7,7 +7,6 @@ const FISH = fishes();
 const REQUIRED: (keyof Fish)[] = [
   "id",
   "namePl",
-  "nameLatin",
   "pools",
   "family",
   "weightKg",
@@ -28,18 +27,19 @@ describe("katalog ryb", () => {
     expect(catalog.length).toBe(205);
     expect(FISH.length).toBe(205);
     const ids = new Set<string>();
-    const latin = new Set<string>();
+    const names = new Set<string>();
     for (const fish of FISH) {
       for (const key of REQUIRED) {
         expect(fish[key], `${fish.id}.${key}`).toBeTruthy();
       }
       expect(ids.has(fish.id)).toBe(false);
       ids.add(fish.id);
-      const key = fish.nameLatin.toLowerCase();
-      expect(latin.has(key)).toBe(false);
-      latin.add(key);
+      const key = fish.namePl.toLowerCase();
+      expect(names.has(key), `zduplikowana nazwa: ${fish.namePl}`).toBe(false);
+      names.add(key);
       expect(fish.weightKg).toBeGreaterThan(0);
       expect(fish.pricePln).toBeGreaterThan(0);
+      expect(fish.funFact.split(/\s+/).length, `${fish.id}.funFact`).toBeGreaterThanOrEqual(8);
       if (fish.pools.includes("PL")) {
         expect(fish.weightNote).toMatch(/PL:/);
       }
@@ -62,6 +62,12 @@ describe("katalog ryb", () => {
       expect(fish.weightKg, `${fish.id}.weightKg`).toBeLessThanOrEqual(100);
       expect(fish.pricePln, `${fish.id}.pricePln`).toBeGreaterThanOrEqual(5);
       expect(fish.pricePln, `${fish.id}.pricePln`).toBeLessThanOrEqual(200);
+    }
+  });
+
+  test("katalog nie zawiera łaciny", () => {
+    for (const fish of catalog as Array<Record<string, unknown>>) {
+      expect(fish).not.toHaveProperty("nameLatin");
     }
   });
 });

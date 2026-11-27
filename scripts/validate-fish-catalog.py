@@ -14,7 +14,6 @@ PHOTOS = ROOT / "src/content/photos"
 REQUIRED = (
     "id",
     "namePl",
-    "nameLatin",
     "pools",
     "family",
     "weightKg",
@@ -33,11 +32,11 @@ REQUIRED = (
 
 def main() -> int:
     data = json.loads(CATALOG.read_text(encoding="utf-8"))
-    if len(data) != 200:
-        print(f"oczekiwano 200 ryb, jest {len(data)}", file=sys.stderr)
+    if len(data) != 205:
+        print(f"oczekiwano 205 ryb, jest {len(data)}", file=sys.stderr)
         return 1
     ids: set[str] = set()
-    latin: set[str] = set()
+    names_pl: set[str] = set()
     for fish in data:
         for key in REQUIRED:
             if key not in fish or fish[key] in ("", None):
@@ -47,11 +46,18 @@ def main() -> int:
             print(f"duplikat id {fish['id']}", file=sys.stderr)
             return 1
         ids.add(fish["id"])
-        key = str(fish["nameLatin"]).casefold()
-        if key in latin:
-            print(f"duplikat łaciny {fish['nameLatin']}", file=sys.stderr)
+        if "nameLatin" in fish:
+            print(f"{fish['id']}: usuń nameLatin z katalogu", file=sys.stderr)
             return 1
-        latin.add(key)
+        key = str(fish["namePl"]).casefold()
+        if key in names_pl:
+            print(f"duplikat nazwy PL {fish['namePl']}", file=sys.stderr)
+            return 1
+        names_pl.add(key)
+        words = str(fish.get("funFact", "")).split()
+        if len(words) < 8:
+            print(f"{fish['id']}: funFact za krótki ({len(words)} słów)", file=sys.stderr)
+            return 1
         if not re.fullmatch(r"[a-z0-9-]+", fish["id"]):
             print(f"zły id {fish['id']}", file=sys.stderr)
             return 1

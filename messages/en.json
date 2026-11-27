@@ -62,11 +62,13 @@
     "seconds": "{n} s"
   },
   "profile": {
+    "tag": "FIRST, LET'S MEET THE CAPTAIN",
     "title": "WHAT SHOULD WE CALL YOU?",
     "nick": "Nickname",
     "nickLength": "Nickname must be 3 to 16 characters.",
     "saveFailed": "Could not save your profile.",
-    "random": "Random",
+    "avatarTitle": "CHOOSE YOUR FISH",
+    "captainMessage": "Great nickname, great fish. Let's get moving!",
     "next": "Next"
   },
   "join": {
@@ -77,6 +79,15 @@
     "letter": "Room code letter {n}",
     "submit": "Join"
   },
+  "invite": {
+    "tag": "GAME INVITATION",
+    "title": "THE CREW IS WAITING!",
+    "message": "{nick} invites you to fish for points together!",
+    "room": "ROOM",
+    "details": "{players}/{max} players · {pool} · {mode}",
+    "link": "Invitation:",
+    "submit": "Join room"
+  },
   "solo": {
     "title": "PLAY SOLO",
     "untimed": "No time limit",
@@ -84,8 +95,37 @@
   },
   "lobby": {
     "needPlayer": "Need a second player to start.",
+    "ready": "Everyone aboard? Let's start fishing for points!",
     "waiting": "Waiting for the host.",
-    "leave": "Leave room"
+    "leave": "Leave room",
+    "roomCode": "YOUR ROOM CODE",
+    "copyCode": "Copy code",
+    "link": "Link",
+    "codeCopied": "Room code copied.",
+    "linkCopied": "Room link copied.",
+    "copyFailed": "Could not copy.",
+    "crew": "CREW ON BOARD",
+    "you": "You",
+    "online": "Online",
+    "hostTag": "YOU ARE THE HOST",
+    "guestTag": "YOU ARE A GUEST",
+    "title": "SET UP THE GAME",
+    "fishPool": "FISH POOL",
+    "poolPoland": "Rivers, lakes and the Baltic",
+    "poolEurope": "From the Baltic to the Mediterranean",
+    "poolEuropeWithoutPoland": "Species outside Polish waters",
+    "fishCount": "{n} demo fish",
+    "questionModes": "QUESTION MODES",
+    "roundCount": "NUMBER OF ROUNDS",
+    "roundTime": "ROUND TIME",
+    "difficulty": "DIFFICULTY",
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard",
+      "mix": "Mix"
+    },
+    "startGame": "Start game"
   },
   "room": {
     "connecting": "Connecting…",
@@ -101,6 +141,13 @@
     "tick": "TICK-TOCK, {n} seconds left",
     "left": "{n} seconds left",
     "countdown": "Watch the photo",
+    "countdownMessage": "Eyes wide open, fins on the buttons!",
+    "countdownModes": {
+      "species": "GUESS THE SPECIES",
+      "weight": "GUESS THE WEIGHT",
+      "price": "GUESS THE PRICE",
+      "mix": "GUESS THE FISH"
+    },
     "photoAlt": "Photograph of a fish to identify",
     "weight": "Weight in kilograms",
     "weightSlider": "Weight slider",
@@ -108,13 +155,46 @@
     "price": "Price per kilogram",
     "answered": "Answered {done}/{total}",
     "locked": "Answer saved",
+    "waiting": "Answer saved! Waiting for the others ({done}/{total}).",
+    "yourAnswer": "Your answer:",
     "submit": "Confirm"
   },
   "results": {
+    "hostNext": "Host moves on",
+    "roundLabel": "Round result {current}/{total}",
+    "hit": "HIT!",
+    "miss": "MISS!",
+    "result": "RESULT",
+    "close": "CLOSE!",
+    "points": "PTS",
+    "correctAnswer": "CORRECT ANSWER",
+    "weightReference": "REFERENCE WEIGHT",
+    "weightComparison": "Comparison of your answer with the reference weight",
+    "yourWeight": "Your answer",
+    "priceReference": "REFERENCE PRICE",
+    "priceComparison": "Comparison of your answer with the reference price",
+    "yourPrice": "Your answer",
+    "difference": "Difference",
+    "player": "Player",
+    "answer": "Answer",
+    "noAnswer": "No answer",
+    "answered": "Answer saved",
+    "next": "Next · view ranking"
+  },
+  "ranking": {
+    "roundLabel": "After round {current}/{total}",
+    "title": "WHO IS THE BIG FISH HERE?",
+    "you": "You",
+    "points": "pts",
+    "next": "Next round",
+    "finish": "See final results",
     "hostNext": "Host moves on"
   },
   "finished": {
     "title": "THE END",
+    "podium": "Winners' podium",
+    "ranking": "Final ranking",
+    "playerScore": "{score} pts",
     "numeric": "Numeric error: {value}",
     "notApplicable": "Not applicable",
     "top": "TOP 5",

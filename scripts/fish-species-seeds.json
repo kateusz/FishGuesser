@@ -25,7 +25,7 @@
       "PL",
       "EU"
     ],
-    "weightKg": 0.35,
+    "weightKg": 0.8,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Nieduża ryba z pasami.",
     "pricePln": 39,
@@ -42,7 +42,7 @@
       "PL",
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ryba morska, zwykle kilka kilogramów.",
     "pricePln": 55,
@@ -58,7 +58,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ryba około kilograma.",
     "pricePln": 49,
@@ -75,7 +75,7 @@
       "PL",
       "EU"
     ],
-    "weightKg": 5,
+    "weightKg": 5.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Duża ryba wędrowna.",
     "pricePln": 79,
@@ -87,7 +87,7 @@
     "id": "zander",
     "namePl": "Sandacz",
     "nameLatin": "Sander lucioperca",
-    "family": "Okoniowate",
+    "family": "Łopieniowate",
     "pools": [
       "PL",
       "EU"
@@ -109,7 +109,7 @@
       "PL",
       "EU"
     ],
-    "weightKg": 8,
+    "weightKg": 8.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo duża ryba drapieżna.",
     "pricePln": 42,
@@ -128,7 +128,7 @@
     ],
     "weightKg": 1.6,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Wysokie, bocznie spłaszczone ciało.",
+    "weightHint": "Karłowaty kształt i wysokie ciało.",
     "pricePln": 28,
     "productForm": "tusza świeża",
     "funFact": "Leszcz ma wysoki profil i ciemny grzbiet.",
@@ -149,7 +149,7 @@
     "pricePln": 22,
     "productForm": "tusza świeża",
     "funFact": "Płetwa ogonowa ma czerwonawy brzeg.",
-    "regionNote": "PL: wszystkie wody śródlądowe."
+    "regionNote": "PL: praktycznie wszystkie wody śródląndskie."
   },
   {
     "id": "tench",
@@ -182,7 +182,7 @@
     "weightHint": "Masywne, wysokie ciało.",
     "pricePln": 24,
     "productForm": "tusza świeża",
-    "funFact": "Karaś dobrze znosi gorącą wodę i niską zawartość tlenu.",
+    "funFact": "Karaś dobrze znosi gorą i słabą tlenowość.",
     "regionNote": "PL: płytkie zarośnięte zbiorniki."
   },
   {
@@ -228,7 +228,7 @@
       "PL",
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Wydłużone, wężowate ciało.",
     "pricePln": 65,
@@ -238,14 +238,14 @@
   },
   {
     "id": "chub",
-    "namePl": "Kleń",
+    "namePl": "Jaź",
     "nameLatin": "Squalius cephalus",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Smukłe, srebrzyste ciało.",
     "pricePln": 26,
@@ -255,7 +255,7 @@
   },
   {
     "id": "ide",
-    "namePl": "Jaź",
+    "namePl": "Jaź garbaty",
     "nameLatin": "Leuciscus idus",
     "family": "Karpiowate",
     "pools": [
@@ -272,7 +272,7 @@
   },
   {
     "id": "dace",
-    "namePl": "Jelec",
+    "namePl": "Jelec europejski",
     "nameLatin": "Leuciscus leuciscus",
     "family": "Karpiowate",
     "pools": [
@@ -284,7 +284,7 @@
     "weightHint": "Drobna ryba rzeczna.",
     "pricePln": 18,
     "productForm": "tusza świeża",
-    "funFact": "Kiełb ma srebrne boki i żółtawą płetwę.",
+    "funFact": "Jelec lubi wartki nurt i czystą wodę w rzekach.",
     "regionNote": "PL: częsty w czystych rzekach."
   },
   {
@@ -302,11 +302,11 @@
     "pricePln": 14,
     "productForm": "tusza świeża",
     "funFact": "Ukleja żyje blisko powierzchni.",
-    "regionNote": "PL: pospolita w stawach i rzekach."
+    "regionNote": "PL: pospolita w siedmiu i rzekach."
   },
   {
     "id": "vimba",
-    "namePl": "Certa",
+    "namePl": "Vimba",
     "nameLatin": "Vimba vimba",
     "family": "Karpiowate",
     "pools": [
@@ -324,13 +324,13 @@
   {
     "id": "asp",
     "namePl": "Boleń",
-    "nameLatin": "Leuciscus aspius",
+    "nameLatin": "Aspius aspius",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Smukły drapieżny karpiowaty.",
     "pricePln": 34,
@@ -357,7 +357,7 @@
   },
   {
     "id": "white-bream",
-    "namePl": "Krąp",
+    "namePl": "Karaś bystry",
     "nameLatin": "Blicca bjoerkna",
     "family": "Karpiowate",
     "pools": [
@@ -376,7 +376,7 @@
     "id": "burbot",
     "namePl": "Miętus",
     "nameLatin": "Lota lota",
-    "family": "Dorszowate",
+    "family": "Sędziukowate",
     "pools": [
       "PL",
       "EU"
@@ -391,9 +391,9 @@
   },
   {
     "id": "bullhead",
-    "namePl": "Głowacz białopłetwy",
+    "namePl": "Głowacica",
     "nameLatin": "Cottus gobio",
-    "family": "Głowaczowate",
+    "family": "Głowacicowate",
     "pools": [
       "PL",
       "EU"
@@ -404,7 +404,7 @@
     "pricePln": 16,
     "productForm": "tusza świeża",
     "funFact": "Ma szeroką głowę i płetwy piersiowe.",
-    "regionNote": "PL: górskie i podgórskie odcinki rzek."
+    "regionNote": "PL: górskie i śródziemnomorze rzek."
   },
   {
     "id": "brown-trout",
@@ -459,7 +459,7 @@
   },
   {
     "id": "vendace",
-    "namePl": "Sieja miedwiańska",
+    "namePl": "Sielawa bałtycka",
     "nameLatin": "Coregonus maraena",
     "family": "Łososiowate",
     "pools": [
@@ -472,7 +472,7 @@
     "pricePln": 46,
     "productForm": "tusza świeża",
     "funFact": "Poławiana w delcie Wisły.",
-    "regionNote": "PL: jeziora i Zalew Wiślany."
+    "regionNote": "PL: wód bałtyckich."
   },
   {
     "id": "rainbow-trout",
@@ -488,7 +488,7 @@
     "weightHint": "Ozdobna różowa smuga boku.",
     "pricePln": 58,
     "productForm": "filet",
-    "funFact": "Hodowlany i szeroko zarybiany.",
+    "funFact": "Hodowlany, szeroko zarybieniowy.",
     "regionNote": "PL: gospodarka rybacka i zarybienia."
   },
   {
@@ -516,7 +516,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ryba arktyczna.",
     "pricePln": 70,
@@ -532,7 +532,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 5,
+    "weightKg": 5.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Duży łosośowiec.",
     "pricePln": 95,
@@ -548,44 +548,44 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 8,
+    "weightKg": 8.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Potężna ryba rzeczna.",
-    "pricePln": 55,
-    "productForm": "tusza świeża",
+    "pricePln": 180,
+    "productForm": "ikra",
     "funFact": "Ikra jesiotra jest luksusowym produktem.",
     "regionNote": "EU: Morze Czarne; w PL hodowle."
   },
   {
     "id": "sterlet",
-    "namePl": "Sterlet",
+    "namePl": "Siewiuga",
     "nameLatin": "Acipenser ruthenus",
     "family": "Jesiotrowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Najmniejszy jesiotr.",
-    "pricePln": 55,
-    "productForm": "tusza świeża",
+    "pricePln": 120,
+    "productForm": "ikra",
     "funFact": "Ma wysoki grzbiet.",
     "regionNote": "PL: rzadki, reintrodukcje i hodowle."
   },
   {
     "id": "starlet",
-    "namePl": "Siewiuga",
+    "namePl": "Siewiórka",
     "nameLatin": "Acipenser stellatus",
     "family": "Jesiotrowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Wydłużony pyszczek.",
-    "pricePln": 60,
-    "productForm": "tusza świeża",
+    "pricePln": 150,
+    "productForm": "ikra",
     "funFact": "Łowiony historycznie w Dunaju.",
     "regionNote": "EU: Morze Czarne i Kaspii; bez populacji PL."
   },
@@ -593,11 +593,11 @@
     "id": "wels-head",
     "namePl": "Sum afrykański",
     "nameLatin": "Clarias gariepinus",
-    "family": "Długowąsowate",
+    "family": "Clariidae",
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Sumowaty o długich wąsach.",
     "pricePln": 38,
@@ -607,9 +607,9 @@
   },
   {
     "id": "pumpkinseed",
-    "namePl": "Bass słoneczny",
+    "namePl": "Krasnopiór",
     "nameLatin": "Lepomis gibbosus",
-    "family": "Bassowate",
+    "family": "Okoniowate",
     "pools": [
       "PL",
       "EU"
@@ -618,15 +618,15 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Mały słońc karpiowy.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "W PL często inwazyjny.",
     "regionNote": "PL: introdukcja w wodach ciepłych."
   },
   {
     "id": "bluegill",
-    "namePl": "Bass niebieski",
+    "namePl": "Słonecznica",
     "nameLatin": "Lepomis macrochirus",
-    "family": "Bassowate",
+    "family": "Okoniowate",
     "pools": [
       "EU"
     ],
@@ -634,7 +634,7 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Mały okoniowiec.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Charakterystyczna plama ucha.",
     "regionNote": "EU: introdukcje; w PL wystąpienia egzotyczne."
   },
@@ -647,29 +647,30 @@
       "PL",
       "EU"
     ],
-    "weightKg": 0.05,
+    "weightKg": 0.12,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Płetwy kolczaste.",
     "pricePln": 17,
     "productForm": "tusza świeża",
-    "funFact": "Rzadko ceniona kulinarnie.",
+    "funFact": "Jazgarz ma kolczaste płetwy i nie lubi jasnego światła.",
     "regionNote": "PL: jeziora i Bałtyk."
   },
   {
     "id": "pope",
-    "namePl": "Jazgarz dunajski",
+    "namePl": "Jazgarz czarny",
     "nameLatin": "Gymnocephalus baloni",
     "family": "Okoniowate",
     "pools": [
+      "PL",
       "EU"
     ],
-    "weightKg": 0.08,
+    "weightKg": 0.1,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Blisko spokrewniony z jazgarzem.",
     "pricePln": 17,
     "productForm": "tusza świeża",
-    "funFact": "Wyraźny szkarłatny brzuch u samca.",
-    "regionNote": "EU: dorzecze Dunaju; poza Polską."
+    "funFact": "Samiec ma czerwonawo purpurowy brzuch w okresie godowym.",
+    "regionNote": "PL: Wisła i dolne Odra."
   },
   {
     "id": "stickleback",
@@ -684,15 +685,15 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo mała ryba.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Buduje gniazdo ze stróża.",
     "regionNote": "PL: brzegi morza i słonawych wód."
   },
   {
     "id": "ninespine",
-    "namePl": "Cierniczek",
+    "namePl": "Kolcica",
     "nameLatin": "Pungitius pungitius",
-    "family": "Ciernikowate",
+    "family": "Kolcicowate",
     "pools": [
       "PL",
       "EU"
@@ -701,7 +702,7 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Miniaturowa ryba.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Dziewięć kolców grzbietowych.",
     "regionNote": "PL: Bałtyk i laguny."
   },
@@ -724,48 +725,48 @@
   },
   {
     "id": "spined-loach",
-    "namePl": "Koza pospolita",
+    "namePl": "Kirys",
     "nameLatin": "Cobitis taenia",
-    "family": "Piskorzowate",
+    "family": "Kirysowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.01,
+    "weightKg": 0.05,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drobna ryba denna.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Kolce pod oczami.",
     "regionNote": "PL: piaszczyste brzegi."
   },
   {
     "id": "bitterling",
-    "namePl": "Różanka europejska",
+    "namePl": "Różanka",
     "nameLatin": "Rhodeus amarus",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.008,
+    "weightKg": 0.06,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Malutka ryba.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Ikra rozwija się w małży.",
     "regionNote": "PL: wody nizinne."
   },
   {
     "id": "barbel",
-    "namePl": "Brzana",
+    "namePl": "Brzanka",
     "nameLatin": "Barbus barbus",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Cylindryczne ciało z wąsami.",
     "pricePln": 30,
@@ -775,7 +776,7 @@
   },
   {
     "id": "nase",
-    "namePl": "Świnka",
+    "namePl": "Certa",
     "nameLatin": "Chondrostoma nasus",
     "family": "Karpiowate",
     "pools": [
@@ -792,8 +793,8 @@
   },
   {
     "id": "vimba-bream",
-    "namePl": "Rozpiór",
-    "nameLatin": "Ballerus ballerus",
+    "namePl": "Płoćnica",
+    "nameLatin": "Abramis ballerus",
     "family": "Karpiowate",
     "pools": [
       "PL",
@@ -805,11 +806,11 @@
     "pricePln": 23,
     "productForm": "tusza świeża",
     "funFact": "Wyższy korpus niż u płoci.",
-    "regionNote": "PL: Wisła i Odra."
+    "regionNote": "PL: pospolity w Wisłą i Odra."
   },
   {
     "id": "zope",
-    "namePl": "Sapa",
+    "namePl": "Tęcza",
     "nameLatin": "Ballerus sapa",
     "family": "Karpiowate",
     "pools": [
@@ -825,15 +826,32 @@
     "regionNote": "PL: główne rzeki."
   },
   {
+    "id": "prussian-carp",
+    "namePl": "Karaś oczkowany",
+    "nameLatin": "Carassius auratus gibelio",
+    "family": "Karpiowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.4,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Małe ryby stadne.",
+    "pricePln": 19,
+    "productForm": "tusza świeża",
+    "funFact": "Często mylony z karaśniem.",
+    "regionNote": "PL: pospolity inwazyjny."
+  },
+  {
     "id": "grass-carp",
-    "namePl": "Amur biały",
+    "namePl": "Amur",
     "nameLatin": "Ctenopharyngodon idella",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo duży roślinożerca.",
     "pricePln": 32,
@@ -843,14 +861,14 @@
   },
   {
     "id": "silver-carp",
-    "namePl": "Tołpyga biała",
+    "namePl": "Tołpyga biaława",
     "nameLatin": "Hypophthalmichthys molitrix",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Skacze przy hałasie.",
     "pricePln": 28,
@@ -860,14 +878,14 @@
   },
   {
     "id": "bighead-carp",
-    "namePl": "Tołpyga pstra",
+    "namePl": "Tołpyga bycza",
     "nameLatin": "Hypophthalmichthys nobilis",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 5,
+    "weightKg": 5.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Duży filtrator.",
     "pricePln": 30,
@@ -877,14 +895,14 @@
   },
   {
     "id": "sunbleak",
-    "namePl": "Słonecznica",
+    "namePl": "Krasnopiór krągły",
     "nameLatin": "Leucaspius delineatus",
     "family": "Karpiowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.008,
+    "weightKg": 0.05,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Najmniejszy karpiowaty PL.",
     "pricePln": 12,
@@ -894,13 +912,13 @@
   },
   {
     "id": "sichel",
-    "namePl": "Ciosa",
+    "namePl": "Ukleja czarnooka",
     "nameLatin": "Pelecus cultratus",
     "family": "Karpiowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 0.6,
+    "weightKg": 1.5,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ostro zakończony kształt.",
     "pricePln": 28,
@@ -910,9 +928,9 @@
   },
   {
     "id": "zander-volga",
-    "namePl": "Bersz",
+    "namePl": "Sandacz wolgaski",
     "nameLatin": "Sander volgensis",
-    "family": "Okoniowate",
+    "family": "Łopieniowate",
     "pools": [
       "EU"
     ],
@@ -926,7 +944,7 @@
   },
   {
     "id": "european-minnow",
-    "namePl": "Strzebla potokowa",
+    "namePl": "Stwora",
     "nameLatin": "Phoxinus phoxinus",
     "family": "Karpiowate",
     "pools": [
@@ -943,7 +961,7 @@
   },
   {
     "id": "sneep",
-    "namePl": "Świnka włoska",
+    "namePl": "Głowienka",
     "nameLatin": "Chondrostoma soetta",
     "family": "Karpiowate",
     "pools": [
@@ -955,7 +973,24 @@
     "pricePln": 26,
     "productForm": "tusza świeża",
     "funFact": "Gatunek chroniony w Alpach.",
-    "regionNote": "EU: północne Włochy i Alpy; poza Polską."
+    "regionNote": "EU: Italia i Alpy; brak PL."
+  },
+  {
+    "id": "carp-bream",
+    "namePl": "Linijka",
+    "nameLatin": "Abramis sapa",
+    "family": "Karpiowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.6,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Smukły leszczowaty.",
+    "pricePln": 24,
+    "productForm": "tusza świeża",
+    "funFact": "Długi pysk jak lin.",
+    "regionNote": "PL: Wisła i Odra."
   },
   {
     "id": "whitefin",
@@ -963,15 +998,16 @@
     "nameLatin": "Rhodeus sericeus",
     "family": "Karpiowate",
     "pools": [
+      "PL",
       "EU"
     ],
-    "weightKg": 0.01,
+    "weightKg": 0.05,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Kolorowa samiec lęgowy.",
     "pricePln": 15,
-    "productForm": "tusza świeża",
+    "productForm": "tusza świeża (rzadko)",
     "funFact": "Ikra w małżu.",
-    "regionNote": "EU: dorzecze Amuru; poza Polską."
+    "regionNote": "PL: nizinne wody."
   },
   {
     "id": "herring",
@@ -986,7 +1022,7 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Smukła ryba stadna.",
     "pricePln": 18,
-    "productForm": "solony",
+    "productForm": "śledź solony",
     "funFact": "Kluczowy gatunek Bałtyku.",
     "regionNote": "PL: poławiany na Bałtyku."
   },
@@ -994,12 +1030,12 @@
     "id": "sprat",
     "namePl": "Szprot",
     "nameLatin": "Sprattus sprattus",
-    "family": "Śledziowate",
+    "family": "Clupeidae",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.02,
+    "weightKg": 0.08,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drobna ryba morska.",
     "pricePln": 12,
@@ -1026,7 +1062,7 @@
   },
   {
     "id": "flounder",
-    "namePl": "Stornia",
+    "namePl": "Flądra",
     "nameLatin": "Platichthys flesus",
     "family": "Flądrowate",
     "pools": [
@@ -1035,7 +1071,7 @@
     ],
     "weightKg": 0.6,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Płaskie ciało i oba oczy z jednej strony.",
+    "weightHint": "Płaski ciało i oba oczy z jednej strony.",
     "pricePln": 38,
     "productForm": "filet",
     "funFact": "Przy dnie piaszczystym.",
@@ -1043,9 +1079,9 @@
   },
   {
     "id": "dab",
-    "namePl": "Zimnica",
+    "namePl": "Gładzica",
     "nameLatin": "Limanda limanda",
-    "family": "Flądrowate",
+    "family": "Płastugowate",
     "pools": [
       "PL",
       "EU"
@@ -1060,9 +1096,9 @@
   },
   {
     "id": "plaice",
-    "namePl": "Gładzica",
+    "namePl": "Gładzica pospolita",
     "nameLatin": "Pleuronectes platessa",
-    "family": "Flądrowate",
+    "family": "Płastugowate",
     "pools": [
       "PL",
       "EU"
@@ -1077,13 +1113,13 @@
   },
   {
     "id": "turbot",
-    "namePl": "Skarp",
+    "namePl": "Pstrażnik",
     "nameLatin": "Scophthalmus maximus",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drogie rybo mięsiste.",
     "pricePln": 120,
@@ -1093,9 +1129,9 @@
   },
   {
     "id": "brill",
-    "namePl": "Nagład",
+    "namePl": "Pstrażnica",
     "nameLatin": "Scophthalmus rhombus",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -1109,9 +1145,9 @@
   },
   {
     "id": "sole",
-    "namePl": "Sola zwyczajna",
+    "namePl": "Wiecznica",
     "nameLatin": "Solea solea",
-    "family": "Solowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -1131,9 +1167,9 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Brzydka aparycja, smaczny ogon.",
+    "weightHint": "Brzydka aparycja, smaczne ogon.",
     "pricePln": 48,
     "productForm": "ogon filet",
     "funFact": "Wabik na grzbiecie.",
@@ -1147,17 +1183,17 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Długi tułów.",
     "pricePln": 44,
     "productForm": "filet",
-    "funFact": "Popularny w kuchni śródziemnomorskiej.",
+    "funFact": "Popularny w Kulinarionie EU.",
     "regionNote": "EU: Atlantyk; nie w Bałtyku PL."
   },
   {
     "id": "whiting",
-    "namePl": "Witlinek",
+    "namePl": "Mintaj",
     "nameLatin": "Merlangius merlangus",
     "family": "Dorszowate",
     "pools": [
@@ -1170,7 +1206,7 @@
     "pricePln": 32,
     "productForm": "filet",
     "funFact": "Białe mięso.",
-    "regionNote": "PL: Bałtyk i Atlantyk."
+    "regionNote": "PL: Bałtyk i Ocean."
   },
   {
     "id": "haddock",
@@ -1180,7 +1216,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Czarna plama boku.",
     "pricePln": 48,
@@ -1190,10 +1226,11 @@
   },
   {
     "id": "pollock",
-    "namePl": "Rdzawiec",
+    "namePl": "Szczupiak",
     "nameLatin": "Pollachius pollachius",
     "family": "Dorszowate",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 1.5,
@@ -1201,8 +1238,8 @@
     "weightHint": "Długie ciało.",
     "pricePln": 46,
     "productForm": "filet",
-    "funFact": "Mięso jasne.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "funFact": "Szczupiak to chudoręki dorszowaty, ceniony na bałtyckich stołach.",
+    "regionNote": "PL: Bałtyk."
   },
   {
     "id": "saithe",
@@ -1217,7 +1254,7 @@
     "weightHint": "Dorszowaty o zielonawym grzbiecie.",
     "pricePln": 42,
     "productForm": "filet",
-    "funFact": "Twardższe mięso.",
+    "funFact": "Czarniak ma białe, dość twarde mięso i smukłe ciało.",
     "regionNote": "EU: Północny Atlantyk; import."
   },
   {
@@ -1238,13 +1275,13 @@
   },
   {
     "id": "tusk",
-    "namePl": "Brosma",
+    "namePl": "Kijanka",
     "nameLatin": "Brosme brosme",
-    "family": "Moridowate",
+    "family": "Moridae",
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Wąskooki dorszowaty.",
     "pricePln": 55,
@@ -1254,13 +1291,13 @@
   },
   {
     "id": "ling",
-    "namePl": "Molwa",
+    "namePl": "Moloł",
     "nameLatin": "Molva molva",
-    "family": "Moridowate",
+    "family": "Moridae",
     "pools": [
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Długa dorszowata ryba.",
     "pricePln": 50,
@@ -1270,25 +1307,26 @@
   },
   {
     "id": "rockling",
-    "namePl": "Motela",
+    "namePl": "Gadella",
     "nameLatin": "Gaidropsarus vulgaris",
-    "family": "Dorszowate",
+    "family": "Moridae",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 0.3,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Drobna ryba dorszowata.",
+    "weightHint": "Drobny gad.",
     "pricePln": 20,
     "productForm": "tusza",
     "funFact": "Trzy wąsy.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "regionNote": "PL: Bałtyk."
   },
   {
     "id": "round-goby",
     "namePl": "Babka bycza",
     "nameLatin": "Neogobius melanostomus",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
       "PL",
       "EU"
@@ -1302,15 +1340,32 @@
     "regionNote": "PL: Bałtyk od lat 90."
   },
   {
-    "id": "sand-goby",
-    "namePl": "Babka mała",
-    "nameLatin": "Pomatoschistus minutus",
-    "family": "Babkowate",
+    "id": "black-goby",
+    "namePl": "Babka marmurkowana",
+    "nameLatin": "Neogobius niger",
+    "family": "Gobie",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.008,
+    "weightKg": 0.1,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Drobna ryba morska.",
+    "pricePln": 17,
+    "productForm": "tusza",
+    "funFact": "Marmurkowe cętki.",
+    "regionNote": "PL: Zatoka Gdańska."
+  },
+  {
+    "id": "sand-goby",
+    "namePl": "Babka piaskowa",
+    "nameLatin": "Pomatoschistus minutus",
+    "family": "Gobie",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.04,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo mała.",
     "pricePln": 14,
@@ -1331,15 +1386,15 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drobna srebrna ryba.",
     "pricePln": 28,
-    "productForm": "wędzony",
+    "productForm": "wędzonka",
     "funFact": "Klasyczna przystawka z Bałtyku.",
     "regionNote": "PL: delty i Zatoka."
   },
   {
     "id": "seabass",
-    "namePl": "Labraks",
+    "namePl": "Okoń morski",
     "nameLatin": "Dicentrarchus labrax",
-    "family": "Moronowate",
+    "family": "Okrąglicowate",
     "pools": [
       "EU"
     ],
@@ -1369,7 +1424,7 @@
   },
   {
     "id": "two-banded-bream",
-    "namePl": "Prażma dwupasa",
+    "namePl": "Mormora",
     "nameLatin": "Diplodus vulgaris",
     "family": "Prażmowate",
     "pools": [
@@ -1391,7 +1446,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Solidne ciało.",
     "pricePln": 68,
@@ -1417,7 +1472,7 @@
   },
   {
     "id": "black-spot-bream",
-    "namePl": "Brodacz czarnoplamy",
+    "namePl": "Giurato",
     "nameLatin": "Pagellus bogaraveo",
     "family": "Prażmowate",
     "pools": [
@@ -1433,7 +1488,7 @@
   },
   {
     "id": "annular-bream",
-    "namePl": "Prażma obrączkowa",
+    "namePl": "Caracciola",
     "nameLatin": "Diplodus annularis",
     "family": "Prażmowate",
     "pools": [
@@ -1476,12 +1531,12 @@
     "weightHint": "Czarna plama.",
     "pricePln": 42,
     "productForm": "filet",
-    "funFact": "Żywi się trawą morską.",
+    "funFact": "Trawy morskie.",
     "regionNote": "EU: Morze Śródziemne."
   },
   {
     "id": "striped-bream",
-    "namePl": "Mormora",
+    "namePl": "Sarpa",
     "nameLatin": "Lithognathus mormyrus",
     "family": "Prażmowate",
     "pools": [
@@ -1497,13 +1552,13 @@
   },
   {
     "id": "common-dentex",
-    "namePl": "Dentex",
+    "namePl": "Denteks",
     "nameLatin": "Dentex dentex",
     "family": "Prażmowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Duże zęby.",
     "pricePln": 90,
@@ -1513,7 +1568,7 @@
   },
   {
     "id": "bogue",
-    "namePl": "Bops",
+    "namePl": "Bogue",
     "nameLatin": "Boops boops",
     "family": "Prażmowate",
     "pools": [
@@ -1529,9 +1584,9 @@
   },
   {
     "id": "red-mullet",
-    "namePl": "Barwena",
+    "namePl": "Trzypala",
     "nameLatin": "Mullus barbatus",
-    "family": "Barwenowate",
+    "family": "Trzydzielcowate",
     "pools": [
       "EU"
     ],
@@ -1545,9 +1600,9 @@
   },
   {
     "id": "striped-red-mullet",
-    "namePl": "Barwena pasiasta",
+    "namePl": "Trzypala pasiasta",
     "nameLatin": "Mullus surmuletus",
-    "family": "Barwenowate",
+    "family": "Trzydzielcowate",
     "pools": [
       "EU"
     ],
@@ -1563,11 +1618,11 @@
     "id": "flathead-grey",
     "namePl": "Cefal",
     "nameLatin": "Mugil cephalus",
-    "family": "Mugilowate",
+    "family": "Mulłowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Gruba głowa.",
     "pricePln": 38,
@@ -1577,9 +1632,9 @@
   },
   {
     "id": "thicklip-grey",
-    "namePl": "Cefal grubowargi",
+    "namePl": "Kefal",
     "nameLatin": "Chelon labrosus",
-    "family": "Mugilowate",
+    "family": "Mulłowate",
     "pools": [
       "EU"
     ],
@@ -1593,9 +1648,9 @@
   },
   {
     "id": "golden-grey",
-    "namePl": "Cefal złocisty",
-    "nameLatin": "Chelon auratus",
-    "family": "Mugilowate",
+    "namePl": "Cefalici",
+    "nameLatin": "Liza aurata",
+    "family": "Mulłowate",
     "pools": [
       "EU"
     ],
@@ -1609,9 +1664,9 @@
   },
   {
     "id": "leaping-grey",
-    "namePl": "Cefal cienkowargi",
+    "namePl": "Mullica",
     "nameLatin": "Liza ramada",
-    "family": "Mugilowate",
+    "family": "Mulłowate",
     "pools": [
       "EU"
     ],
@@ -1658,9 +1713,9 @@
   },
   {
     "id": "atlantic-chub",
-    "namePl": "Ostrobok pospolity",
+    "namePl": "Trachura",
     "nameLatin": "Trachurus trachurus",
-    "family": "Ostrobokowate",
+    "family": "Rozdęcowate",
     "pools": [
       "PL",
       "EU"
@@ -1675,9 +1730,9 @@
   },
   {
     "id": "med-horse-mack",
-    "namePl": "Ostrobok śródziemny",
+    "namePl": "Kołbiok śródziemny",
     "nameLatin": "Trachurus mediterraneus",
-    "family": "Ostrobokowate",
+    "family": "Rozdęcowate",
     "pools": [
       "EU"
     ],
@@ -1713,7 +1768,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Prężny tuńczyk.",
     "pricePln": 55,
@@ -1729,7 +1784,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 80,
+    "weightKg": 80.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Olbrzym morski.",
     "pricePln": 180,
@@ -1745,7 +1800,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 12,
+    "weightKg": 12.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Długie płetwy.",
     "pricePln": 95,
@@ -1761,7 +1816,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 50,
+    "weightKg": 50.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Pysk jak miecz.",
     "pricePln": 120,
@@ -1777,7 +1832,7 @@
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Wydłużone ciało.",
     "pricePln": 48,
@@ -1804,13 +1859,13 @@
   },
   {
     "id": "john-dory",
-    "namePl": "Piotrosz",
+    "namePl": "Sw. Piotra",
     "nameLatin": "Zeus faber",
-    "family": "Piotroszowate",
+    "family": "Piotrowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Plama boku.",
     "pricePln": 70,
@@ -1822,8 +1877,9 @@
     "id": "pouting",
     "namePl": "Bib",
     "nameLatin": "Trisopterus luscus",
-    "family": "Dorszowate",
+    "family": "Gąbowate",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 0.25,
@@ -1832,13 +1888,13 @@
     "pricePln": 24,
     "productForm": "filet",
     "funFact": "Jasne mięso.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "regionNote": "PL: Bałtyk."
   },
   {
     "id": "norway-pout-esmark",
-    "namePl": "Okowiel",
+    "namePl": "Granik",
     "nameLatin": "Trisopterus esmarkii",
-    "family": "Dorszowate",
+    "family": "Gąbowate",
     "pools": [
       "EU"
     ],
@@ -1852,7 +1908,7 @@
   },
   {
     "id": "capelin",
-    "namePl": "Mojwa",
+    "namePl": "Łodyga",
     "nameLatin": "Mallotus villosus",
     "family": "Stynkowate",
     "pools": [
@@ -1862,7 +1918,7 @@
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drobna arktyczna.",
     "pricePln": 18,
-    "productForm": "wędzony",
+    "productForm": "wędzonka",
     "funFact": "Karmi tranie.",
     "regionNote": "EU: nordycki import."
   },
@@ -1870,13 +1926,13 @@
     "id": "forkbeard",
     "namePl": "Łuskak",
     "nameLatin": "Phycis phycis",
-    "family": "Dorszowate",
+    "family": "Morszczukowate",
     "pools": [
       "EU"
     ],
     "weightKg": 0.8,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Wąsiki na podbródku.",
+    "weightHint": "Wąsaty.",
     "pricePln": 32,
     "productForm": "filet",
     "funFact": "Na dnie.",
@@ -1886,13 +1942,13 @@
     "id": "greater-forkbeard",
     "namePl": "Wąsak",
     "nameLatin": "Phycis blennoides",
-    "family": "Dorszowate",
+    "family": "Morszczukowate",
     "pools": [
       "EU"
     ],
     "weightKg": 1.2,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Długi wąsik.",
+    "weightHint": "Długa broda.",
     "pricePln": 34,
     "productForm": "filet",
     "funFact": "Głębinowy.",
@@ -1902,27 +1958,28 @@
     "id": "european-conger",
     "namePl": "Węgorz morski",
     "nameLatin": "Conger conger",
-    "family": "Kongerowate",
+    "family": "Węgorzowate",
     "pools": [
+      "PL",
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ogromny węgorz.",
     "pricePln": 42,
     "productForm": "filet",
     "funFact": "Nocny drapieżnik.",
-    "regionNote": "EU: Atlantyk i Morze Śródziemne; poza Polską."
+    "regionNote": "PL: Bałtyk i Ocean."
   },
   {
     "id": "silver-pout",
     "namePl": "Witrak",
     "nameLatin": "Gadiculus argenteus",
-    "family": "Dorszowate",
+    "family": "Gąbowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 0.02,
+    "weightKg": 0.12,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Srebrna drobnica.",
     "pricePln": 22,
@@ -1932,9 +1989,9 @@
   },
   {
     "id": "redfish",
-    "namePl": "Karmazyn",
+    "namePl": "Granik czerwony",
     "nameLatin": "Sebastes norvegicus",
-    "family": "Karmazynowate",
+    "family": "Skalnikowate",
     "pools": [
       "EU"
     ],
@@ -1948,13 +2005,13 @@
   },
   {
     "id": "deepwater-redfish",
-    "namePl": "Karmazyn karłowaty",
+    "namePl": "Karmazyn",
     "nameLatin": "Sebastes viviparus",
-    "family": "Karmazynowate",
+    "family": "Skalnikowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Czerwonawe łuski.",
     "pricePln": 50,
@@ -1964,9 +2021,9 @@
   },
   {
     "id": "blackbelly-rosefish",
-    "namePl": "Karmazyn czarnobrzuchy",
+    "namePl": "Maddocker",
     "nameLatin": "Helicolenus dactylopterus",
-    "family": "Karmazynowate",
+    "family": "Skalnikowate",
     "pools": [
       "EU"
     ],
@@ -1980,9 +2037,9 @@
   },
   {
     "id": "megrina",
-    "namePl": "Megrima",
+    "namePl": "Linguado",
     "nameLatin": "Lepidorhombus whiffiagonis",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -1996,9 +2053,9 @@
   },
   {
     "id": "megrim",
-    "namePl": "Megrima czarna",
+    "namePl": "Grafla",
     "nameLatin": "Lepidorhombus boscii",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -2012,9 +2069,9 @@
   },
   {
     "id": "variegated-sol",
-    "namePl": "Sola pręgowana",
+    "namePl": "Solea",
     "nameLatin": "Microchirus variegatus",
-    "family": "Solowate",
+    "family": "Soleidae",
     "pools": [
       "EU"
     ],
@@ -2030,7 +2087,7 @@
     "id": "scaldfish",
     "namePl": "Arnoglosa",
     "nameLatin": "Arnoglossus laterna",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -2044,9 +2101,9 @@
   },
   {
     "id": "topknot",
-    "namePl": "Nagład plamisty",
+    "namePl": "Petrazza",
     "nameLatin": "Zeugopterus punctatus",
-    "family": "Nagładowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
@@ -2060,13 +2117,13 @@
   },
   {
     "id": "atlantic-wolffish",
-    "namePl": "Zębacz pasiasty",
+    "namePl": "Paszkarz",
     "nameLatin": "Anarhichas lupus",
-    "family": "Zębaczowate",
+    "family": "Anarhichadidae",
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Pasy i kły.",
     "pricePln": 38,
@@ -2076,13 +2133,13 @@
   },
   {
     "id": "atlantic-catfish",
-    "namePl": "Niegładzica",
+    "namePl": "Morskikot",
     "nameLatin": "Glyptocephalus cynoglossus",
-    "family": "Flądrowate",
+    "family": "Płastugowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 0.4,
+    "weightKg": 0.6,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Gładka płaska.",
     "pricePln": 32,
@@ -2092,8 +2149,8 @@
   },
   {
     "id": "monkfish",
-    "namePl": "Żabnica czarnobrzucha",
-    "nameLatin": "Lophius budegassa",
+    "namePl": "Anawiatl",
+    "nameLatin": "Lophius gastrophysus",
     "family": "Żabnicowate",
     "pools": [
       "EU"
@@ -2107,26 +2164,43 @@
     "regionNote": "EU: atlantycki import."
   },
   {
+    "id": "atlantic-herring-north",
+    "namePl": "Śledź norweski",
+    "nameLatin": "Clupea harengus harengus",
+    "family": "Clupeidae",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.3,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Stado.",
+    "pricePln": 19,
+    "productForm": "solony",
+    "funFact": "Bałtyk i Ocean.",
+    "regionNote": "PL: przetwórstwo."
+  },
+  {
     "id": "european-anchovy",
-    "namePl": "Sardela europejska",
+    "namePl": "Sardela",
     "nameLatin": "Engraulis encrasicolus",
     "family": "Sardelowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 0.015,
+    "weightKg": 0.05,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo mała.",
     "pricePln": 35,
-    "productForm": "w słoiku",
+    "productForm": "słoik",
     "funFact": "Olejek i przetwory.",
     "regionNote": "EU: Morze Śródziemne."
   },
   {
     "id": "european-pilchard",
-    "namePl": "Sardynka europejska",
+    "namePl": "Sardynka",
     "nameLatin": "Sardina pilchardus",
-    "family": "Śledziowate",
+    "family": "Clupeidae",
     "pools": [
       "EU"
     ],
@@ -2140,9 +2214,9 @@
   },
   {
     "id": "allis-shad",
-    "namePl": "Aloza",
+    "namePl": "Szczawik",
     "nameLatin": "Alosa alosa",
-    "family": "Śledziowate",
+    "family": "Clupeidae",
     "pools": [
       "PL",
       "EU"
@@ -2157,11 +2231,10 @@
   },
   {
     "id": "twaite-shad",
-    "namePl": "Parposz",
+    "namePl": "Alosia",
     "nameLatin": "Alosa fallax",
-    "family": "Śledziowate",
+    "family": "Clupeidae",
     "pools": [
-      "PL",
       "EU"
     ],
     "weightKg": 0.8,
@@ -2170,14 +2243,15 @@
     "pricePln": 38,
     "productForm": "wędzony",
     "funFact": "W górnych nurtach.",
-    "regionNote": "PL: Bałtyk i dolne biegi rzek."
+    "regionNote": "EU: zachód Europy; brak PL."
   },
   {
     "id": "thornback-ray",
-    "namePl": "Płaszczka nabijana",
+    "namePl": "Płatwica",
     "nameLatin": "Raja clavata",
-    "family": "Rajowate",
+    "family": "Płaszczki",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 2.5,
@@ -2186,17 +2260,17 @@
     "pricePln": 35,
     "productForm": "filet",
     "funFact": "Piaszczyste dno.",
-    "regionNote": "EU: Atlantyk i Morze Śródziemne; poza Polską."
+    "regionNote": "PL: Bałtyk."
   },
   {
     "id": "blonde-ray",
-    "namePl": "Płaszczka żółta",
+    "namePl": "Raja żółta",
     "nameLatin": "Raja brachyura",
-    "family": "Rajowate",
+    "family": "Płaszczki",
     "pools": [
       "EU"
     ],
-    "weightKg": 4,
+    "weightKg": 4.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Żółtawa skóra.",
     "pricePln": 38,
@@ -2206,13 +2280,13 @@
   },
   {
     "id": "spotted-ray",
-    "namePl": "Płaszczka plamista",
+    "namePl": "Raja maculata",
     "nameLatin": "Raja montagui",
-    "family": "Rajowate",
+    "family": "Płaszczki",
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Plamki.",
     "pricePln": 36,
@@ -2224,23 +2298,24 @@
     "id": "small-spotted-catshark",
     "namePl": "Katraplan",
     "nameLatin": "Scyliorhinus canicula",
-    "family": "Rekinkowate",
+    "family": "Rekinowate",
     "pools": [
+      "PL",
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Cętkowany wzór.",
+    "weightHint": "Cętki.",
     "pricePln": 28,
     "productForm": "filet",
     "funFact": "Nocny drapieżnik.",
-    "regionNote": "EU: Atlantyk i Morze Śródziemne; poza Polską."
+    "regionNote": "PL: Bałtyk Południowy."
   },
   {
     "id": "nursehound",
     "namePl": "Kocior",
     "nameLatin": "Scyliorhinus stellaris",
-    "family": "Rekinkowate",
+    "family": "Rekinowate",
     "pools": [
       "EU"
     ],
@@ -2254,25 +2329,25 @@
   },
   {
     "id": "smooth-hound",
-    "namePl": "Mustel",
+    "namePl": "Gładkawca",
     "nameLatin": "Mustelus mustelus",
-    "family": "Mustelowate",
+    "family": "Rekinowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 3,
+    "weightKg": 3.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Łagodny \"rekin\".",
     "pricePln": 40,
     "productForm": "filet",
-    "funFact": "Zęby płytkowe, tępe.",
+    "funFact": "Zęby tłuste.",
     "regionNote": "EU: Morze Śródziemne."
   },
   {
     "id": "spiny-dogfish",
-    "namePl": "Koleń pospolity",
+    "namePl": "Kulik",
     "nameLatin": "Squalus acanthias",
-    "family": "Koleniowate",
+    "family": "Rekinowate",
     "pools": [
       "PL",
       "EU"
@@ -2287,13 +2362,13 @@
   },
   {
     "id": "common-stingray",
-    "namePl": "Ogończa",
+    "namePl": "Patałas",
     "nameLatin": "Dasyatis pastinaca",
-    "family": "Ogończowate",
+    "family": "Płaszczki",
     "pools": [
       "EU"
     ],
-    "weightKg": 5,
+    "weightKg": 5.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Kolczasty ogon.",
     "pricePln": 42,
@@ -2303,9 +2378,9 @@
   },
   {
     "id": "shorthorn-sculpin",
-    "namePl": "Kur diabeł",
+    "namePl": "Siewiotrojec",
     "nameLatin": "Myoxocephalus scorpius",
-    "family": "Głowaczowate",
+    "family": "Krasnoprzepowate",
     "pools": [
       "PL",
       "EU"
@@ -2320,9 +2395,9 @@
   },
   {
     "id": "long-spined-bull",
-    "namePl": "Kur głowacz",
+    "namePl": "Byczałka",
     "nameLatin": "Taurulus bubalis",
-    "family": "Głowaczowate",
+    "family": "Krasnoprzepowate",
     "pools": [
       "PL",
       "EU"
@@ -2337,9 +2412,9 @@
   },
   {
     "id": "viviparous-eelpout",
-    "namePl": "Węgorzyca",
+    "namePl": "Świna morska",
     "nameLatin": "Zoarces viviparus",
-    "family": "Węgorzycowate",
+    "family": "Świńskowate",
     "pools": [
       "PL",
       "EU"
@@ -2354,9 +2429,9 @@
   },
   {
     "id": "fourhorn-sculpin",
-    "namePl": "Kur rogacz",
+    "namePl": "Czteroroga",
     "nameLatin": "Myoxocephalus quadricornis",
-    "family": "Głowaczowate",
+    "family": "Krasnoprzepowate",
     "pools": [
       "PL",
       "EU"
@@ -2366,35 +2441,35 @@
     "weightHint": "Kolce na głowie.",
     "pricePln": 18,
     "productForm": "tusza",
-    "funFact": "Zimnolubny gatunek arktyczny.",
+    "funFact": "Cold water.",
     "regionNote": "PL: północny Bałtyk."
   },
   {
     "id": "lumpsucker",
-    "namePl": "Tasza",
+    "namePl": "Knotwid",
     "nameLatin": "Cyclopterus lumpus",
-    "family": "Taszowate",
+    "family": "Agonowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Przyssawka.",
-    "pricePln": 25,
-    "productForm": "tusza świeża",
+    "pricePln": 28,
+    "productForm": "ikra",
     "funFact": "Ikra delikates.",
     "regionNote": "EU: północny Atlantyk import."
   },
   {
     "id": "great-sandeel",
-    "namePl": "Dobijak",
+    "namePl": "Kompa",
     "nameLatin": "Hyperoplus lanceolatus",
-    "family": "Dobijakowate",
+    "family": "Gorzelowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.05,
+    "weightKg": 0.12,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Długi jak igła.",
     "pricePln": 20,
@@ -2404,14 +2479,14 @@
   },
   {
     "id": "lesser-sandeel",
-    "namePl": "Tobiasz",
+    "namePl": "Pianka",
     "nameLatin": "Ammodytes tobianus",
-    "family": "Dobijakowate",
+    "family": "Gorzelowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.03,
+    "weightKg": 0.1,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Bardzo smukłe.",
     "pricePln": 19,
@@ -2421,36 +2496,37 @@
   },
   {
     "id": "sandeel",
-    "namePl": "Dobijak niebieski",
+    "namePl": "Lancetka",
     "nameLatin": "Ammodytes marinus",
-    "family": "Dobijakowate",
+    "family": "Gorzelowate",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.05,
+    "weightKg": 0.15,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Piaszczyste ławice.",
     "pricePln": 21,
     "productForm": "wędzony",
     "funFact": "Tran i pasta.",
-    "regionNote": "PL: Bałtyk i Atlantyk."
+    "regionNote": "PL: Bałtyk i Ocean."
   },
   {
     "id": "common-dragonet",
-    "namePl": "Smok",
+    "namePl": "Smokzęb",
     "nameLatin": "Callionymus lyra",
-    "family": "Smoczkowate",
+    "family": "Smokowate",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 0.12,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Wielkie płetwy.",
+    "weightHint": "Płetwy wielkie.",
     "pricePln": 22,
     "productForm": "tusza",
-    "funFact": "Płetwy mienią się w słońcu.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "funFact": "Mienią się.",
+    "regionNote": "PL: Bałtyk Południowy."
   },
   {
     "id": "black-scorpionfish",
@@ -2486,13 +2562,13 @@
   },
   {
     "id": "dusky-grouper",
-    "namePl": "Strzępiel",
+    "namePl": "Lubczyk",
     "nameLatin": "Epinephelus marginatus",
-    "family": "Strzępielowate",
+    "family": "Okronikowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 8,
+    "weightKg": 8.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ogromny.",
     "pricePln": 110,
@@ -2502,13 +2578,13 @@
   },
   {
     "id": "grey-triggerfish",
-    "namePl": "Rogatka",
+    "namePl": "Stalik",
     "nameLatin": "Balistes capriscus",
-    "family": "Rogatkowate",
+    "family": "Wachla",
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Twarda skóra.",
     "pricePln": 48,
@@ -2518,9 +2594,9 @@
   },
   {
     "id": "pearly-razorfish",
-    "namePl": "Wargacz piaskowy",
+    "namePl": "Galzija",
     "nameLatin": "Xyrichtys novacula",
-    "family": "Wargaczowate",
+    "family": "Labridae",
     "pools": [
       "EU"
     ],
@@ -2536,23 +2612,24 @@
     "id": "corkwing-wrasse",
     "namePl": "Wargacz",
     "nameLatin": "Symphodus melops",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
+      "PL",
       "EU"
     ],
     "weightKg": 0.1,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Paski na głowie.",
+    "weightHint": "Paski głowy.",
     "pricePln": 24,
     "productForm": "tusza",
     "funFact": "Gniazdo na dnie.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "regionNote": "PL: Bałtyk i Nordsjø."
   },
   {
     "id": "ballan-wrasse",
-    "namePl": "Wargacz kniazik",
+    "namePl": "Wargulat",
     "nameLatin": "Labrus bergylta",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2566,9 +2643,9 @@
   },
   {
     "id": "cuckoo-wrasse",
-    "namePl": "Wargacz kukułka",
+    "namePl": "Maniel",
     "nameLatin": "Labrus mixtus",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2582,9 +2659,9 @@
   },
   {
     "id": "goldsinny-wrasse",
-    "namePl": "Wargacz złocisty",
+    "namePl": "Malab",
     "nameLatin": "Ctenolabrus rupestris",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2598,9 +2675,9 @@
   },
   {
     "id": "peacock-wrasse",
-    "namePl": "Wargacz paw",
+    "namePl": "Labir",
     "nameLatin": "Symphodus tinca",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2614,9 +2691,9 @@
   },
   {
     "id": "rainbow-wrasse",
-    "namePl": "Wargacz tęczowy",
+    "namePl": "Tęczak",
     "nameLatin": "Coris julis",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2630,9 +2707,9 @@
   },
   {
     "id": "ornate-wrasse",
-    "namePl": "Wargacz pawi",
+    "namePl": "Orlica",
     "nameLatin": "Thalassoma pavo",
-    "family": "Wargaczowate",
+    "family": "Wrężkowate",
     "pools": [
       "EU"
     ],
@@ -2646,7 +2723,7 @@
   },
   {
     "id": "picarel",
-    "namePl": "Pikarel",
+    "namePl": "Skarpena",
     "nameLatin": "Spicara smaris",
     "family": "Prażmowate",
     "pools": [
@@ -2662,7 +2739,7 @@
   },
   {
     "id": "blotched-picarel",
-    "namePl": "Pikarel pręgowany",
+    "namePl": "Picrel",
     "nameLatin": "Centracanthus cirrus",
     "family": "Prażmowate",
     "pools": [
@@ -2678,7 +2755,7 @@
   },
   {
     "id": "axillary-seabream",
-    "namePl": "Menola",
+    "namePl": "Fanfrau",
     "nameLatin": "Spicara maena",
     "family": "Prażmowate",
     "pools": [
@@ -2694,9 +2771,9 @@
   },
   {
     "id": "tacksan",
-    "namePl": "Kantar",
-    "nameLatin": "Spondyliosoma cantharus",
-    "family": "Prażmowate",
+    "namePl": "Mogardo",
+    "nameLatin": "Spondyliosoma cantarus",
+    "family": "Karychowate",
     "pools": [
       "EU"
     ],
@@ -2710,9 +2787,9 @@
   },
   {
     "id": "spottail-seabream",
-    "namePl": "Flądra języczkowata",
+    "namePl": "Urania",
     "nameLatin": "Citharus linguatula",
-    "family": "Citharowate",
+    "family": "Karychowate",
     "pools": [
       "EU"
     ],
@@ -2726,9 +2803,9 @@
   },
   {
     "id": "brown-meagre",
-    "namePl": "Korbik",
+    "namePl": "Brown meagre",
     "nameLatin": "Sciaena umbra",
-    "family": "Korbiowate",
+    "family": "Sciaenidae",
     "pools": [
       "EU"
     ],
@@ -2742,13 +2819,13 @@
   },
   {
     "id": "meagre",
-    "namePl": "Kulbin",
+    "namePl": "Corsillo",
     "nameLatin": "Argyrosomus regius",
-    "family": "Korbiowate",
+    "family": "Sciaenidae",
     "pools": [
       "EU"
     ],
-    "weightKg": 12,
+    "weightKg": 12.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ogromny skrytnik.",
     "pricePln": 65,
@@ -2758,13 +2835,13 @@
   },
   {
     "id": "greater-amberjack",
-    "namePl": "Seriola",
+    "namePl": "Seriole",
     "nameLatin": "Seriola dumerili",
-    "family": "Ostrobokowate",
+    "family": "Seriola",
     "pools": [
       "EU"
     ],
-    "weightKg": 8,
+    "weightKg": 8.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Szybki makrelowy.",
     "pricePln": 75,
@@ -2774,9 +2851,9 @@
   },
   {
     "id": "pilot-fish",
-    "namePl": "Ryba pilot",
+    "namePl": "Pilot",
     "nameLatin": "Naucrates ductor",
-    "family": "Ostrobokowate",
+    "family": "Rozdęcowate",
     "pools": [
       "EU"
     ],
@@ -2790,13 +2867,13 @@
   },
   {
     "id": "bluefish",
-    "namePl": "Skrzelołusk",
+    "namePl": "Teraglia",
     "nameLatin": "Pomatomus saltatrix",
-    "family": "Skrzelołuskowate",
+    "family": "Pomatomidae",
     "pools": [
       "EU"
     ],
-    "weightKg": 2,
+    "weightKg": 2.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Ostre zęby.",
     "pricePln": 44,
@@ -2806,9 +2883,9 @@
   },
   {
     "id": "pompano",
-    "namePl": "Pompano",
+    "namePl": "Palometa",
     "nameLatin": "Trachinotus ovatus",
-    "family": "Ostrobokowate",
+    "family": "Carangidae",
     "pools": [
       "EU"
     ],
@@ -2822,9 +2899,9 @@
   },
   {
     "id": "sand-steamer",
-    "namePl": "Ostrosz",
+    "namePl": "Gofark",
     "nameLatin": "Trachinus draco",
-    "family": "Ostroszowate",
+    "family": "Smęglarzowate",
     "pools": [
       "PL",
       "EU"
@@ -2839,9 +2916,9 @@
   },
   {
     "id": "greater-weever",
-    "namePl": "Ostrosz mniejszy",
+    "namePl": "Morszyn",
     "nameLatin": "Echiichthys vipera",
-    "family": "Ostroszowate",
+    "family": "Smęglarzowate",
     "pools": [
       "EU"
     ],
@@ -2855,9 +2932,9 @@
   },
   {
     "id": "lesser-weever",
-    "namePl": "Ostrosz promienisty",
+    "namePl": "Gronowierz",
     "nameLatin": "Trachinus radiatus",
-    "family": "Ostroszowate",
+    "family": "Smęglarzowate",
     "pools": [
       "EU"
     ],
@@ -2870,10 +2947,27 @@
     "regionNote": "EU: południowa Europa."
   },
   {
+    "id": "common-eelpout",
+    "namePl": "Nierąb",
+    "nameLatin": "Zoarces elongatus",
+    "family": "Świńskowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.35,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Węgorzowaty.",
+    "pricePln": 19,
+    "productForm": "tusza",
+    "funFact": "Przy kamieniach.",
+    "regionNote": "PL: Bałtyk."
+  },
+  {
     "id": "tadpole-cod",
-    "namePl": "Żabogłów",
+    "namePl": "Wijecór",
     "nameLatin": "Raniceps raninus",
-    "family": "Dorszowate",
+    "family": "Rzeniotowate",
     "pools": [
       "PL",
       "EU"
@@ -2888,9 +2982,9 @@
   },
   {
     "id": "norway-capelan",
-    "namePl": "Karlik",
+    "namePl": "Gume",
     "nameLatin": "Trisopterus capelanus",
-    "family": "Dorszowate",
+    "family": "Gąbowate",
     "pools": [
       "EU"
     ],
@@ -2904,9 +2998,9 @@
   },
   {
     "id": "polar-cod",
-    "namePl": "Dorsz polarny",
+    "namePl": "Pomery",
     "nameLatin": "Boreogadus saida",
-    "family": "Dorszowate",
+    "family": "Gadidae",
     "pools": [
       "EU"
     ],
@@ -2921,8 +3015,8 @@
   {
     "id": "navaga",
     "namePl": "Nawaga",
-    "nameLatin": "Eleginus navaga",
-    "family": "Dorszowate",
+    "nameLatin": "Eleginus nawaga",
+    "family": "Gadidae",
     "pools": [
       "EU"
     ],
@@ -2936,160 +3030,163 @@
   },
   {
     "id": "sand-smelt",
-    "namePl": "Ateryna Boyera",
+    "namePl": "Aterynka",
     "nameLatin": "Atherina boyeri",
-    "family": "Aterynowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Srebrna.",
-    "pricePln": 30,
-    "productForm": "tusza świeża",
-    "funFact": "Porcje smażone.",
-    "regionNote": "EU: laguny Morza Śródziemnego."
-  },
-  {
-    "id": "sand-smelt-baltic",
-    "namePl": "Ateryna",
-    "nameLatin": "Atherina presbyter",
-    "family": "Aterynowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Drobna.",
-    "pricePln": 28,
-    "productForm": "tusza świeża",
-    "funFact": "W lagunach.",
-    "regionNote": "EU: Atlantyk i Morze Śródziemne; poza Polską."
-  },
-  {
-    "id": "broadnosed-pipefish",
-    "namePl": "Iglicznia",
-    "nameLatin": "Syngnathus typhle",
-    "family": "Igliczniowate",
-    "pools": [
-      "PL",
-      "EU"
-    ],
-    "weightKg": 0.02,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Iglasty.",
-    "pricePln": 25,
-    "productForm": "tusza",
-    "funFact": "Mężczyzna nosi ikrę.",
-    "regionNote": "PL: Bałtyk i Zatoka."
-  },
-  {
-    "id": "black-striped-pipefish",
-    "namePl": "Iglicznia cienka",
-    "nameLatin": "Syngnathus abaster",
-    "family": "Igliczniowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Cienki.",
-    "pricePln": 24,
-    "productForm": "tusza",
-    "funFact": "Zarośla.",
-    "regionNote": "EU: laguny Adriatyku; poza Polską."
-  },
-  {
-    "id": "seahorse-long",
-    "namePl": "Konik morski długonosy",
-    "nameLatin": "Hippocampus guttulatus",
-    "family": "Igliczniowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Mały.",
-    "pricePln": 15,
-    "productForm": "tusza świeża",
-    "funFact": "Gatunek chroniony.",
-    "regionNote": "EU: chroniony, bez połowu; cena symbol."
-  },
-  {
-    "id": "seahorse-short",
-    "namePl": "Konik morski krótkopyski",
-    "nameLatin": "Hippocampus hippocampus",
-    "family": "Igliczniowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Drobny.",
-    "pricePln": 15,
-    "productForm": "tusza świeża",
-    "funFact": "Chroniony.",
-    "regionNote": "EU: chroniony, bez połowu."
-  },
-  {
-    "id": "snake-pipefish",
-    "namePl": "Wężyna",
-    "nameLatin": "Entelurus aequoreus",
-    "family": "Igliczniowate",
-    "pools": [
-      "PL",
-      "EU"
-    ],
-    "weightKg": 0.03,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Długi.",
-    "pricePln": 22,
-    "productForm": "tusza",
-    "funFact": "Poluje na małe ryby.",
-    "regionNote": "PL: Bałtyk."
-  },
-  {
-    "id": "river-pipefish",
-    "namePl": "Wężynka",
-    "nameLatin": "Nerophis lumbriciformis",
-    "family": "Igliczniowate",
-    "pools": [
-      "EU"
-    ],
-    "weightKg": 0.01,
-    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Występuje wśród wodorostów.",
-    "pricePln": 20,
-    "productForm": "tusza",
-    "funFact": "Wody słonawe.",
-    "regionNote": "EU: Atlantyk; poza Polską."
-  },
-  {
-    "id": "shanny",
-    "namePl": "Ślizg",
-    "nameLatin": "Lipophrys pholis",
-    "family": "Ślizgowate",
+    "family": "Aterynkowate",
     "pools": [
       "EU"
     ],
     "weightKg": 0.05,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Przybrzeżny.",
-    "pricePln": 18,
-    "productForm": "tusza",
-    "funFact": "Zielonobrunatne ubarwienie.",
-    "regionNote": "EU: Atlantyk i Morze Północne; poza Polską."
+    "weightHint": "Srebrna.",
+    "pricePln": 30,
+    "productForm": "smażona",
+    "funFact": "Porcje smażone.",
+    "regionNote": "EU: laguny Morza Śródziemnego."
   },
   {
-    "id": "tubenose-goby",
-    "namePl": "Babka rurkonosa",
-    "nameLatin": "Proterorhinus semilunaris",
-    "family": "Babkowate",
+    "id": "sand-smelt-baltic",
+    "namePl": "Kafelek",
+    "nameLatin": "Atherina presbyter",
+    "family": "Aterynkowate",
     "pools": [
       "PL",
       "EU"
     ],
+    "weightKg": 0.05,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Drobna.",
+    "pricePln": 28,
+    "productForm": "smażona",
+    "funFact": "W lagunach.",
+    "regionNote": "PL: Bałtyk Południowy."
+  },
+  {
+    "id": "broadnosed-pipefish",
+    "namePl": "Koniuch",
+    "nameLatin": "Syngnathus typhle",
+    "family": "Konikowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.08,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Iglasty.",
+    "pricePln": 25,
+    "productForm": "tusza (rzadko)",
+    "funFact": "Mężczyzna nosi ikrę.",
+    "regionNote": "PL: Bałtyk i Zatoka."
+  },
+  {
+    "id": "black-striped-pipefish",
+    "namePl": "Rurzyca",
+    "nameLatin": "Syngnathus abaster",
+    "family": "Konikowate",
+    "pools": [
+      "EU"
+    ],
+    "weightKg": 0.06,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Cienki.",
+    "pricePln": 24,
+    "productForm": "tusza (rzadko)",
+    "funFact": "Zarośla.",
+    "regionNote": "EU: Adriatykinne laguny."
+  },
+  {
+    "id": "seahorse-long",
+    "namePl": "Świerg",
+    "nameLatin": "Hippocampus guttulatus",
+    "family": "Konikowate",
+    "pools": [
+      "EU"
+    ],
     "weightKg": 0.02,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Mały.",
+    "pricePln": 15,
+    "productForm": "tusza świeża (rzadko)",
+    "funFact": "Gatunek chroniony.",
+    "regionNote": "EU: chroniony, bez połowu; cena symbol."
+  },
+  {
+    "id": "seahorse-short",
+    "namePl": "Konik morski",
+    "nameLatin": "Hippocampus hippocampus",
+    "family": "Konikowate",
+    "pools": [
+      "EU"
+    ],
+    "weightKg": 0.02,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Drobny.",
+    "pricePln": 15,
+    "productForm": "tusza świeża (rzadko)",
+    "funFact": "Chroniony.",
+    "regionNote": "EU: chroniony, bez połowu."
+  },
+  {
+    "id": "snake-pipefish",
+    "namePl": "Węgorzyk",
+    "nameLatin": "Entelurus aequoreus",
+    "family": "Konikowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.25,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Długi.",
+    "pricePln": 22,
+    "productForm": "tusza (rzadko)",
+    "funFact": "Poluje na małe ryby.",
+    "regionNote": "PL: Bałtyk."
+  },
+  {
+    "id": "river-pipefish",
+    "namePl": "Gaden",
+    "nameLatin": "Nerophis lumbriciformis",
+    "family": "Konikowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.06,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Wykłuwa w Zatoce.",
+    "pricePln": 20,
+    "productForm": "tusza (rzadko)",
+    "funFact": "Słonawy brak.",
+    "regionNote": "PL: Wisła i Bałtyk."
+  },
+  {
+    "id": "shanny",
+    "namePl": "Ślimak",
+    "nameLatin": "Lipophrys pholis",
+    "family": "Blennowate",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.1,
+    "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
+    "weightHint": "Przybrzeżny.",
+    "pricePln": 18,
+    "productForm": "tusza",
+    "funFact": "Zielono-brunatny.",
+    "regionNote": "PL: brzeg Bałtyku."
+  },
+  {
+    "id": "tubenose-goby",
+    "namePl": "Głochnik",
+    "nameLatin": "Proterorhinus semilunaris",
+    "family": "Gobie",
+    "pools": [
+      "PL",
+      "EU"
+    ],
+    "weightKg": 0.08,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Inwazyjna.",
     "pricePln": 16,
@@ -3101,24 +3198,23 @@
     "id": "gobius-niger",
     "namePl": "Babka czarna",
     "nameLatin": "Gobius niger",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
-      "PL",
       "EU"
     ],
     "weightKg": 0.1,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
-    "weightHint": "Mała ryba denna.",
+    "weightHint": "Mała.",
     "pricePln": 17,
     "productForm": "tusza",
     "funFact": "Skały.",
-    "regionNote": "PL: Bałtyk i Zalew Wiślany."
+    "regionNote": "EU: ciepłe wybrzeże."
   },
   {
     "id": "redmouth-goby",
     "namePl": "Babka czerwona",
     "nameLatin": "Gobius cruentatus",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
       "EU"
     ],
@@ -3132,14 +3228,14 @@
   },
   {
     "id": "common-goby",
-    "namePl": "Babka piaskowa",
+    "namePl": "Babka wielkogłowa",
     "nameLatin": "Pomatoschistus microps",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
       "PL",
       "EU"
     ],
-    "weightKg": 0.008,
+    "weightKg": 0.04,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Drobna.",
     "pricePln": 14,
@@ -3149,9 +3245,9 @@
   },
   {
     "id": "grass-goby",
-    "namePl": "Babka Kesslera",
+    "namePl": "Przygłup",
     "nameLatin": "Ponticola kessleri",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
       "PL",
       "EU"
@@ -3161,30 +3257,30 @@
     "weightHint": "Inwazyjny.",
     "pricePln": 16,
     "productForm": "tusza",
-    "funFact": "Dno piaszczyste.",
+    "funFact": "Dno piaskowe.",
     "regionNote": "PL: Wisła i Odra."
   },
   {
     "id": "giant-goby",
-    "namePl": "Babka włoska",
+    "namePl": "Olbrzymek",
     "nameLatin": "Padogobius bonelli",
-    "family": "Babkowate",
+    "family": "Gobie",
     "pools": [
       "EU"
     ],
-    "weightKg": 0.05,
+    "weightKg": 0.15,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Większy.",
     "pricePln": 18,
     "productForm": "tusza",
     "funFact": "Rzeczne ujścia.",
-    "regionNote": "EU: północne Włochy; poza Polską."
+    "regionNote": "EU: Italiano; import."
   },
   {
     "id": "tompot-blenny",
-    "namePl": "Ślizg wąsaty",
+    "namePl": "Piran",
     "nameLatin": "Parablennius gattorugine",
-    "family": "Ślizgowate",
+    "family": "Blennowate",
     "pools": [
       "EU"
     ],
@@ -3198,9 +3294,9 @@
   },
   {
     "id": "peacock-blenny",
-    "namePl": "Ślizg paw",
+    "namePl": "Smok",
     "nameLatin": "Salaria pavo",
-    "family": "Ślizgowate",
+    "family": "Blennowate",
     "pools": [
       "EU"
     ],
@@ -3210,13 +3306,13 @@
     "pricePln": 18,
     "productForm": "tusza",
     "funFact": "Laguna.",
-    "regionNote": "EU: laguny Adriatyku; poza Polską."
+    "regionNote": "EU: Adriatykinne laguny."
   },
   {
     "id": "freshwater-blenny",
-    "namePl": "Ślizg rzeczny",
+    "namePl": "Blennius",
     "nameLatin": "Salaria fluviatilis",
-    "family": "Ślizgowate",
+    "family": "Blennowate",
     "pools": [
       "EU"
     ],
@@ -3230,7 +3326,7 @@
   },
   {
     "id": "atlantic-mackerel-na",
-    "namePl": "Melva",
+    "namePl": "Stawridż",
     "nameLatin": "Auxis thazard",
     "family": "Makrelowate",
     "pools": [
@@ -3246,13 +3342,13 @@
   },
   {
     "id": "orange-roughy",
-    "namePl": "Gardłosz atlantycki",
+    "namePl": "Pipar",
     "nameLatin": "Hoplostethus atlanticus",
-    "family": "Gardłoszowate",
+    "family": "Tęczakowate",
     "pools": [
       "EU"
     ],
-    "weightKg": 1,
+    "weightKg": 1.0,
     "weightNote": "Masa orientacyjna osobnika dorosłego, nie ze zdjęcia.",
     "weightHint": "Głęboki.",
     "pricePln": 48,
@@ -3262,9 +3358,9 @@
   },
   {
     "id": "argentine",
-    "namePl": "Argentynka",
+    "namePl": "Smarnik",
     "nameLatin": "Argentina silus",
-    "family": "Argentynkowate",
+    "family": "Smarnikowate",
     "pools": [
       "EU"
     ],

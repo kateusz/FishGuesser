@@ -70,7 +70,6 @@ type AnswerRow = {
 type Truth = {
   fishId: string;
   namePl: string;
-  nameLatin: string;
   funFact: string;
   credit: string;
   correctOptionId?: string;
@@ -371,7 +370,7 @@ async function insertRound(gameId: string, idx: number, round: { mode: QuestionM
   const options = round.optionFishIds.map((fishId) => {
     const optionFish = fishById(fishId);
     if (!optionFish) throw new GameError(500, "INTERNAL_ERROR", "Brak ryby.");
-    return { id: randomUUID(), fishId, namePl: optionFish.namePl, nameLatin: optionFish.nameLatin };
+    return { id: randomUUID(), fishId, namePl: optionFish.namePl };
   });
   const correct = options.find((option) => option.fishId === fish.id);
   const saved = await serviceClient().from("rounds").insert({
@@ -385,7 +384,7 @@ async function insertRound(gameId: string, idx: number, round: { mode: QuestionM
       photoToken,
       credit,
       photoAlt: "Fotografia ryby do rozpoznania",
-      options: options.map(({ id, namePl, nameLatin }) => ({ id, namePl, nameLatin })),
+      options: options.map(({ id, namePl }) => ({ id, namePl })),
       hint: round.mode === "weight" ? fish.weightHint : null,
       productForm: fish.productForm,
       market: fish.market,
@@ -398,7 +397,6 @@ async function insertRound(gameId: string, idx: number, round: { mode: QuestionM
     truth: {
       fishId: fish.id,
       namePl: fish.namePl,
-      nameLatin: fish.nameLatin,
       funFact: fish.funFact,
       credit,
       correctOptionId: correct?.id,
@@ -682,10 +680,12 @@ export async function stateForCode(userId: string, code: string) {
 export async function preview(code: string) {
   const game = await gameByCode(code);
   const players = await playersOf(game.id);
+  const currentPlayers = active(players);
   return {
     code: game.code,
     status: game.status,
-    playerCount: active(players).length,
+    hostNickname: currentPlayers.find((player) => player.user_id === game.host_user_id)?.nickname ?? "",
+    playerCount: currentPlayers.length,
     maxPlayers: 12,
     settings: {
       pool: game.pool,
@@ -786,9 +786,9 @@ async function snapshot(gameId: string, userId: string) {
                     photoAlt: reveal ? truth?.namePl : question?.photoAlt,
                     options: question?.options,
                     hint: game.difficulty === "easy" ? question?.hint : null,
+                    fishName: round.mode === "price" ? truth?.namePl : undefined,
                     productForm: question?.productForm,
                     market: question?.market,
-                    observedOn: question?.observedOn,
                     minKg: 0.05,
                     maxKg: 100,
                     minPln: 5,
@@ -805,7 +805,6 @@ async function snapshot(gameId: string, userId: string) {
             mode: round.mode,
             truth: {
               namePl: truth.namePl,
-              nameLatin: truth.nameLatin,
               funFact: truth.funFact,
               credit: truth.credit,
               correctOptionId: truth.correctOptionId ?? null,

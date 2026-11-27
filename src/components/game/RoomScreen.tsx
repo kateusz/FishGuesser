@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { FishArt } from "@/components/mascot/Captain";
 import { useChrome } from "@/components/layout/AppShell";
+import { StrokeIcon } from "@/components/icons/StrokeIcon";
 import { ApiError, api } from "@/lib/api";
 import { topScores } from "@/lib/game/records";
 import { fill, messagesFor, type Messages } from "@/lib/messages";
@@ -145,7 +146,15 @@ function timerLabel(left: number | null, round: Messages["round"]): string {
 const POOL_IDS = ["EU", "PL", "EU_MINUS_PL"] as const;
 const MODE_IDS = ["mix", "species", "weight", "price"] as const;
 
-type Option = { id: string; namePl: string; nameLatin: string };
+type Option = { id: string; namePl: string };
+type Preview = {
+  code: string;
+  status: string;
+  hostNickname: string;
+  playerCount: number;
+  maxPlayers: number;
+  settings: { pool: string; mode: string };
+};
 type View = {
   phase: string;
   stateVersion: number;
@@ -175,9 +184,9 @@ type View = {
       photoAlt?: string;
       options?: Option[];
       hint?: string | null;
+      fishName?: string;
       productForm?: string;
       market?: string;
-      observedOn?: string;
       minKg?: number;
       maxKg?: number;
       minPln?: number;
@@ -190,7 +199,6 @@ type View = {
   results?: {
     truth: {
       namePl: string;
-      nameLatin: string;
       funFact: string;
       credit: string;
       correctOptionId: string | null;
@@ -208,6 +216,7 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
   const router = useRouter();
   const base = code ? `/api/v1/rooms/${code}` : `/api/v1/solo/games/${gameId}`;
   const [view, setView] = useState<View | null>(null);
+  const [invite, setInvite] = useState<Preview | null>(null);
   const [error, setError] = useState("");
   const [now, setNow] = useState(Date.now());
   const [optionId, setOptionId] = useState("");
@@ -244,10 +253,16 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
   async function load() {
     try {
       accept(await api<View>(`${base}/state`));
+      setInvite(null);
       markOnline();
     } catch (caught) {
       if (caught instanceof ApiError && caught.code === "NOT_A_MEMBER" && code) {
-        router.push(`/${locale}/profile?intent=join&code=${code}`);
+        try {
+          setInvite(await api<Preview>(`/api/v1/rooms/${code}`));
+          setError("");
+        } catch (previewError) {
+          setError(previewError instanceof Error ? previewError.message : messages.room.wait);
+        }
         return;
       }
       if (!(caught instanceof ApiError)) {
@@ -336,6 +351,38 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
     </p>
   ) : null;
 
+  if (invite && code) {
+    return (
+      <div className="narrow-content stack invite-screen">
+        <span className="tag">{messages.invite.tag}</span>
+        <h1 className="display title">{messages.invite.title}</h1>
+        <div className="mascot-line">
+          <FishArt i={4} pose="wink" mascot />
+          <p className="bubble">{fill(messages.invite.message, { nick: invite.hostNickname })}</p>
+        </div>
+        <section className="invite-card">
+          <span className="label">{messages.invite.room}</span>
+          <div className="room-code">{invite.code}</div>
+          <p>
+            {fill(messages.invite.details, {
+              players: invite.playerCount,
+              max: invite.maxPlayers,
+              pool: messages.game.pools[invite.settings.pool as keyof typeof messages.game.pools] ?? invite.settings.pool,
+              mode: messages.game.modes[invite.settings.mode as keyof typeof messages.game.modes] ?? invite.settings.mode,
+            })}
+          </p>
+          <small>{messages.invite.link}/{locale}/room/{invite.code}</small>
+        </section>
+        <button type="button" className="btn primary block" onClick={() => router.push(`/${locale}/profile?intent=join&code=${code}`)}>
+          {messages.invite.submit}
+        </button>
+        <button type="button" className="link-btn" onClick={() => router.push(`/${locale}`)}>
+          {messages.common.back}
+        </button>
+      </div>
+    );
+  }
+
   if (!view) {
     return (
       <div className="stack">
@@ -353,7 +400,7 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
   const left = ends ? Math.max(0, Math.ceil((ends - now) / 1000)) : null;
 
   if (view.phase === "lobby" && code) {
-    function saveSettings(patch: { pool?: string; mode?: string; rounds?: number; seconds?: number }) {
+    function saveSettings(patch: { pool?: string; mode?: string; rounds?: number; seconds?: number; difficulty?: string }) {
       const game = view?.game;
       if (!game) return;
       void send("/settings", "PATCH", {
@@ -361,70 +408,147 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
         mode: patch.mode ?? game.mode,
         rounds: patch.rounds ?? game.rounds,
         seconds: patch.seconds ?? game.seconds ?? 30,
-        difficulty: game.difficulty,
+        difficulty: patch.difficulty ?? game.difficulty,
       });
     }
 
+    async function copyInvite(value: string, success: string) {
+      try {
+        await navigator.clipboard.writeText(value);
+        setShareNote(success);
+      } catch {
+        setShareNote(messages.lobby.copyFailed);
+      }
+    }
+
+    const inviteUrl = typeof window === "undefined" ? "" : `${window.location.origin}/${locale}/room/${code}`;
+    const poolCopy = {
+      PL: messages.lobby.poolPoland,
+      EU: messages.lobby.poolEurope,
+      EU_MINUS_PL: messages.lobby.poolEuropeWithoutPoland,
+    };
+    const poolMarks = { PL: "PL", EU: "EU", EU_MINUS_PL: "EU-" };
+
     return (
-      <div className="stack">
+      <div className="lobby-layout host-lobby">
         {connection}
-        <div className="room-code">{view.game.code}</div>
-        <p>{view.players.length}/12</p>
-        {POOL_IDS.map((id) => (
-          <button key={id} type="button" className={`chip${view.game.pool === id ? " active" : ""}`} aria-pressed={view.game.pool === id} disabled={!view.you.isHost} onClick={() => saveSettings({ pool: id })}>
-            {messages.game.pools[id]} · {view.poolCounts[id] ?? 0}
-          </button>
-        ))}
-        <div className="chips">
-          {MODE_IDS.map((id) => (
-            <button key={id} type="button" className={`chip${view.game.mode === id ? " active" : ""}`} aria-pressed={view.game.mode === id} disabled={!view.you.isHost} onClick={() => saveSettings({ mode: id })}>
-              {messages.game.modes[id]}
-            </button>
-          ))}
-        </div>
-        <div className="chips">
-          {[5, 10, 15].map((value) => (
-            <button key={value} type="button" className={`chip${view.game.rounds === value ? " active" : ""}`} aria-pressed={view.game.rounds === value} disabled={!view.you.isHost} onClick={() => saveSettings({ rounds: value })}>
-              {fill(messages.game.rounds, { n: value })}
-            </button>
-          ))}
-        </div>
-        <div className="chips">
-          {[15, 30, 45, 60].map((value) => (
-            <button key={value} type="button" className={`chip${view.game.seconds === value ? " active" : ""}`} aria-pressed={view.game.seconds === value} disabled={!view.you.isHost} onClick={() => saveSettings({ seconds: value })}>
-              {fill(messages.game.seconds, { n: value })}
-            </button>
-          ))}
-        </div>
-        {view.players.map((player) => (
-          <div key={player.id} className="player-row">
-            <span className="avatar">
-              <FishArt i={Number(player.avatarId.slice(-2)) - 1} />
-            </span>
-            <span className="player-name">{player.nickname}{player.isHost ? " ♛" : ""}</span>
+        <aside className="lobby-crew">
+          <section className="panel lobby-code-card">
+            <span className="label">{messages.lobby.roomCode}</span>
+            <div className="room-code">{view.game.code}</div>
+            <div className="lobby-invite-actions">
+              <button type="button" className="btn dark compact" onClick={() => void copyInvite(view.game.code ?? "", messages.lobby.codeCopied)}>
+                <StrokeIcon d="M9 9h10v10H9zM5 15H3V3h12v2" /> {messages.lobby.copyCode}
+              </button>
+              <button type="button" className="btn teal compact" onClick={() => void copyInvite(inviteUrl, messages.lobby.linkCopied)}>
+                <StrokeIcon d="M10 13a5 5 0 0 0 7.5.5l2-2a5 5 0 0 0-7-7l-1.1 1.1M14 11a5 5 0 0 0-7.5-.5l-2 2a5 5 0 0 0 7 7l1.1-1.1" /> {messages.lobby.link}
+              </button>
+            </div>
+          </section>
+          <section className="panel lobby-players">
+            <div className="lobby-section-title">
+              <h2>{messages.lobby.crew}</h2>
+              <span>{view.players.length}/12</span>
+            </div>
+            {view.players.map((player) => (
+              <div key={player.id} className="player-row">
+                <span className="avatar">
+                  <FishArt i={Number(player.avatarId.slice(-2)) - 1} />
+                </span>
+                <span className="player-name">{player.nickname}{player.id === view.you.id ? ` (${messages.lobby.you})` : ""}{player.isHost ? " ♛" : ""}</span>
+                <span className="online" aria-label={messages.lobby.online} />
+              </div>
+            ))}
+          </section>
+          <div className="mascot-line lobby-tip">
+            <FishArt i={1} pose="wink" mascot />
+            <p className="bubble">{view.players.length < 2 ? messages.lobby.needPlayer : messages.lobby.ready}</p>
           </div>
-        ))}
-        {error ? (
-          <p role="alert">
-            {error}{" "}
-            <button type="button" className="link-btn" onClick={() => void load()}>
-              {messages.common.retry}
+        </aside>
+
+        <section className="lobby-settings">
+          <span className="tag">{view.you.isHost ? messages.lobby.hostTag : messages.lobby.guestTag}</span>
+          <h1 className="display title">{messages.lobby.title}</h1>
+
+          <div className="setting-group">
+            <span className="label">{messages.lobby.fishPool}</span>
+            <div className="pool-grid">
+              {POOL_IDS.map((id) => (
+                <button key={id} type="button" className={`pool${view.game.pool === id ? " active" : ""}`} aria-pressed={view.game.pool === id} disabled={!view.you.isHost} onClick={() => saveSettings({ pool: id })}>
+                  <span className="pool-symbol">{poolMarks[id]}</span>
+                  <span><strong>{messages.game.pools[id]}</strong><small>{poolCopy[id]}</small><small>{fill(messages.lobby.fishCount, { n: view.poolCounts[id] ?? 0 })}</small></span>
+                  <span className="check">{view.game.pool === id ? "✓" : "○"}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="setting-group">
+            <span className="label">{messages.lobby.questionModes}</span>
+            <div className="chips">
+              {MODE_IDS.filter((id) => id !== "mix").map((id) => (
+                <button key={id} type="button" className={`chip${view.game.mode === id ? " active" : ""}`} aria-pressed={view.game.mode === id} disabled={!view.you.isHost} onClick={() => saveSettings({ mode: id })}>
+                  {messages.game.modes[id]}
+                </button>
+              ))}
+              <button type="button" className={`chip${view.game.mode === "mix" ? " active" : ""}`} aria-pressed={view.game.mode === "mix"} disabled={!view.you.isHost} onClick={() => saveSettings({ mode: "mix" })}>
+                {messages.game.modes.mix}
+              </button>
+            </div>
+          </div>
+
+          <div className="settings-fields">
+            <div className="setting-group">
+              <span className="label">{messages.lobby.roundCount}</span>
+              <div className="chips">
+                {[5, 10, 15].map((value) => (
+                  <button key={value} type="button" className={`chip${view.game.rounds === value ? " active" : ""}`} aria-pressed={view.game.rounds === value} disabled={!view.you.isHost} onClick={() => saveSettings({ rounds: value })}>
+                    {value}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="setting-group">
+              <span className="label">{messages.lobby.roundTime}</span>
+              <div className="chips">
+                {[15, 30, 45, 60].map((value) => (
+                  <button key={value} type="button" className={`chip${view.game.seconds === value ? " active" : ""}`} aria-pressed={view.game.seconds === value} disabled={!view.you.isHost} onClick={() => saveSettings({ seconds: value })}>
+                    {fill(messages.game.seconds, { n: value })}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="setting-group">
+            <span className="label">{messages.lobby.difficulty}</span>
+            <div className="chips">
+              {(["easy", "medium", "hard", "mix"] as const).map((difficulty) => (
+                <button key={difficulty} type="button" className={`chip${view.game.difficulty === difficulty ? " active" : ""}`} aria-pressed={view.game.difficulty === difficulty} disabled={!view.you.isHost} onClick={() => saveSettings({ difficulty })}>
+                  {messages.lobby.difficulties[difficulty]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {error ? (
+            <p role="alert">
+              {error}{" "}
+              <button type="button" className="link-btn" onClick={() => void load()}>
+                {messages.common.retry}
+              </button>
+            </p>
+          ) : null}
+          {view.you.isHost ? (
+            <button type="button" className="btn primary block lobby-start" disabled={view.players.length < 2} onClick={() => void send("/start", "POST", {})}>
+              ⚡ {messages.lobby.startGame}
             </button>
-          </p>
-        ) : null}
-        {view.you.isHost ? (
-          <>
-            {view.players.length < 2 ? <p>{messages.lobby.needPlayer}</p> : null}
-            <button type="button" className="btn primary block" disabled={view.players.length < 2} onClick={() => void send("/start", "POST", {})}>
-              {messages.common.start}
-            </button>
-          </>
-        ) : (
-          <p>{messages.lobby.waiting}</p>
-        )}
-        <button type="button" className="link-btn" onClick={() => void send("/leave", "POST", {}).then(() => router.push(`/${locale}`))}>
-          {messages.lobby.leave}
-        </button>
+          ) : <p>{messages.lobby.waiting}</p>}
+          <button type="button" className="link-btn lobby-leave" onClick={() => void send("/leave", "POST", {}).then(() => router.push(`/${locale}`))}>
+            {messages.lobby.leave}
+          </button>
+        </section>
+        {shareNote ? <p className="toast" role="status">{shareNote}</p> : null}
       </div>
     );
   }
@@ -433,8 +557,13 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
     return (
       <div className="countdown">
         {connection}
+        <span className="tag">{fill(messages.round.label, { current: view.game.currentRound, total: view.game.rounds })}</span>
         <div className="countdown-num">{left ?? 3}</div>
-        <p>{messages.round.countdown}</p>
+        <h1>{messages.round.countdownModes[view.game.mode as keyof typeof messages.round.countdownModes] ?? messages.round.countdownModes.mix}</h1>
+        <div className="mascot-line">
+          <FishArt i={0} pose="surprised" mascot />
+          <p className="bubble">{messages.round.countdownMessage}</p>
+        </div>
       </div>
     );
   }
@@ -442,6 +571,13 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
   if (view.phase === "round_active" && view.round?.question) {
     const question = view.round.question;
     const locked = Boolean(view.round.myAnswer);
+    const waitingForPlayers = locked && view.game.type === "multiplayer";
+    const savedAnswer =
+      view.round.mode === "species"
+        ? question.options?.find((option) => option.id === view.round?.myAnswer?.optionId)?.namePl ?? ""
+        : view.round.mode === "weight"
+          ? `${view.round.myAnswer?.kg ?? ""} kg`
+          : `${view.round.myAnswer?.plnPerKg ?? ""} zł/kg`;
     return (
       <div className="stack">
         {connection}
@@ -455,20 +591,33 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
           </div>
           <figcaption>{String(question.credit ?? "")}</figcaption>
         </figure>
-        {view.round.mode === "species" ? (
+        {waitingForPlayers ? (
+          <section className="round-wait stack">
+            <p className="bubble think">{fill(messages.round.waiting, { done: view.round.answerCount, total: view.round.playerCount })}</p>
+            <div className="round-wait-avatars" aria-hidden="true">
+              {[0, 1, 2].map((index) => (
+                <span key={index} className="avatar">
+                  <FishArt i={index} />
+                </span>
+              ))}
+            </div>
+            <p className="small center">
+              {messages.round.yourAnswer} <strong>{savedAnswer}</strong>
+            </p>
+          </section>
+        ) : view.round.mode === "species" ? (
           <div className="answers">
             {(question.options ?? []).map((option) => {
               const picked = optionId === option.id || view.round?.myAnswer?.optionId === option.id;
               return (
                 <button key={option.id} type="button" className={`answer${picked ? " selected" : ""}`} aria-pressed={picked} disabled={locked} onClick={() => setOptionId(option.id)}>
                   <strong>{option.namePl}</strong>
-                  <i>{option.nameLatin}</i>
                 </button>
               );
             })}
           </div>
         ) : null}
-        {view.round.mode === "weight" ? (
+        {!waitingForPlayers && view.round.mode === "weight" ? (
           <div className="stack">
             {question.hint ? <p className="bubble">{question.hint}</p> : null}
             {/* ponytail: one ceiling for every fish, above the heaviest in the catalog (80 kg). */}
@@ -483,9 +632,9 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
             />
           </div>
         ) : null}
-        {view.round.mode === "price" ? (
+        {!waitingForPlayers && view.round.mode === "price" ? (
           <div className="stack">
-            <p>{question.productForm} · {question.market} · {question.observedOn}</p>
+            <p>{question.fishName} · {question.productForm} · {question.market}</p>
             <input
               className="field"
               inputMode="decimal"
@@ -501,7 +650,7 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
             </div>
           </div>
         ) : null}
-        <p>{fill(messages.round.answered, { done: view.round.answerCount, total: view.round.playerCount })}</p>
+        {!waitingForPlayers ? <p>{fill(messages.round.answered, { done: view.round.answerCount, total: view.round.playerCount })}</p> : null}
         {error ? (
           <p role="alert">
             {error}{" "}
@@ -510,7 +659,7 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
             </button>
           </p>
         ) : null}
-        <button
+        {!waitingForPlayers ? <button
           type="button"
           className="btn primary block"
           disabled={
@@ -527,48 +676,162 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
           }}
         >
           {locked ? messages.round.locked : messages.round.submit}
-        </button>
+        </button> : null}
       </div>
     );
   }
 
-  if ((view.phase === "round_results" || view.phase === "ranking") && view.results) {
-    const mine = view.results.answers.find((item) => item.playerId === view.you.id);
+  if (view.phase === "ranking") {
+    const ordered = [...view.players].sort((a, b) => (a.rank ?? Number.MAX_SAFE_INTEGER) - (b.rank ?? Number.MAX_SAFE_INTEGER));
+    const lastRound = view.game.currentRound === view.game.rounds;
     return (
-      <div className={view.phase === "ranking" && view.players.length >= 12 ? "stack has-rank-pin" : "stack"}>
+      <div className={view.players.length >= 12 ? "rank-page has-rank-pin" : "rank-page"}>
         {connection}
-        <h1 className="display title">{view.results.truth.namePl}</h1>
-        <p><i>{view.results.truth.nameLatin}</i></p>
-        <p>{view.results.truth.funFact}</p>
-        <p className="result-score">{mine?.points ?? 0}</p>
-        {view.phase === "ranking" ? (
-          <>
-            {view.players.map((player) => (
-              <div key={player.id} className={`rank-row${player.id === view.you.id ? " me" : ""}`}>
-                <span className="position">{player.rank}</span>
-                <span className="rank-name">{player.nickname}</span>
-                <span className="points">{player.score}</span>
-              </div>
-            ))}
-            {view.players.length >= 12
-              ? view.players
-                  .filter((player) => player.id === view.you.id)
-                  .map((player) => (
-                    <div key={`${player.id}-pin`} className="rank-sticky" aria-hidden="true">
-                      <div className="rank-row me">
-                        <span className="position">{player.rank}</span>
-                        <span className="rank-name">{player.nickname}</span>
-                        <span className="points">{player.score}</span>
-                      </div>
-                    </div>
-                  ))
-              : null}
-          </>
-        ) : null}
+        <div className="rank-page-heading">
+          <span className="tag">{fill(messages.ranking.roundLabel, { current: view.game.currentRound, total: view.game.rounds })}</span>
+          <span className="rank-zoom" aria-hidden="true">ZOOM!</span>
+        </div>
+        <h1 className="display title">{messages.ranking.title}</h1>
+        <section className="ranking-list" aria-label={messages.ranking.title}>
+          {ordered.map((player) => (
+            <div key={player.id} className={`rank-row${player.id === view.you.id ? " me" : ""}`}>
+              <span className="position">{player.rank ?? "—"}</span>
+              <span className="avatar"><FishArt i={Number(player.avatarId.slice(-2)) - 1} /></span>
+              <span className="rank-name">{player.nickname}{player.id === view.you.id ? ` (${messages.ranking.you})` : ""}</span>
+              <span className="points">{player.score}<small>{messages.ranking.points}</small></span>
+            </div>
+          ))}
+        </section>
+        {view.players.length >= 12
+          ? ordered
+              .filter((player) => player.id === view.you.id)
+              .map((player) => (
+                <div key={`${player.id}-pin`} className="rank-sticky" aria-hidden="true">
+                  <div className="rank-row me">
+                    <span className="position">{player.rank ?? "—"}</span>
+                    <span className="avatar"><FishArt i={Number(player.avatarId.slice(-2)) - 1} /></span>
+                    <span className="rank-name">{player.nickname} ({messages.ranking.you})</span>
+                    <span className="points">{player.score}<small>{messages.ranking.points}</small></span>
+                  </div>
+                </div>
+              ))
+          : null}
         {view.you.isHost || view.game.type === "solo" ? (
-          <button type="button" className="btn primary block" onClick={() => void send("/advance", "POST", {})}>{messages.common.next}</button>
+          <button type="button" className="btn primary block result-next" onClick={() => void send("/advance", "POST", {})}>
+            {lastRound ? messages.ranking.finish : messages.ranking.next}
+          </button>
         ) : (
-          <p>
+          <p className="result-waiting">
+            {messages.ranking.hostNext}
+            {left != null ? ` · ${left}s` : ""}
+          </p>
+        )}
+      </div>
+    );
+  }
+
+  if (view.phase === "round_results" && view.results) {
+    const mine = view.results.answers.find((item) => item.playerId === view.you.id);
+    const isSpecies = view.results.truth.correctOptionId != null;
+    const missed = isSpecies && mine?.answer.optionId !== view.results.truth.correctOptionId;
+    const isWeight = !isSpecies && view.results.truth.weightKg != null;
+    const isPrice = !isSpecies && !isWeight && view.results.truth.pricePlnPerKg != null;
+    const referenceValue = isWeight ? view.results.truth.weightKg : view.results.truth.pricePlnPerKg;
+    const myValue = isWeight ? mine?.answer.kg : mine?.answer.plnPerKg;
+    const unit = isWeight ? "kg" : "zł/kg";
+    const numericDifference =
+      (isWeight || isPrice) && referenceValue != null && myValue != null
+        ? Math.round((Math.abs(myValue - referenceValue) / referenceValue) * 100)
+        : null;
+    const numericMarker =
+      (isWeight || isPrice) && referenceValue != null && myValue != null
+        ? Math.min(287, Math.max(32, 160 + ((myValue - referenceValue) / referenceValue) * 100))
+        : null;
+    const correctName =
+      view.round?.question?.options?.find((option) => option.id === view.results?.truth.correctOptionId)?.namePl ??
+      view.results.truth.namePl;
+    return (
+      <div className="results-screen">
+        {connection}
+        <div className="result-layout">
+          <section className="result-fish">
+            <span className="tag">{fill(messages.results.roundLabel, { current: view.round?.idx ?? view.game.currentRound, total: view.game.rounds })}</span>
+            {view.round?.question?.photoToken ? (
+              <figure className="photo results-photo">
+                <div className="photo-frame">
+                  <img src={`/api/v1/assets/${view.round.question.photoToken}`} alt={view.results.truth.namePl} />
+                </div>
+                <figcaption>{view.results.truth.credit}</figcaption>
+              </figure>
+            ) : null}
+            <h1 className="display result-fish-name">{view.results.truth.namePl}</h1>
+            <div className="mascot-line result-fact">
+              <FishArt i={0} pose="celebrate" mascot />
+              <p className="bubble">{view.results.truth.funFact}</p>
+            </div>
+          </section>
+          <section className="result-details">
+            <h2 className={`result-verdict display${missed ? " miss" : ""}`}>{isSpecies && !missed ? messages.results.hit : isSpecies ? messages.results.miss : isWeight || isPrice ? messages.results.close : messages.results.result}</h2>
+            <div className={`score-burst${missed ? " miss" : ""}`}>
+              <p className="result-score">{missed ? 0 : `+${mine?.points ?? 0}`}<small>{messages.results.points}</small></p>
+            </div>
+            {isSpecies ? (
+              <div className="answer result-answer-correct">
+                <span className="answer-status">✓ {messages.results.correctAnswer}</span>
+                <strong>{correctName}</strong>
+              </div>
+            ) : null}
+            {(isWeight || isPrice) && referenceValue != null ? (
+              <section className="numeric-result panel">
+                <h3>{isWeight ? messages.results.weightReference : messages.results.priceReference}</h3>
+                <p className="value-big">{referenceValue} {unit}</p>
+                <svg viewBox="0 0 320 92" role="img" aria-label={isWeight ? messages.results.weightComparison : messages.results.priceComparison}>
+                  <path d="M20 55H300" stroke="currentColor" strokeWidth="4" />
+                  <path d="M160 30V65" stroke="currentColor" strokeWidth="3" />
+                  <circle cx="160" cy="55" r="8" fill="var(--green)" stroke="currentColor" strokeWidth="3" />
+                  {numericMarker != null ? <circle cx={numericMarker} cy="55" r="6" fill="var(--coral)" stroke="currentColor" strokeWidth="2" /> : null}
+                  <circle cx="202" cy="55" r="5" fill="var(--teal)" stroke="currentColor" strokeWidth="2" />
+                  <circle cx="236" cy="55" r="5" fill="var(--yellow)" stroke="currentColor" strokeWidth="2" />
+                  <text x="160" y="86" textAnchor="middle">{referenceValue} {unit}</text>
+                </svg>
+                <div className="numeric-result-summary">
+                  <span>{isWeight ? messages.results.yourWeight : messages.results.yourPrice}: <strong>{myValue == null ? "—" : `${myValue} ${unit}`}</strong></span>
+                  {numericDifference != null ? <span>{messages.results.difference}: <strong>{numericDifference}%</strong></span> : null}
+                </div>
+              </section>
+            ) : null}
+            <table className="result-table">
+              <thead>
+                <tr>
+                  <th>{messages.results.player}</th>
+                  <th>{messages.results.answer}</th>
+                  <th>{messages.results.points}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {view.players.map((player) => {
+                  const answer = view.results?.answers.find((item) => item.playerId === player.id);
+                  const selected = view.round?.question?.options?.find((option) => option.id === answer?.answer.optionId);
+                  const correct = answer?.answer.optionId === view.results?.truth.correctOptionId;
+                  return (
+                    <tr key={player.id}>
+                      <td>
+                        <span className="avatar"><FishArt i={Number(player.avatarId.slice(-2)) - 1} /></span>
+                        {player.nickname}
+                      </td>
+                      <td>{isSpecies ? `${correct ? "✓" : "✕"} ${selected?.namePl ?? messages.results.noAnswer}` : isWeight ? answer?.answer.kg == null ? messages.results.noAnswer : `${answer.answer.kg} kg` : isPrice ? answer?.answer.plnPerKg == null ? messages.results.noAnswer : `${answer.answer.plnPerKg} zł/kg` : answer ? messages.results.answered : messages.results.noAnswer}</td>
+                      <td>{answer?.points ?? 0}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </section>
+        </div>
+        {view.you.isHost || view.game.type === "solo" ? (
+          <button type="button" className="btn primary block result-next" onClick={() => void send("/advance", "POST", {})}>{messages.results.next}</button>
+        ) : (
+          <p className="result-waiting">
             {messages.results.hostNext}
             {left != null ? ` · ${left}s` : ""}
           </p>
@@ -580,6 +843,9 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
   if (view.phase === "finished") {
     const current = view;
     const ordered = [...current.players].sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99));
+    const podiumOrder = [ordered[1], ordered[0], ordered[2]].filter(
+      (player): player is (typeof ordered)[number] => player != null,
+    );
     const numeric = current.summary?.players?.find((item) => item.playerId === current.you.id)?.meanAbsPercentError;
     const mine = current.players.find((player) => player.id === current.you.id);
     const scoreLine = fill(messages.finished.scoreLine, {
@@ -640,12 +906,31 @@ export function RoomScreen({ locale, code, gameId }: { locale: string; code?: st
       }
     }
     return (
-      <div className="stack">
+      <div className="finished-page">
         {connection}
         <h1 className="display title">{messages.finished.title}</h1>
-        {ordered.slice(0, 3).map((player) => (
-          <div key={player.id} className="player-row"><strong>{player.rank}. {player.nickname}</strong><span>{player.score}</span></div>
-        ))}
+        <section className="podium" aria-label={messages.finished.podium}>
+          {podiumOrder.map((player) => (
+            <div
+              key={player.id}
+              className={`podium-column ${player.rank === 1 ? "first" : player.rank === 3 ? "third" : "second"}${player.id === current.you.id ? " me" : ""}`}
+            >
+              <span className="avatar"><FishArt i={Number(player.avatarId.slice(-2)) - 1} pose={player.rank === 1 ? "celebrate" : "welcome"} /></span>
+              <p className="podium-name">{player.nickname}</p>
+              <div className="podium-block" aria-label={fill(messages.finished.playerScore, { score: player.score })}>
+                {player.rank}
+              </div>
+            </div>
+          ))}
+        </section>
+        <ol className="finished-ranking" aria-label={messages.finished.ranking}>
+          {ordered.map((player) => (
+            <li key={player.id} className={player.id === current.you.id ? "me" : ""}>
+              <span>{player.rank ?? "—"}. {player.nickname}</span>
+              <strong>{player.score} {messages.ranking.points}</strong>
+            </li>
+          ))}
+        </ol>
         <p>{fill(messages.finished.numeric, { value: numeric == null ? messages.finished.notApplicable : `${Math.round(numeric)}%` })}</p>
         {view.game.type === "solo" && top ? (
           <div className="panel">

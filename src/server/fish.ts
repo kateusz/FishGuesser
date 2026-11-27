@@ -17,7 +17,6 @@ export type Phase =
 export type Fish = {
   id: string;
   namePl: string;
-  nameLatin: string;
   pools: Array<"PL" | "EU">;
   family: string;
   weightKg: number;
