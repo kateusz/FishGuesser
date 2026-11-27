@@ -1,40 +1,87 @@
-# FishGuesser — mockupy UI/UX i system designu
+# FishGuesser
 
-Otwórz **FishGuesser.html** w aktualnej przeglądarce. Nie wymaga instalacji ani internetu: zdjęcia, geometria mapy i fonty są osadzone w pliku.
+A mobile-first quiz game: guess European and Polish fish by **species**, **weight**, or **price**. Rooms hold 2–12 players; there is also a solo mode. Product UI language is Polish (`/pl`), with an English skeleton (`/en`).
 
-## Co zawiera projekt
+Play locally at `http://localhost:3000/pl` or on the Vercel preview for branch `etap-0-fundamenty`.
 
-- 61 plansz i wariantów ze wszystkich sekcji 1–8 briefu.
-- Przełączanie formatu: mobile 390×844 i desktop 1440×900. Duże plansze skalują się do dostępnego miejsca; treść wewnątrz planszy można przewijać.
-- Klikalna ścieżka: ekran główny → profil → lobby → odliczanie → pytanie → zatwierdzenie → wynik → ranking → kolejna runda → podium.
-- Tryby: gatunek, waga, cena i występowanie. Przykładowe dane obejmują pięć gatunków polskich i europejskich.
-- Motywy Dzień/Noc, instrukcja, błędy, widoki hosta i gracza, solo, przegląd gry, ustawienia i atrybucje.
-- Biblioteka 19 rodzin komponentów, 12 komiksowych awatarów, Kapitan Szczupak w 6 pozach, 10 onomatopei i 16 ikon.
-- Klikalny diagram przepływu oraz zasady przekazania projektu.
+## Run
 
-## Jak przeglądać
+```bash
+npm install
+npm run dev
+```
 
-Na komputerze wybierz planszę z lewego katalogu. U góry zmienisz wariant i format. Na telefonie katalog zastępuje lista rozwijana. Plansze można otwierać bezpośrednio przez fragment adresu, np. `FishGuesser.html#species`, `#lobby`, `#podium`, `#design`.
+Dev server: **webpack** (`next dev --webpack`) on **port 3000**. Use `http://localhost:3000`, not `127.0.0.1`, so HMR stays attached.
 
-Główne ustawienia i wybory działają. Kod przykładowego pokoju: **ABCDE**. Dodatkowe kody do sprawdzania stanów: **FULLL** (pełny), **PLAYY** (gra trwa), **ERROR** (brak serwera). Inny pięcioliterowy kod pokazuje brak pokoju.
+Other scripts: `npm run build`, `npm run typecheck`, `npm test` (unit tests for scoring and catalog only).
 
-„Podziel się wynikiem” pobiera lokalną okładkę PNG. „Zapisz do nauki” i rekordy solo korzystają z pamięci przeglądarki. Pełna dokumentacja UI jest w samym prototypie, w pozycjach „System designu”, „Biblioteka komponentów”, „Przepływ użytkownika” i „Przekazanie i kontrola”.
+## Stack
 
-## Pliki
+- Next.js 16 (App Router) + React 19 + TypeScript
+- Tailwind CSS 4, CSS variables from `design-tokens.json`
+- Remote **Supabase Postgres** (EU). All DB access is server-side with the service role. Identity is an HttpOnly cookie `fg_uid` — no anonymous Supabase Auth.
+- Hosting: Vercel region `fra1`
 
-- **FishGuesser.html** — samodzielny prototyp i komplet dokumentacji wizualnej.
-- **FishGuesser-specyfikacja.md** — zachowanie ekranów i kontrakt wdrożeniowy.
-- **design-tokens.json** — paleta, typografia, siatka, odstępy i stany.
-- **komponenty.csv** — lista komponentów i wariantów, kodowanie UTF-8.
-- **plansze.csv** — indeks wszystkich 61 plansz i ich identyfikatorów.
-- **przeplyw.mmd** — diagram Mermaid do edycji.
-- **raport-kontroli.md** — zakres i wyniki sprawdzenia.
-- **FishGuesser-podglad.png** — przegląd pięciu kluczowych plansz mobilnych.
-- **podglady/** — 12 osobnych podglądów PNG; mobile 390×844, desktop 1440×900.
-- **licencje/** — informacje o zdjęciach, mapie i fontach.
+## Environment
 
-## Zakres prototypu
+Copy `.env.example`. Secrets never go in the repo or in `NEXT_PUBLIC_*`.
 
-To projekt UX/UI i lokalna symulacja, bez serwera multiplayer. Pozostali gracze, ich odpowiedzi, ranking i końcowe statystyki są przykładowe. Własne odpowiedzi w rundzie są punktowane lokalnie; ekrany zbiorcze pokazują kompozycję docelowego produktu. Masa referencyjna oznacza przykładowego dorosłego osobnika, a nie pomiar ryby ze zdjęcia. Ceny i zasięgi są demonstracyjne, nie stanowią aktualnego cennika ani atlasu występowania. W katalogu jest pięć fotografii; dłuższa sesja powtarza przykłady.
+| Variable | Role |
+|---|---|
+| `SUPABASE_URL` | Project URL (optional locally; code has a default public URL) |
+| `SUPABASE_SECRET_KEY` or `SUPABASE_API_KEY` | Service role, server only |
+| `CRON_SECRET` | Protects `/api/cron/cleanup` |
+| `NEXT_PUBLIC_APP_URL` | Public origin when needed |
 
-Wariant EN, ścieżki audio i muzyka wymagają wdrożenia. Kontrolki prezentują ich docelowe miejsce i stany. Link pokoju jest przykładową ścieżką, nie aktywnym zaproszeniem. Oryginalne zdjęcia są osadzone bez filtrów, przycinania i nakładek.
+On Windows, local dev can also read `SUPABASE_API_KEY` from the user environment.
+
+Apply `supabase/schema.sql` on the remote project. Do not use Docker or the Supabase CLI for this app.
+
+## App routes
+
+| Path | Screen |
+|---|---|
+| `/pl` | Home |
+| `/pl/profile` | Nickname + avatar, then host/join/solo |
+| `/pl/join` | Five-letter room code |
+| `/pl/room/[code]` | Lobby, round, results, ranking, finish |
+| `/pl/solo` · `/pl/solo/[id]` | Solo setup and play |
+| `/pl/settings` | Theme, sound, reduced motion, credits, privacy |
+| `/api/v1/...` | Game API (rooms, answers, assets) |
+
+A second player needs a second browser (or a private window): one tab = one `fg_uid`. Mix mode is species, weight, and price only — **no map / occurrence guessing**.
+
+## Prototype (visual source)
+
+Open `FishGuesser.html` in a browser (no install). It is the mockup studio, not the live game.
+
+| File | What it is |
+|---|---|
+| `FishGuesser.html` | Self-contained UI prototype |
+| `FishGuesser-specification.md` | Screen behaviour / implementation contract |
+| `design-tokens.json` | Palette, type, grid |
+| `components.csv` | Component inventory |
+| `screens.csv` | 61 screen IDs |
+| `flow.mmd` | Mermaid flow |
+| `control-report.md` | Prototype QA notes |
+| `FishGuesser-preview.png` | Mobile overview |
+| `mockups/` | PNG stills (390×844 and 1440×900) |
+| `licenses/` | Photo, map, and font licenses |
+
+## Layout
+
+```
+src/app/          App Router (pages + API)
+src/components/   Home, room, solo, settings
+src/server/       Game engine, scoring, catalog, Supabase
+src/content/      fish-catalog.json + photos
+src/fonts/        Bangers, Comic Neue, Nunito (OFL)
+messages/         pl.json, en.json
+tests/unit/       Scoring and catalog tests
+```
+
+`plan/` is local implementation notes only — **never commit it**.
+
+## Catalog
+
+Another process may expand `src/content/` and photo credits. Coordinate before editing `src/server/fish.ts`, catalog JSON, or photos.

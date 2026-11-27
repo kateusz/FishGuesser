@@ -4,7 +4,7 @@ Data: 26.11.2026. Środowisko: lokalny Chrome, silnik Chromium, Windows.
 
 ## Kompletność plansz
 
-61 nazwanych plansz i wariantów, 122 renderowania (każda plansza w mobile i desktop). Indeks w plansze.csv. Wszystkie sekcje 1–8 briefu mają reprezentację w katalogu lub dokumentacji projektu.
+61 nazwanych plansz i wariantów, 122 renderowania (każda plansza w mobile i desktop). Indeks w screens.csv. Wszystkie sekcje 1–8 briefu mają reprezentację w katalogu lub dokumentacji projektu.
 
 ## Kontrola automatyczna
 
